@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<strings>
+	<!-- Labels -->
+	<string id="10101">아이디:</string>
+	<string id="10102">패스워드:</string>
+	<string id="10201">스트림 화질</string>
+	<string id="10202">로그인 타입</string>
+	<!-- Labels -->
+	<string id="10301">FHD (1080p)</string>
+	<string id="10302">HD (720p)</string>
+	<string id="10303">SD (480p)</string>
+	<string id="10304">Mobile (360p)</string>
+	<!-- Labels -->
+	<string id="10311">CJONE</string>
+	<string id="10312">TVING</string>
+	<!-- Warning -->
+	<string id="30101">아이디 또는 패스워드를 설정하세요.</string>
+	<string id="30102">지금 설정하겠습니까?</string>
+	<string id="30103">로그인 실패!</string>
+	<string id="30201">시청목록을 삭제합니다.</string>
+	<string id="30202">지금 삭제하시겠습니까?</string>
+  <string id="30301">검색어 입력</string>
+	<string id="30302">DRM채널! 시청불가</string>  
+</strings>

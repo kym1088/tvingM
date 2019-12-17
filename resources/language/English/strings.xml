@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<strings>
+	<!-- Labels -->
+	<string id="10101">ID:</string>
+	<string id="10102">Password:</string>
+	<string id="10201">Stream Quality</string>
+	<string id="10202">Login Type</string>
+	<!-- Labels -->
+	<string id="10301">FHD (1080p)</string>
+	<string id="10302">HD (720p)</string>
+	<string id="10303">SD (480p)</string>
+	<string id="10304">Mobile (360p)</string>
+	<!-- Labels -->
+	<string id="10311">CJONE</string>
+	<string id="10312">TVING</string>
+	<!-- Warning -->
+	<string id="30101">Set your ID or Password.</string>
+	<string id="30102">Are you change settings now?</string>
+	<string id="30103">Login Failed!</string>
+	<string id="30201">Watched list Delete.</string>
+	<string id="30202">Are you delete watched list now?</string>
+  <string id="30301">Input Search Keyword</string>
+	<string id="30302">DRM Channel! NotAvailable</string>  
+</strings>
