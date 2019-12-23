@@ -1,2 +1,5 @@
+1.1.0
+- DRM 채널 지원, 월정액 영화관 추가
+
 1.0.0
 - Initial addon version.
