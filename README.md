@@ -3,7 +3,7 @@
 
 - DRM 실시간 채널(ocn, super action 등)이 설정한 화질보다 낮게 재생될때
   InputStream Adaptive 애드온 설정에서 Ignore Display Resolution 활성화
-- (필수) PC에서 Tving 홈페이지에서 로그인후 기기등록 필요
+- (필수) Tving 홈페이지 기기등록 화면에서 PC로 등록된 기기 필요 (1회)
 
 # 변경사항
 ## Version 1.2.0 (2019.12.26)
