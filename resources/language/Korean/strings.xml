@@ -5,6 +5,8 @@
 	<string id="10102">패스워드:</string>
 	<string id="10201">스트림 화질</string>
 	<string id="10202">로그인 타입</string>
+	<string id="10203">무비 프리미엄 이용권</string>
+	<string id="10204">영화 화질</string>
 	<!-- Labels -->
 	<string id="10301">FHD (1080p)</string>
 	<string id="10302">HD (720p)</string>
@@ -21,4 +23,5 @@
 	<string id="30202">지금 삭제하시겠습니까?</string>
   <string id="30301">검색어 입력</string>
 	<string id="30302">DRM채널! 시청불가</string>  
+	<string id="30303">재생권한을 확인하세요</string>  
 </strings>

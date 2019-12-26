@@ -1,5 +1,13 @@
+1.2.0
+- DRM 영상 재생관련 오류 수정 (PC 기기등록 필수)
+- 무비 프리미엄 사용자를 위한 primium 영화 옵션 추가
+- DRM 실시간 채널(ocn, super action 등)이 설정한 화질보다 낮게 재생될때
+  InputStream Adaptive 애드온 설정에서 Ignore Display Resolution 활성화
+
+
 1.1.0
 - DRM 채널 지원, 월정액 영화관 추가
+
 
 1.0.0
 - Initial addon version.

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <script type="text/javascript" src="https://image.tving.com/public_v6/static/lib/clientjs/client.min.js"></script>
+</head>
+<body>
+  <script type="text/javascript">
+    var client = new ClientJS();
+    document.write(  '<h3>'
+                    + 'OS : ' + client.getOS() + '<br>'
+                    + 'Browser : ' + client.getBrowser() + '<br>'
+                    + 'Language : ' + client.getLanguage() + '<br><br>'
+                    + 'DeviceId : '
+                    + murmurhash3_32_gc(client.getOS()+'|'
+                                       +client.getBrowser()+'|'
+                                       +client.getLanguage()+'|'
+                                       +client.getSystemLanguage()+'|'
+                                       +client.getColorDepth()+'|'
+                                       +client.getTimeZone()+'|'
+                                       +client.getDeviceXDPI()+'|'
+                                       +client.getDeviceYDPI()+'|'
+                                       +client.getCanvasPrint()+'|'
+                                      ,256)
+                    + '</h3>'
+                  );
+  </script>
+</body>
+</html>
