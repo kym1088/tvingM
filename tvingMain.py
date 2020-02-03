@@ -173,668 +173,674 @@ def oOoOooOo0o0 ( credential ) :
  OOOO . setProperty ( 'TVING_M_TOKEN' , credential . get ( 'tving_token' ) )
  OOOO . setProperty ( 'TVING_M_USERINFO' , credential . get ( 'poc_userinfo' ) )
  OOOO . setProperty ( 'TVING_M_UUID' , credential . get ( 'tving_uuid' ) )
- OOOO . setProperty ( 'TVING_M_LOGINTIME' , datetime . datetime . now ( ) . strftime ( '%Y-%m-%d %H:%M:%S' ) )
  if 87 - 87: oO0o / I11i - i1IIi * OOooOOo / OoooooooOO . O0
+ OOOO . setProperty ( 'TVING_M_LOGINTIME' , datetime . datetime . now ( ) . strftime ( '%Y-%m-%d' ) )
  if 1 - 1: II111iiii - I11i / I11i
-def I1II1III11iii ( ) :
+ if 46 - 46: Ii1I * OOooOOo - OoO0O00 * oO0o - I1Ii111
+def oo0 ( ) :
  OOOO = xbmcgui . Window ( 10000 )
- Oo000 = {
+ o00 = {
  'tving_token' : OOOO . getProperty ( 'TVING_M_TOKEN' )
  , 'poc_userinfo' : OOOO . getProperty ( 'TVING_M_USERINFO' )
  , 'tving_uuid' : OOOO . getProperty ( 'TVING_M_UUID' )
  }
- return Oo000
- if 51 - 51: i11iIiiIii . I1IiiI + II111iiii
-def II111ii1II1i ( orderby ) :
+ return o00
+ if 95 - 95: O0 + OoO0O00 . II111iiii / O0
+def O000oo0O ( orderby ) :
  OOOO = xbmcgui . Window ( 10000 )
  OOOO . setProperty ( 'TVING_M_ORDERBY' , orderby )
- if 59 - 59: O0 + I1IiiI + IiII % I1IiiI
-def o0OOoo0OO0OOO ( ) :
+ if 66 - 66: I1ii11iIi11i / OoOoOO00 - I1IiiI . OOooOOo / I1IiiI * OOooOOo
+def IIIii1II1II ( ) :
  OOOO = xbmcgui . Window ( 10000 )
  return OOOO . getProperty ( 'TVING_M_ORDERBY' )
- if 19 - 19: oO0o % i1IIi % o0oOOo0O0Ooo
- if 93 - 93: iIii1I11I1II1 % oO0o * i1IIi
- if 16 - 16: O0 - I1Ii111 * iIii1I11I1II1 + iII111i
-def Ii11iII1 ( ) :
- Oo0O0O0ooO0O = urlparse . parse_qs ( sys . argv [ 2 ] [ 1 : ] )
- for IIIIii in Oo0O0O0ooO0O . keys ( ) :
-  Oo0O0O0ooO0O [ IIIIii ] = Oo0O0O0ooO0O [ IIIIii ] [ 0 ]
- return Oo0O0O0ooO0O
- if 70 - 70: Ii1I / I11i . iII111i % Oo0Ooo
- if 67 - 67: OoOoOO00 * o0oOOo0O0Ooo . IiII - OoO0O00 * o0oOOo0O0Ooo
- if 46 - 46: OOooOOo + OoOoOO00 . I1IiiI * oO0o % IiII
-def Oo000o ( label , sublabel = '' , img = '' , infoLabels = None , isFolder = True , params = '' ) :
- I11IiI1I11i1i = '%s?%s' % ( sys . argv [ 0 ] , urllib . urlencode ( params ) )
- if 38 - 38: o0oOOo0O0Ooo
- if sublabel : Oo0O = '%s < %s >' % ( label , sublabel )
- else : Oo0O = label
+ if 42 - 42: Ii1I + oO0o
+ if 76 - 76: I1Ii111 - OoO0O00
+ if 70 - 70: ooOoO0o
+def oOO ( ) :
+ IIi1I1Ii11iI = urlparse . parse_qs ( sys . argv [ 2 ] [ 1 : ] )
+ for I11i1I1I in IIi1I1Ii11iI . keys ( ) :
+  IIi1I1Ii11iI [ I11i1I1I ] = IIi1I1Ii11iI [ I11i1I1I ] [ 0 ]
+ return IIi1I1Ii11iI
+ if 83 - 83: I1ii11iIi11i / ooOoO0o
+ if 49 - 49: o0oOOo0O0Ooo
+ if 35 - 35: OoOoOO00 - OoooooooOO / I1ii11iIi11i % i1IIi
+def o00OO00OoO ( label , sublabel = '' , img = '' , infoLabels = None , isFolder = True , params = '' ) :
+ OOOO0OOoO0O0 = '%s?%s' % ( sys . argv [ 0 ] , urllib . urlencode ( params ) )
+ if 65 - 65: IiII * I1IiiI + Ii1I % i11iIiiIii * oO0o . I1Ii111
+ if sublabel : OoO0O00IIiII = '%s < %s >' % ( label , sublabel )
+ else : OoO0O00IIiII = label
  if not img : img = 'DefaultFolder.png'
- if 25 - 25: OoOoOO00 . II111iiii / iII111i . OOooOOo * OoO0O00 . I1IiiI
- Oo0oOOo = xbmcgui . ListItem ( Oo0O , thumbnailImage = img )
- if infoLabels : Oo0oOOo . setInfo ( type = "Video" , infoLabels = infoLabels )
- if not isFolder : Oo0oOOo . setProperty ( 'IsPlayable' , 'true' )
+ if 80 - 80: IiII . oO0o
+ IIi = xbmcgui . ListItem ( OoO0O00IIiII , thumbnailImage = img )
+ if infoLabels : IIi . setInfo ( type = "Video" , infoLabels = infoLabels )
+ if not isFolder : IIi . setProperty ( 'IsPlayable' , 'true' )
+ if 26 - 26: iII111i
+ xbmcplugin . addDirectoryItem ( OOO , OOOO0OOoO0O0 , IIi , isFolder )
+ if 59 - 59: II111iiii + OoooooooOO * OoOoOO00 + i1IIi
  if 58 - 58: II111iiii * OOooOOo * I1ii11iIi11i / OOooOOo
- xbmcplugin . addDirectoryItem ( oO0o0OOOO , I11IiI1I11i1i , Oo0oOOo , isFolder )
- if 68 - 68: iII111i - I1Ii111 - I1IiiI - I1ii11iIi11i + I11i
- if 10 - 10: OoooooooOO % iIii1I11I1II1
- if 54 - 54: I1Ii111 - II111iiii % OoOoOO00 % I11i % iIii1I11I1II1 + ooOoO0o
-def I1111I1iII11 ( etype ) :
+ if 75 - 75: oO0o
+def I1III ( etype ) :
  try :
   if etype == 'movie' :
-   Oooo0O0oo00oO = 'movie_quality'
+   OO0O0OoOO0 = 'movie_quality'
   else :
-   Oooo0O0oo00oO = 'selected_quality'
-   if 14 - 14: OoOoOO00 / IiII . OoOoOO00 . I11i % OoO0O00 * I11i
-  iII = [ 1080 , 720 , 480 , 360 ]
-  if 96 - 96: Oo0Ooo
-  Ii1I1IIii1II = int ( __addon__ . getSetting ( Oooo0O0oo00oO ) )
-  return iII [ Ii1I1IIii1II ]
+   OO0O0OoOO0 = 'selected_quality'
+   if 10 - 10: OoooooooOO % iIii1I11I1II1
+  O00o0O00 = [ 1080 , 720 , 480 , 360 ]
+  if 34 - 34: ooOoO0o
+  I1111I1iII11 = int ( __addon__ . getSetting ( OO0O0OoOO0 ) )
+  return O00o0O00 [ I1111I1iII11 ]
  except :
   None
-  if 65 - 65: Ii1I . iIii1I11I1II1 / O0 - Ii1I
+  if 59 - 59: iIii1I11I1II1 * i11iIiiIii / I1ii11iIi11i * i1IIi * O0
  return 720
- if 21 - 21: I1IiiI * iIii1I11I1II1
+ if 83 - 83: OoO0O00 / I1Ii111 . OoOoOO00 / IiII . OoOoOO00 . OOooOOo
+ if 75 - 75: I11i + OoO0O00 . OoOoOO00 . ooOoO0o + Oo0Ooo . OoO0O00
+ if 96 - 96: OOooOOo . ooOoO0o - Oo0Ooo + iIii1I11I1II1 / OoOoOO00 * OOooOOo
+def O0ii1ii1ii ( ) :
  if 91 - 91: IiII
- if 15 - 15: II111iiii
-def Ii ( ) :
- if 79 - 79: OoooooooOO / O0
- for OO0OoO0o00 in o0oO0 :
-  Oo0O = OO0OoO0o00 . get ( 'title' )
-  if 53 - 53: O0 * OoO0O00 + OOooOOo
-  IioOOo0 = { 'mode' : OO0OoO0o00 . get ( 'mode' )
- , 'stype' : OO0OoO0o00 . get ( 'stype' )
- , 'orderby' : OO0OoO0o00 . get ( 'orderby' )
+ for iiIii in o0oO0 :
+  OoO0O00IIiII = iiIii . get ( 'title' )
+  if 79 - 79: OoooooooOO / O0
+  OO0OoO0o00 = { 'mode' : iiIii . get ( 'mode' )
+ , 'stype' : iiIii . get ( 'stype' )
+ , 'orderby' : iiIii . get ( 'orderby' )
  , 'page' : '1'
  }
-  if 54 - 54: O0 - IiII % OOooOOo
-  if OO0OoO0o00 . get ( 'mode' ) == 'XXX' :
-   IioOOo0 [ 'mode' ] = 'XXX'
-   OOoO = False
+  if 53 - 53: O0 * OoO0O00 + OOooOOo
+  if iiIii . get ( 'mode' ) == 'XXX' :
+   OO0OoO0o00 [ 'mode' ] = 'XXX'
+   Ii = False
   else :
-   OOoO = True
-   if 46 - 46: OoO0O00 . Oo0Ooo - OoooooooOO
-  Oo000o ( Oo0O , sublabel = '' , img = '' , infoLabels = None , isFolder = OOoO , params = IioOOo0 )
- if len ( o0oO0 ) > 0 : xbmcplugin . endOfDirectory ( oO0o0OOOO )
- if 93 - 93: iII111i
- if 10 - 10: I11i
- if 82 - 82: I1ii11iIi11i - iIii1I11I1II1 / OOooOOo + Ii1I
- if 87 - 87: oO0o * I1ii11iIi11i + OOooOOo / iIii1I11I1II1 / iII111i
-def I1111IIi ( ) :
- ( Oo0oO , IIiIi1iI , i1IiiiI1iI ) = Ii11iI1i ( )
- if 49 - 49: Ii1I / OoO0O00 . II111iiii
- if 68 - 68: i11iIiiIii % I1ii11iIi11i + i11iIiiIii
- if not ( Oo0oO and IIiIi1iI ) :
+   Ii = True
+   if 61 - 61: II111iiii
+  o00OO00OoO ( OoO0O00IIiII , sublabel = '' , img = '' , infoLabels = None , isFolder = Ii , params = OO0OoO0o00 )
+ if len ( o0oO0 ) > 0 : xbmcplugin . endOfDirectory ( OOO )
+ if 64 - 64: ooOoO0o / OoOoOO00 - O0 - I11i
+ if 86 - 86: I11i % OoOoOO00 / I1IiiI / OoOoOO00
+ if 42 - 42: OoO0O00
+ if 67 - 67: I1Ii111 . iII111i . O0
+def IIIIiiII111 ( ) :
+ ( OOoOoo , oO0000OOo00 , iiIi1IIiIi ) = Ii11iI1i ( )
+ if 75 - 75: I1IiiI + Oo0Ooo
+ if 73 - 73: O0 - OoooooooOO . OOooOOo - OOooOOo / OoOoOO00
+ if not ( OOoOoo and oO0000OOo00 ) :
   OoOooOOOO = xbmcgui . Dialog ( )
-  iii = OoOooOOOO . yesno ( __name__ , __language__ ( 30101 ) . encode ( 'utf8' ) , __language__ ( 30102 ) . encode ( 'utf8' ) )
-  if iii == True :
+  iiIi1I1iIIi = OoOooOOOO . yesno ( __name__ , __language__ ( 30101 ) . encode ( 'utf8' ) , __language__ ( 30102 ) . encode ( 'utf8' ) )
+  if iiIi1I1iIIi == True :
    __addon__ . openSettings ( )
    sys . exit ( )
-   if 1 - 1: Oo0Ooo / o0oOOo0O0Ooo % iII111i * IiII . i11iIiiIii
- III1Iiii1I11 = xbmcgui . Window ( 10000 ) . getProperty ( 'TVING_M_LOGINTIME' )
- if 9 - 9: I1ii11iIi11i / Oo0Ooo - I1IiiI / OoooooooOO / iIii1I11I1II1 - o0oOOo0O0Ooo
- if III1Iiii1I11 != '' :
-  if 91 - 91: iII111i % i1IIi % iIii1I11I1II1
-  try :
-   IIi1I11I1II = datetime . datetime . strptime ( III1Iiii1I11 , '%Y-%m-%d %H:%M:%S' )
-  except TypeError :
-   import time
-   IIi1I11I1II = datetime . datetime . fromtimestamp ( time . mktime ( time . strptime ( III1Iiii1I11 , '%Y-%m-%d %H:%M:%S' ) ) )
-   i1iIIi1 ( 'loginTime_str2 : ' + III1Iiii1I11 )
-   if 63 - 63: OoooooooOO - OoO0O00 . II111iiii / o0oOOo0O0Ooo . OoOoOO00 / O0
-  if datetime . datetime . now ( ) < IIi1I11I1II + datetime . timedelta ( days = 1 ) :
+   if 31 - 31: II111iiii . I1IiiI
+ II1I = xbmcgui . Window ( 10000 ) . getProperty ( 'TVING_M_LOGINTIME' )
+ if 84 - 84: IiII . i11iIiiIii . IiII * I1ii11iIi11i - I11i
+ if II1I != '' :
+  if 42 - 42: i11iIiiIii
+  if II1I == datetime . datetime . now ( ) . strftime ( '%Y-%m-%d' ) :
+   if 33 - 33: iII111i - O0 * i1IIi * o0oOOo0O0Ooo - Oo0Ooo
+   if 32 - 32: OoooooooOO / iIii1I11I1II1 - o0oOOo0O0Ooo
+   if 91 - 91: iII111i % i1IIi % iIii1I11I1II1
+   if 20 - 20: OOooOOo % Ii1I / Ii1I + Ii1I
+   if 45 - 45: oO0o - IiII - OoooooooOO - OoO0O00 . II111iiii / O0
+   if 51 - 51: O0 + iII111i
+   if 8 - 8: oO0o * OoOoOO00 - Ii1I - OoO0O00 * OOooOOo % I1IiiI
+   if 48 - 48: O0
+   if 11 - 11: I11i + OoooooooOO - OoO0O00 / o0oOOo0O0Ooo + Oo0Ooo . II111iiii
+   if 41 - 41: Ii1I - O0 - O0
+   if 68 - 68: OOooOOo % I1Ii111
    return
-   if 84 - 84: IiII
-   if 86 - 86: OoOoOO00 - Ii1I - OoO0O00 * iII111i
- if not oooo0O0 . GetCredential ( Oo0oO , IIiIi1iI , i1IiiiI1iI ) :
+   if 88 - 88: iIii1I11I1II1 - ooOoO0o + OOooOOo
+   if 40 - 40: I1IiiI * Ii1I + OOooOOo % iII111i
+   if 74 - 74: oO0o - Oo0Ooo + OoooooooOO + I1Ii111 / OoOoOO00
+ if not i1 . GetCredential ( OOoOoo , oO0000OOo00 , iiIi1IIiIi ) :
   iIiiI1 ( __language__ ( 30103 ) . encode ( 'utf8' ) )
   sys . exit ( )
-  if 51 - 51: OoO0O00 / OoO0O00
-  if 53 - 53: Oo0Ooo
- oOoOooOo0o0 ( oooo0O0 . LoadCredential ( ) )
- II111ii1II1i ( 'desc' )
- if 29 - 29: I1ii11iIi11i + oO0o % O0
- if 10 - 10: I11i / I1Ii111 - I1IiiI * iIii1I11I1II1 - I1IiiI
- if 97 - 97: I1ii11iIi11i + I1IiiI * Ii1I + OOooOOo % iII111i
- if 74 - 74: oO0o - Oo0Ooo + OoooooooOO + I1Ii111 / OoOoOO00
-def i1 ( args ) :
- I1iI1iIi111i = args . get ( 'stype' )
- if I1iI1iIi111i == 'live' :
-  iiIi1IIi1I = xI1Ii11I1Ii1i
+  if 11 - 11: IiII * I1IiiI . iIii1I11I1II1 % OoooooooOO + iII111i
+  if 78 - 78: OoO0O00 . OOooOOo + OoO0O00 / I11i / OoO0O00
+ oOoOooOo0o0 ( i1 . LoadCredential ( ) )
+ O000oo0O ( 'desc' )
+ if 54 - 54: OoOoOO00 % iII111i
+ if 37 - 37: OoOoOO00 * Oo0Ooo / ooOoO0o - iII111i % II111iiii . oO0o
+ if 88 - 88: iII111i . II111iiii * II111iiii % I1Ii111
+ if 15 - 15: i1IIi * I1IiiI + i11iIiiIii
+def I1Ii ( args ) :
+ O0oo00o0O = args . get ( 'stype' )
+ if O0oo00o0O == 'live' :
+  i1I1I = xI1Ii11I1Ii1i
  else :
-  iiIi1IIi1I = I11
-  if 84 - 84: ooOoO0o * II111iiii + Oo0Ooo
- for O0ooO0Oo00o in iiIi1IIi1I :
-  Oo0O = O0ooO0Oo00o . get ( 'title' )
-  if 77 - 77: iIii1I11I1II1 * OoO0O00
-  IioOOo0 = { 'mode' : O0ooO0Oo00o . get ( 'mode' )
- , 'stype' : O0ooO0Oo00o . get ( 'stype' )
+  i1I1I = I11
+  if 12 - 12: i11iIiiIii / OoO0O00
+ for o0O in i1I1I :
+  OoO0O00IIiII = o0O . get ( 'title' )
+  if 2 - 2: iIii1I11I1II1 / oO0o + OoO0O00 / OOooOOo
+  OO0OoO0o00 = { 'mode' : o0O . get ( 'mode' )
+ , 'stype' : o0O . get ( 'stype' )
  , 'orderby' : args . get ( 'orderby' )
  , 'page' : '1'
  }
-  if 95 - 95: I1IiiI + i11iIiiIii
-  Oo000o ( Oo0O , sublabel = '' , img = '' , infoLabels = None , isFolder = True , params = IioOOo0 )
- if len ( iiIi1IIi1I ) > 0 : xbmcplugin . endOfDirectory ( oO0o0OOOO )
- if 6 - 6: ooOoO0o / i11iIiiIii + iII111i * oO0o
- if 80 - 80: II111iiii
- if 83 - 83: I11i . i11iIiiIii + II111iiii . o0oOOo0O0Ooo * I11i
- if 53 - 53: II111iiii
-def i1Ii1Ii ( args ) :
- if 52 - 52: OoO0O00 . oO0o
- oooo0O0 . SaveCredential ( I1II1III11iii ( ) )
- if 25 - 25: O0 - O0 * o0oOOo0O0Ooo
- I1iI1iIi111i = args . get ( 'stype' )
- OOOO0oo0 = int ( args . get ( 'page' ) )
- I11iiI1i1 , I1i1Iiiii = oooo0O0 . GetLiveChannelList ( I1iI1iIi111i , OOOO0oo0 )
- if 94 - 94: o0oOOo0O0Ooo * Ii1I / Oo0Ooo / Ii1I
- for oO0 in I11iiI1i1 :
-  Oo0O = oO0 . get ( 'title' )
-  O0OO0O = oO0 . get ( 'channel' )
-  OO = oO0 . get ( 'thumbnail' )
-  OoOoO = oO0 . get ( 'synopsis' )
-  Ii1I1i = oO0 . get ( 'channelepg' )
-  if 99 - 99: oO0o . iII111i + ooOoO0o % oO0o . i11iIiiIii % O0
-  oOO00O = { }
-  oOO00O [ 'plot' ] = '%s\n%s\n%s\n\n%s' % ( O0OO0O , Oo0O , Ii1I1i , OoOoO )
-  if 77 - 77: Oo0Ooo - i1IIi - I11i . OoOoOO00
-  IioOOo0 = { 'mode' : 'LIVE'
- , 'mediacode' : oO0 . get ( 'mediacode' )
- , 'stype' : I1iI1iIi111i
+  if 9 - 9: o0oOOo0O0Ooo . ooOoO0o - Oo0Ooo - oO0o + II111iiii * i11iIiiIii
+  o00OO00OoO ( OoO0O00IIiII , sublabel = '' , img = '' , infoLabels = None , isFolder = True , params = OO0OoO0o00 )
+ if len ( i1I1I ) > 0 : xbmcplugin . endOfDirectory ( OOO )
+ if 79 - 79: oO0o % I11i % I1IiiI
+ if 5 - 5: OoooooooOO % OoOoOO00 % oO0o % iII111i
+ if 7 - 7: II111iiii + OoooooooOO . I1Ii111 . ooOoO0o - o0oOOo0O0Ooo
+ if 26 - 26: Oo0Ooo / IiII % iIii1I11I1II1 / IiII + I11i
+def oOO0O00oO0Ooo ( args ) :
+ if 67 - 67: OoO0O00 - OOooOOo
+ i1 . SaveCredential ( oo0 ( ) )
+ if 36 - 36: IiII
+ O0oo00o0O = args . get ( 'stype' )
+ I11iI = int ( args . get ( 'page' ) )
+ I1iI1ii1II , O0O0OOOOoo = i1 . GetLiveChannelList ( O0oo00o0O , I11iI )
+ if 74 - 74: I1ii11iIi11i + II111iiii / OoO0O00
+ for oOo0O0Oo00oO in I1iI1ii1II :
+  OoO0O00IIiII = oOo0O0Oo00oO . get ( 'title' )
+  I111I1Iiii1i = oOo0O0Oo00oO . get ( 'channel' )
+  oOOoo00O00o = oOo0O0Oo00oO . get ( 'thumbnail' )
+  O0O00Oo = oOo0O0Oo00oO . get ( 'synopsis' )
+  oooooo0O000o = oOo0O0Oo00oO . get ( 'channelepg' )
+  if 64 - 64: I1IiiI . o0oOOo0O0Ooo - I1Ii111 / OoooooooOO
+  O0O0ooOOO = { }
+  O0O0ooOOO [ 'plot' ] = '%s\n%s\n%s\n\n%s' % ( I111I1Iiii1i , OoO0O00IIiII , oooooo0O000o , O0O00Oo )
+  if 77 - 77: OoOoOO00 - II111iiii - ooOoO0o
+  OO0OoO0o00 = { 'mode' : 'LIVE'
+ , 'mediacode' : oOo0O0Oo00oO . get ( 'mediacode' )
+ , 'stype' : O0oo00o0O
   }
-  if 39 - 39: II111iiii / ooOoO0o + I1Ii111 / OoOoOO00
-  Oo000o ( O0OO0O , sublabel = Oo0O , img = OO , infoLabels = oOO00O , isFolder = False , params = IioOOo0 )
-  if 13 - 13: IiII + O0 + iII111i % I1IiiI / o0oOOo0O0Ooo . IiII
- if I1i1Iiiii :
-  if 86 - 86: oO0o * o0oOOo0O0Ooo % i1IIi . Ii1I . i11iIiiIii
-  IioOOo0 [ 'mode' ] = 'CHANNEL'
-  IioOOo0 [ 'stype' ] = I1iI1iIi111i
-  IioOOo0 [ 'page' ] = str ( OOOO0oo0 + 1 )
-  Oo0O = '[B]%s >>[/B]' % '다음 페이지'
-  oOOoo00O00o = str ( OOOO0oo0 + 1 )
-  Oo000o ( Oo0O , sublabel = oOOoo00O00o , img = '' , infoLabels = None , isFolder = True , params = IioOOo0 )
-  if 98 - 98: OOooOOo + IiII + oO0o % OoooooooOO
- if len ( I11iiI1i1 ) > 0 : xbmcplugin . endOfDirectory ( oO0o0OOOO , cacheToDisc = False )
- if 97 - 97: O0 * OoooooooOO . OoooooooOO
- if 33 - 33: I1Ii111 + iII111i * oO0o / iIii1I11I1II1 - I1IiiI
- if 54 - 54: I1Ii111 / OOooOOo . oO0o % iII111i
- if 57 - 57: i11iIiiIii . I1ii11iIi11i - Ii1I - oO0o + OoOoOO00
-def oO00oooOOoOo0 ( args ) :
- if 74 - 74: iIii1I11I1II1 * I1ii11iIi11i + OoOoOO00 / i1IIi / II111iiii . Oo0Ooo
- oooo0O0 . SaveCredential ( I1II1III11iii ( ) )
- if 62 - 62: OoooooooOO * I1IiiI
- I1iI1iIi111i = args . get ( 'stype' )
- oOOOoo0O0oO = args . get ( 'orderby' )
- OOOO0oo0 = int ( args . get ( 'page' ) )
- if 6 - 6: OOooOOo * o0oOOo0O0Ooo + iII111i
- I1IIIiIiI1 , I1i1Iiiii = oooo0O0 . GetProgramList ( I1iI1iIi111i , oOOOoo0O0oO , OOOO0oo0 )
- if 28 - 28: iIii1I11I1II1 % Oo0Ooo * I1IiiI % Ii1I * o0oOOo0O0Ooo / o0oOOo0O0Ooo
- for iIIII in I1IIIiIiI1 :
-  Oo0O = iIIII . get ( 'title' )
-  OO = iIIII . get ( 'thumbnail' )
-  OoOoO = iIIII . get ( 'synopsis' )
-  I11iI1i1I11I11 = o0o0Oo0oooo0 . get ( iIIII . get ( 'channel' ) )
-  if 69 - 69: OoOoOO00
-  oOO00O = { }
-  oOO00O [ 'plot' ] = '%s <%s>\n\n%s' % ( Oo0O , I11iI1i1I11I11 , OoOoO )
-  if 97 - 97: I1ii11iIi11i % I1ii11iIi11i % oO0o / iII111i - iIii1I11I1II1
-  IioOOo0 = { 'mode' : 'EPISODE'
- , 'programcode' : iIIII . get ( 'program' )
+  if 49 - 49: II111iiii % O0 . OoOoOO00 + oO0o / I1IiiI
+  o00OO00OoO ( I111I1Iiii1i , sublabel = OoO0O00IIiII , img = oOOoo00O00o , infoLabels = O0O0ooOOO , isFolder = False , params = OO0OoO0o00 )
+  if 72 - 72: ooOoO0o * Oo0Ooo . I1IiiI - II111iiii + i1IIi
+ if O0O0OOOOoo :
+  if 10 - 10: oO0o + i1IIi
+  OO0OoO0o00 [ 'mode' ] = 'CHANNEL'
+  OO0OoO0o00 [ 'stype' ] = O0oo00o0O
+  OO0OoO0o00 [ 'page' ] = str ( I11iI + 1 )
+  OoO0O00IIiII = '[B]%s >>[/B]' % '다음 페이지'
+  oOo0O = str ( I11iI + 1 )
+  o00OO00OoO ( OoO0O00IIiII , sublabel = oOo0O , img = '' , infoLabels = None , isFolder = True , params = OO0OoO0o00 )
+  if 52 - 52: i11iIiiIii / o0oOOo0O0Ooo * ooOoO0o
+ if len ( I1iI1ii1II ) > 0 : xbmcplugin . endOfDirectory ( OOO , cacheToDisc = False )
+ if 22 - 22: OoOoOO00 . OOooOOo * OoOoOO00
+ if 54 - 54: IiII + Ii1I % OoO0O00 + OoooooooOO - O0 - o0oOOo0O0Ooo
+ if 77 - 77: OOooOOo * iIii1I11I1II1
+ if 98 - 98: I1IiiI % Ii1I * OoooooooOO
+def Oo ( args ) :
+ if 34 - 34: oO0o + I1IiiI - oO0o
+ i1 . SaveCredential ( oo0 ( ) )
+ if 17 - 17: II111iiii % iII111i + I11i - iII111i / OOooOOo + ooOoO0o
+ O0oo00o0O = args . get ( 'stype' )
+ O0oO000O0O = args . get ( 'orderby' )
+ I11iI = int ( args . get ( 'page' ) )
+ if 18 - 18: iII111i - OOooOOo . I1Ii111 . iIii1I11I1II1
+ i1I , O0O0OOOOoo = i1 . GetProgramList ( O0oo00o0O , O0oO000O0O , I11iI )
+ if 78 - 78: I11i * iIii1I11I1II1 . I1IiiI / o0oOOo0O0Ooo - OoooooooOO / I1Ii111
+ for i1I1IiiIi1i in i1I :
+  OoO0O00IIiII = i1I1IiiIi1i . get ( 'title' )
+  oOOoo00O00o = i1I1IiiIi1i . get ( 'thumbnail' )
+  O0O00Oo = i1I1IiiIi1i . get ( 'synopsis' )
+  iiI11ii1I1 = o0o0Oo0oooo0 . get ( i1I1IiiIi1i . get ( 'channel' ) )
+  if 82 - 82: II111iiii % I11i / OoO0O00 + OoOoOO00 / o0oOOo0O0Ooo / I1Ii111
+  O0O0ooOOO = { }
+  O0O0ooOOO [ 'plot' ] = '%s <%s>\n\n%s' % ( OoO0O00IIiII , iiI11ii1I1 , O0O00Oo )
+  if 70 - 70: oO0o
+  OO0OoO0o00 = { 'mode' : 'EPISODE'
+ , 'programcode' : i1I1IiiIi1i . get ( 'program' )
  , 'page' : '1'
  }
-  if 69 - 69: I1Ii111
-  Oo000o ( Oo0O , sublabel = I11iI1i1I11I11 , img = OO , infoLabels = oOO00O , isFolder = True , params = IioOOo0 )
-  if 11 - 11: I1IiiI
- if I1i1Iiiii :
-  if 16 - 16: Ii1I + IiII * O0 % i1IIi . I1IiiI
-  IioOOo0 [ 'mode' ] = 'PROGRAM'
-  IioOOo0 [ 'stype' ] = I1iI1iIi111i
-  IioOOo0 [ 'orderby' ] = oOOOoo0O0oO
-  IioOOo0 [ 'page' ] = str ( OOOO0oo0 + 1 )
-  Oo0O = '[B]%s >>[/B]' % '다음 페이지'
-  oOOoo00O00o = str ( OOOO0oo0 + 1 )
-  Oo000o ( Oo0O , sublabel = oOOoo00O00o , img = '' , infoLabels = None , isFolder = True , params = IioOOo0 )
-  if 67 - 67: OoooooooOO / I1IiiI * Ii1I + I11i
- if len ( I1IIIiIiI1 ) > 0 : xbmcplugin . endOfDirectory ( oO0o0OOOO , cacheToDisc = False )
- if 65 - 65: OoooooooOO - I1ii11iIi11i / ooOoO0o / II111iiii / i1IIi
- if 71 - 71: I1Ii111 + Ii1I
- if 28 - 28: OOooOOo
- if 38 - 38: ooOoO0o % II111iiii % I11i / OoO0O00 + OoOoOO00 / i1IIi
-def OoOOo0OOoO ( args ) :
- if 72 - 72: Ii1I
- oooo0O0 . SaveCredential ( I1II1III11iii ( ) )
- if 1 - 1: OoO0O00 * IiII * OoooooooOO + ooOoO0o
- IiII111i1i11 = args . get ( 'programcode' )
- OOOO0oo0 = int ( args . get ( 'page' ) )
- if 40 - 40: ooOoO0o * IiII * i11iIiiIii
- oo0OO00OoooOo , I1i1Iiiii , II1i111Ii1i = oooo0O0 . GetEpisodoList ( IiII111i1i11 , OOOO0oo0 , orderby = o0OOoo0OO0OOO ( ) )
- if 15 - 15: II111iiii / i1IIi
- for O0oO0 in oo0OO00OoooOo :
-  Oo0O = O0oO0 . get ( 'title' )
-  OO = O0oO0 . get ( 'thumbnail' )
-  OoOoO = O0oO0 . get ( 'synopsis' )
-  if 7 - 7: I1IiiI
-  oOO00O = { }
-  oOO00O [ 'plot' ] = '%s\n\n%s' % ( Oo0O , OoOoO )
-  if 41 - 41: I11i * iIii1I11I1II1 / II111iiii * oO0o
-  IioOOo0 = { 'mode' : 'VOD'
- , 'mediacode' : O0oO0 . get ( 'episode' )
- , 'stype' : 'vod'
- , 'programcode' : IiII111i1i11
- , 'title' : Oo0O
- , 'thumbnail' : OO
- }
-  if 22 - 22: OoooooooOO
-  Oo000o ( Oo0O , sublabel = '' , img = OO , infoLabels = oOO00O , isFolder = False , params = IioOOo0 )
-  if 75 - 75: o0oOOo0O0Ooo + o0oOOo0O0Ooo + i1IIi - i1IIi
-  if 76 - 76: OoO0O00 . O0 % O0 - o0oOOo0O0Ooo - iIii1I11I1II1 - I1IiiI
-  if 53 - 53: i1IIi
-  if 59 - 59: o0oOOo0O0Ooo
-  if 81 - 81: OoOoOO00 - OoOoOO00 . iII111i
+  if 59 - 59: o0oOOo0O0Ooo % oO0o
+  o00OO00OoO ( OoO0O00IIiII , sublabel = iiI11ii1I1 , img = oOOoo00O00o , infoLabels = O0O0ooOOO , isFolder = True , params = OO0OoO0o00 )
+  if 6 - 6: iIii1I11I1II1 % i11iIiiIii % I1ii11iIi11i
+ if O0O0OOOOoo :
+  if 93 - 93: IiII * OoooooooOO + ooOoO0o
+  OO0OoO0o00 [ 'mode' ] = 'PROGRAM'
+  OO0OoO0o00 [ 'stype' ] = O0oo00o0O
+  OO0OoO0o00 [ 'orderby' ] = O0oO000O0O
+  OO0OoO0o00 [ 'page' ] = str ( I11iI + 1 )
+  OoO0O00IIiII = '[B]%s >>[/B]' % '다음 페이지'
+  oOo0O = str ( I11iI + 1 )
+  o00OO00OoO ( OoO0O00IIiII , sublabel = oOo0O , img = '' , infoLabels = None , isFolder = True , params = OO0OoO0o00 )
+  if 33 - 33: O0 * o0oOOo0O0Ooo - I1Ii111 % I1Ii111
+ if len ( i1I ) > 0 : xbmcplugin . endOfDirectory ( OOO , cacheToDisc = False )
+ if 18 - 18: I1Ii111 / Oo0Ooo * I1Ii111 + I1Ii111 * i11iIiiIii * I1ii11iIi11i
+ if 11 - 11: ooOoO0o / OoOoOO00 - IiII * OoooooooOO + OoooooooOO . OoOoOO00
+ if 26 - 26: Ii1I % I1ii11iIi11i
+ if 76 - 76: IiII * iII111i
+def ooooooo00o ( args ) :
+ if 73 - 73: OOooOOo
+ i1 . SaveCredential ( oo0 ( ) )
+ if 70 - 70: iIii1I11I1II1
+ i11ii1iI = args . get ( 'programcode' )
+ I11iI = int ( args . get ( 'page' ) )
+ if 22 - 22: OoooooooOO
+ OOOOOo , O0O0OOOOoo , IiI1iIiIIIii = i1 . GetEpisodoList ( i11ii1iI , I11iI , orderby = IIIii1II1II ( ) )
+ if 53 - 53: i1IIi
+ for o0OOOoO0 in OOOOOo :
+  OoO0O00IIiII = o0OOOoO0 . get ( 'title' )
+  oOOoo00O00o = o0OOOoO0 . get ( 'thumbnail' )
+  O0O00Oo = o0OOOoO0 . get ( 'synopsis' )
   if 73 - 73: I11i % i11iIiiIii - I1IiiI
- if OOOO0oo0 == 1 :
-  oOO00O = { 'plot' : '정렬순서를 변경합니다.' }
-  IioOOo0 = { }
-  IioOOo0 [ 'mode' ] = 'ORDER_BY'
-  if o0OOoo0OO0OOO ( ) == 'desc' :
-   Oo0O = '정렬순서변경 : 최신화부터 -> 1회부터'
-   IioOOo0 [ 'orderby' ] = 'asc'
-  else :
-   Oo0O = '정렬순서변경 : 1회부터 -> 최신화부터'
-   IioOOo0 [ 'orderby' ] = 'desc'
-  Oo000o ( Oo0O , sublabel = '' , img = '' , infoLabels = oOO00O , isFolder = False , params = IioOOo0 )
+  O0O0ooOOO = { }
+  O0O0ooOOO [ 'plot' ] = '%s\n\n%s' % ( OoO0O00IIiII , O0O00Oo )
   if 7 - 7: O0 * i11iIiiIii * Ii1I + ooOoO0o % OoO0O00 - ooOoO0o
+  OO0OoO0o00 = { 'mode' : 'VOD'
+ , 'mediacode' : o0OOOoO0 . get ( 'episode' )
+ , 'stype' : 'vod'
+ , 'programcode' : i11ii1iI
+ , 'title' : OoO0O00IIiII
+ , 'thumbnail' : oOOoo00O00o
+ }
   if 39 - 39: Oo0Ooo * OOooOOo % OOooOOo - OoooooooOO + o0oOOo0O0Ooo - I11i
- if I1i1Iiiii :
+  o00OO00OoO ( OoO0O00IIiII , sublabel = '' , img = oOOoo00O00o , infoLabels = O0O0ooOOO , isFolder = False , params = OO0OoO0o00 )
   if 23 - 23: i11iIiiIii
-  IioOOo0 [ 'mode' ] = 'EPISODE'
-  IioOOo0 [ 'programcode' ] = IiII111i1i11
-  IioOOo0 [ 'page' ] = str ( OOOO0oo0 + 1 )
-  Oo0O = '[B]%s >>[/B]' % '다음 페이지'
-  oOOoo00O00o = str ( OOOO0oo0 + 1 )
-  Oo000o ( Oo0O , sublabel = oOOoo00O00o , img = '' , infoLabels = None , isFolder = True , params = IioOOo0 )
   if 30 - 30: o0oOOo0O0Ooo - i1IIi % II111iiii + I11i * iIii1I11I1II1
- if len ( oo0OO00OoooOo ) > 0 : xbmcplugin . endOfDirectory ( oO0o0OOOO , cacheToDisc = False )
- if 81 - 81: IiII % i1IIi . iIii1I11I1II1
- if 4 - 4: i11iIiiIii % OoO0O00 % i1IIi / IiII
- if 6 - 6: iII111i / I1IiiI % OOooOOo - I1IiiI
- if 31 - 31: OOooOOo
-def i1OOO0000oO ( args ) :
- oOOOoo0O0oO = args . get ( 'orderby' )
- if 15 - 15: OoOoOO00 % I1IiiI * I11i
- II111ii1II1i ( oOOOoo0O0oO )
- xbmc . executebuiltin ( "Container.Refresh" )
- if 81 - 81: ooOoO0o - iIii1I11I1II1 - i1IIi / I1Ii111 - O0 * I11i
- if 20 - 20: oO0o % IiII
- if 19 - 19: I1ii11iIi11i % IiII + ooOoO0o / I1Ii111 . ooOoO0o
- if 12 - 12: i1IIi + i1IIi - I1ii11iIi11i * Oo0Ooo % Oo0Ooo - II111iiii
-def o0O ( args ) :
- if 84 - 84: OoO0O00 + i1IIi - II111iiii . I1ii11iIi11i * OoooooooOO + I1IiiI
- oooo0O0 . SaveCredential ( I1II1III11iii ( ) )
- if 38 - 38: OOooOOo + II111iiii % ooOoO0o % OoOoOO00 - Ii1I / OoooooooOO
- oOOOoo0O0oO = args . get ( 'orderby' )
- OOOO0oo0 = int ( args . get ( 'page' ) )
- if 73 - 73: o0oOOo0O0Ooo * O0 - i11iIiiIii
- O0O0o0oOOO , I1i1Iiiii = oooo0O0 . GetMovieList ( oOOOoo0O0oO , OOOO0oo0 , premiumyn = III1ii1iII ( ) )
- if 67 - 67: OoOoOO00 + I1ii11iIi11i . o0oOOo0O0Ooo . II111iiii
- for o000ooooO0o in O0O0o0oOOO :
-  Oo0O = o000ooooO0o . get ( 'title' )
-  OO = o000ooooO0o . get ( 'thumbnail' )
-  OoOoO = o000ooooO0o . get ( 'synopsis' )
-  if 40 - 40: I1ii11iIi11i + i1IIi * OOooOOo
-  oOO00O = { }
-  oOO00O [ 'plot' ] = '%s\n\n%s' % ( Oo0O , OoOoO )
-  if 85 - 85: Ii1I * Oo0Ooo . O0 - i11iIiiIii
-  IioOOo0 = { 'mode' : 'MOVIE'
- , 'mediacode' : o000ooooO0o . get ( 'moviecode' )
- , 'stype' : 'movie'
- , 'title' : Oo0O
- , 'thumbnail' : OO
- }
-  if 18 - 18: Ii1I + IiII - O0
-  Oo000o ( Oo0O , sublabel = '' , img = OO , infoLabels = oOO00O , isFolder = False , params = IioOOo0 )
-  if 53 - 53: i1IIi
- if I1i1Iiiii :
-  if 87 - 87: i11iIiiIii + I1Ii111 . I1ii11iIi11i * I1Ii111 . ooOoO0o / I1ii11iIi11i
-  IioOOo0 [ 'mode' ] = 'MOVIE_GROUP'
-  IioOOo0 [ 'orderby' ] = oOOOoo0O0oO
-  IioOOo0 [ 'page' ] = str ( OOOO0oo0 + 1 )
-  Oo0O = '[B]%s >>[/B]' % '다음 페이지'
-  oOOoo00O00o = str ( OOOO0oo0 + 1 )
-  Oo000o ( Oo0O , sublabel = oOOoo00O00o , img = '' , infoLabels = None , isFolder = True , params = IioOOo0 )
-  if 76 - 76: O0 + i1IIi . Oo0Ooo * I1IiiI * Ii1I
- if len ( O0O0o0oOOO ) > 0 : xbmcplugin . endOfDirectory ( oO0o0OOOO , cacheToDisc = False )
- if 14 - 14: o0oOOo0O0Ooo % O0 * iII111i + Ii1I + Oo0Ooo * Ii1I
- if 3 - 3: OoOoOO00 * Oo0Ooo
- if 95 - 95: OOooOOo % oO0o . Ii1I
- if 72 - 72: OoooooooOO
-def OooooOoooO ( args ) :
- for O0ooO0Oo00o in Oooo0000 :
-  Oo0O = O0ooO0Oo00o . get ( 'title' )
-  if 56 - 56: Oo0Ooo . I1ii11iIi11i . I1IiiI
-  IioOOo0 = { 'mode' : O0ooO0Oo00o . get ( 'mode' )
- , 'stype' : O0ooO0Oo00o . get ( 'stype' )
- , 'page' : '1'
- }
-  if 39 - 39: O0 + I1Ii111
-  Oo000o ( Oo0O , sublabel = '' , img = '' , infoLabels = None , isFolder = True , params = IioOOo0 )
- if len ( Oooo0000 ) > 0 : xbmcplugin . endOfDirectory ( oO0o0OOOO )
- if 91 - 91: OoooooooOO - iIii1I11I1II1 + OoOoOO00 / OoO0O00 . OoOoOO00 + O0
- if 26 - 26: I1ii11iIi11i - OoooooooOO
- if 11 - 11: I1IiiI * oO0o
- if 81 - 81: iII111i + IiII
-def o0oo0 ( args ) :
- if 97 - 97: OoOoOO00 % I1ii11iIi11i
- oooo0O0 . SaveCredential ( I1II1III11iii ( ) )
- if 25 - 25: Oo0Ooo % I1ii11iIi11i . I1ii11iIi11i
- O0O0Oo00 = __addon__ . getSetting ( 'id' )
- OOOO0oo0 = int ( args . get ( 'page' ) )
- I1iI1iIi111i = args . get ( 'stype' )
- if 80 - 80: oO0o + OOooOOo / I11i
- if 'search_key' in args :
-  oOOO00O0O0OOo = args . get ( 'search_key' )
- else :
-  oOOO00O0O0OOo = oOoO ( __language__ ( 30003 ) . encode ( 'utf-8' ) )
-  if not oOOO00O0O0OOo : return
-  if 77 - 77: oO0o + ooOoO0o . Oo0Ooo % Ii1I
- oo , I1i1Iiiii = oooo0O0 . GetSearchList ( oOOO00O0O0OOo , O0O0Oo00 , OOOO0oo0 , I1iI1iIi111i , premiumyn = III1ii1iII ( ) )
- if len ( oo ) == 0 : return
- if 52 - 52: I1ii11iIi11i - Oo0Ooo + I1ii11iIi11i % o0oOOo0O0Ooo
- for iI1 in oo :
-  Oo0O = iI1 . get ( 'title' )
-  OO = iI1 . get ( 'thumbnail' )
-  OoOoO = iI1 . get ( 'synopsis' )
-  IiI = iI1 . get ( 'program' )
-  if 21 - 21: OoO0O00 + I1IiiI % I1IiiI
-  oOO00O = { }
-  oOO00O [ 'plot' ] = '%s\n\n%s' % ( Oo0O , OoOoO )
-  if 82 - 82: iII111i
-  if I1iI1iIi111i == 'vod' :
-   IioOOo0 = { 'mode' : 'EPISODE'
- , 'programcode' : iI1 . get ( 'program' )
- , 'page' : '1'
- }
-   OOoO = True
+  if 81 - 81: IiII % i1IIi . iIii1I11I1II1
+  if 4 - 4: i11iIiiIii % OoO0O00 % i1IIi / IiII
+  if 6 - 6: iII111i / I1IiiI % OOooOOo - I1IiiI
+  if 31 - 31: OOooOOo
+ if I11iI == 1 :
+  O0O0ooOOO = { 'plot' : '정렬순서를 변경합니다.' }
+  OO0OoO0o00 = { }
+  OO0OoO0o00 [ 'mode' ] = 'ORDER_BY'
+  if IIIii1II1II ( ) == 'desc' :
+   OoO0O00IIiII = '정렬순서변경 : 최신화부터 -> 1회부터'
+   OO0OoO0o00 [ 'orderby' ] = 'asc'
   else :
-   IioOOo0 = { 'mode' : 'MOVIE'
- , 'mediacode' : iI1 . get ( 'movie' )
- , 'stype' : 'movie'
- , 'title' : Oo0O
- , 'thumbnail' : OO
- }
-   OOoO = False
-   if 65 - 65: ooOoO0o . OoooooooOO / I1ii11iIi11i . i1IIi * OoO0O00
-  Oo000o ( Oo0O , sublabel = '' , img = OO , infoLabels = oOO00O , isFolder = OOoO , params = IioOOo0 )
-  if 19 - 19: i11iIiiIii + OoooooooOO - Oo0Ooo - I11i
- if I1i1Iiiii :
-  if 21 - 21: O0 % IiII . I1IiiI / II111iiii + IiII
-  IioOOo0 [ 'mode' ] = 'SEARCH'
-  IioOOo0 [ 'search_key' ] = oOOO00O0O0OOo
-  IioOOo0 [ 'page' ] = str ( OOOO0oo0 + 1 )
-  Oo0O = '[B]%s >>[/B]' % '다음 페이지'
-  oOOoo00O00o = str ( OOOO0oo0 + 1 )
-  Oo000o ( Oo0O , sublabel = oOOoo00O00o , img = '' , infoLabels = None , isFolder = True , params = IioOOo0 )
-  if 53 - 53: oO0o - I1IiiI - oO0o * iII111i
- if len ( oo ) > 0 : xbmcplugin . endOfDirectory ( oO0o0OOOO )
- if 71 - 71: O0 - iIii1I11I1II1
- if 12 - 12: OOooOOo / o0oOOo0O0Ooo
- if 42 - 42: Oo0Ooo
- if 19 - 19: oO0o % I1ii11iIi11i * iIii1I11I1II1 + I1IiiI
-def iii11I ( stype ) :
- try :
-  I1Iii1 = xbmc . translatePath ( os . path . join ( __profile__ , 'watchedlist_%s.txt' % stype ) )
-  with open ( I1Iii1 , 'w' ) as iiI11Iii :
-   iiI11Iii . write ( '' )
- except :
-  None
-  if 78 - 78: iII111i + I11i . ooOoO0o - iII111i . Ii1I
-  if 30 - 30: I1IiiI + OoO0O00 % Ii1I * iII111i / Oo0Ooo - I11i
-  if 64 - 64: iIii1I11I1II1
-  if 21 - 21: Oo0Ooo . II111iiii
-def ooo000o000 ( args ) :
- I1iI1iIi111i = args . get ( 'stype' )
- if 100 - 100: IiII . I11i / Ii1I % OoOoOO00 % II111iiii - OoO0O00
- OoOooOOOO = xbmcgui . Dialog ( )
- iii = OoOooOOOO . yesno ( __name__ , __language__ ( 30201 ) . encode ( 'utf8' ) , __language__ ( 30202 ) . encode ( 'utf8' ) )
- if iii == False : sys . exit ( )
- if 46 - 46: O0 * II111iiii - Oo0Ooo * ooOoO0o
- iii11I ( I1iI1iIi111i )
- if 33 - 33: Ii1I
+   OoO0O00IIiII = '정렬순서변경 : 1회부터 -> 최신화부터'
+   OO0OoO0o00 [ 'orderby' ] = 'desc'
+  o00OO00OoO ( OoO0O00IIiII , sublabel = '' , img = '' , infoLabels = O0O0ooOOO , isFolder = False , params = OO0OoO0o00 )
+  if 23 - 23: I1Ii111 . IiII
+  if 92 - 92: OoOoOO00 + I1Ii111 * Ii1I % I1IiiI
+ if O0O0OOOOoo :
+  if 42 - 42: Oo0Ooo
+  OO0OoO0o00 [ 'mode' ] = 'EPISODE'
+  OO0OoO0o00 [ 'programcode' ] = i11ii1iI
+  OO0OoO0o00 [ 'page' ] = str ( I11iI + 1 )
+  OoO0O00IIiII = '[B]%s >>[/B]' % '다음 페이지'
+  oOo0O = str ( I11iI + 1 )
+  o00OO00OoO ( OoO0O00IIiII , sublabel = oOo0O , img = '' , infoLabels = None , isFolder = True , params = OO0OoO0o00 )
+  if 76 - 76: I1IiiI * iII111i % I1Ii111
+ if len ( OOOOOo ) > 0 : xbmcplugin . endOfDirectory ( OOO , cacheToDisc = False )
+ if 57 - 57: iIii1I11I1II1 - i1IIi / I1Ii111 - O0 * OoooooooOO % II111iiii
+ if 68 - 68: OoooooooOO * I11i % OoOoOO00 - IiII
+ if 34 - 34: I1Ii111 . iIii1I11I1II1 * OoOoOO00 * oO0o / I1Ii111 / I1ii11iIi11i
+ if 78 - 78: Oo0Ooo - o0oOOo0O0Ooo / OoOoOO00
+def I11IIIi ( args ) :
+ O0oO000O0O = args . get ( 'orderby' )
+ if 15 - 15: I1ii11iIi11i * OoO0O00
+ O000oo0O ( O0oO000O0O )
  xbmc . executebuiltin ( "Container.Refresh" )
- if 74 - 74: OOooOOo + O0 + i1IIi - i1IIi + II111iiii
- if 83 - 83: I1ii11iIi11i - I1IiiI + OOooOOo
- if 5 - 5: Ii1I
- if 46 - 46: IiII
-def ii1iIi1iIiI1i ( stype ) :
- try :
-  I1Iii1 = xbmc . translatePath ( os . path . join ( __profile__ , 'watchedlist_%s.txt' % stype ) )
-  with open ( I1Iii1 , 'r' ) as iiI11Iii :
-   iiI1iIii1i = iiI11Iii . readlines ( )
- except :
-  iiI1iIii1i = [ ]
-  if 70 - 70: OoO0O00 * O0 . I11i + I1IiiI . IiII
- return iiI1iIii1i
- if 14 - 14: iIii1I11I1II1 % iIii1I11I1II1 * i11iIiiIii - OoO0O00 - I11i
- if 63 - 63: OoO0O00
- if 69 - 69: iIii1I11I1II1 . I1ii11iIi11i % ooOoO0o + iIii1I11I1II1 / O0 / I1ii11iIi11i
- if 61 - 61: OOooOOo % OOooOOo * o0oOOo0O0Ooo / o0oOOo0O0Ooo
-def o0 ( stype , in_params ) :
- try :
-  I1Iii1 = xbmc . translatePath ( os . path . join ( __profile__ , 'watchedlist_%s.txt' % stype ) )
-  oOO = ii1iIi1iIiI1i ( stype )
-  if 53 - 53: I1Ii111 * IiII . Oo0Ooo - Ii1I % Ii1I * i11iIiiIii
-  with open ( I1Iii1 , 'w' ) as iiI11Iii :
-   ii = urllib . urlencode ( in_params )
-   ii = ii . encode ( 'utf-8' ) + '\n'
-   iiI11Iii . write ( ii )
-   if 79 - 79: o0oOOo0O0Ooo - I11i + o0oOOo0O0Ooo . oO0o
-   ii1III11 = 0
-   for I1iiIIIi11 in oOO :
-    Ii1I11ii1i = dict ( urlparse . parse_qsl ( I1iiIIIi11 ) )
-    if in_params . get ( 'code' ) != Ii1I11ii1i . get ( 'code' ) :
-     iiI11Iii . write ( I1iiIIIi11 )
-     ii1III11 += 1
-     if ii1III11 >= 50 : break
- except :
-  None
-  if 89 - 89: iII111i . O0 / I1ii11iIi11i % OoOoOO00 . Oo0Ooo
-  if 50 - 50: II111iiii + I1ii11iIi11i . i1IIi % o0oOOo0O0Ooo
-  if 5 - 5: OoOoOO00 / OoooooooOO + IiII * I1Ii111 - OoO0O00 % I1IiiI
-  if 42 - 42: O0 / o0oOOo0O0Ooo + OoooooooOO * ooOoO0o % ooOoO0o
-def i1iIi ( args ) :
- I1iI1iIi111i = args . get ( 'stype' )
- if 21 - 21: oO0o / I1ii11iIi11i + Ii1I + OoooooooOO
- if I1iI1iIi111i == '-' :
-  for O0ooO0Oo00o in OOo :
-   Oo0O = O0ooO0Oo00o . get ( 'title' )
-   if 91 - 91: i11iIiiIii / i1IIi + iII111i + ooOoO0o * i11iIiiIii
-   IioOOo0 = { 'mode' : O0ooO0Oo00o . get ( 'mode' )
- , 'stype' : O0ooO0Oo00o . get ( 'stype' )
+ if 16 - 16: iII111i + OoOoOO00
+ if 66 - 66: iII111i / oO0o * OoooooooOO + OoooooooOO % I11i
+ if 49 - 49: oO0o - i11iIiiIii . I1Ii111 * Ii1I % iII111i + i1IIi
+ if 71 - 71: o0oOOo0O0Ooo
+def IIIIiIiIi1 ( args ) :
+ if 2 - 2: iII111i % iIii1I11I1II1 * iIii1I11I1II1 . o0oOOo0O0Ooo / iII111i
+ i1 . SaveCredential ( oo0 ( ) )
+ if 27 - 27: OoO0O00 + ooOoO0o - i1IIi
+ O0oO000O0O = args . get ( 'orderby' )
+ I11iI = int ( args . get ( 'page' ) )
+ if 69 - 69: IiII - O0 % I1ii11iIi11i + i11iIiiIii . OoOoOO00 / OoO0O00
+ OoOoo00Ooo00 , O0O0OOOOoo = i1 . GetMovieList ( O0oO000O0O , I11iI , premiumyn = III1ii1iII ( ) )
+ if 57 - 57: I1Ii111
+ for I11Iiii1I in OoOoo00Ooo00 :
+  OoO0O00IIiII = I11Iiii1I . get ( 'title' )
+  oOOoo00O00o = I11Iiii1I . get ( 'thumbnail' )
+  O0O00Oo = I11Iiii1I . get ( 'synopsis' )
+  if 90 - 90: iIii1I11I1II1 % ooOoO0o
+  O0O0ooOOO = { }
+  O0O0ooOOO [ 'plot' ] = '%s\n\n%s' % ( OoO0O00IIiII , O0O00Oo )
+  if 73 - 73: O0 * iII111i + Ii1I + ooOoO0o
+  OO0OoO0o00 = { 'mode' : 'MOVIE'
+ , 'mediacode' : I11Iiii1I . get ( 'moviecode' )
+ , 'stype' : 'movie'
+ , 'title' : OoO0O00IIiII
+ , 'thumbnail' : oOOoo00O00o
  }
-   if 66 - 66: iIii1I11I1II1 % i1IIi - O0 + I11i * I1Ii111 . IiII
-   Oo000o ( Oo0O , sublabel = '' , img = '' , infoLabels = None , isFolder = True , params = IioOOo0 )
-  if len ( OOo ) > 0 : xbmcplugin . endOfDirectory ( oO0o0OOOO )
-  if 52 - 52: ooOoO0o + O0 . iII111i . I1ii11iIi11i . OoO0O00
- else :
-  oo000 = ii1iIi1iIiI1i ( I1iI1iIi111i )
-  if 32 - 32: i1IIi . Ii1I
-  for oOOOooo in oo000 :
-   I1i1iiiII1i = dict ( urlparse . parse_qsl ( oOOOooo ) )
-   if 100 - 100: OoO0O00
-   Oo0O = I1i1iiiII1i . get ( 'title' )
-   OO = I1i1iiiII1i . get ( 'img' )
-   if 46 - 46: OoOoOO00 / iIii1I11I1II1 % iII111i . iIii1I11I1II1 * iII111i
-   oOO00O = { }
-   oOO00O [ 'plot' ] = Oo0O
-   if 38 - 38: I1ii11iIi11i - iII111i / O0 . I1Ii111
-   if I1iI1iIi111i == 'vod' :
-    IioOOo0 = { 'mode' : 'EPISODE'
- , 'programcode' : I1i1iiiII1i . get ( 'code' )
+  if 40 - 40: II111iiii . OoOoOO00 * I1Ii111 + OOooOOo + OOooOOo
+  o00OO00OoO ( OoO0O00IIiII , sublabel = '' , img = oOOoo00O00o , infoLabels = O0O0ooOOO , isFolder = False , params = OO0OoO0o00 )
+  if 9 - 9: I11i % OoooooooOO . oO0o % I11i
+ if O0O0OOOOoo :
+  if 32 - 32: i11iIiiIii
+  OO0OoO0o00 [ 'mode' ] = 'MOVIE_GROUP'
+  OO0OoO0o00 [ 'orderby' ] = O0oO000O0O
+  OO0OoO0o00 [ 'page' ] = str ( I11iI + 1 )
+  OoO0O00IIiII = '[B]%s >>[/B]' % '다음 페이지'
+  oOo0O = str ( I11iI + 1 )
+  o00OO00OoO ( OoO0O00IIiII , sublabel = oOo0O , img = '' , infoLabels = None , isFolder = True , params = OO0OoO0o00 )
+  if 31 - 31: iIii1I11I1II1 / OoO0O00 / I1ii11iIi11i
+ if len ( OoOoo00Ooo00 ) > 0 : xbmcplugin . endOfDirectory ( OOO , cacheToDisc = False )
+ if 41 - 41: Oo0Ooo
+ if 10 - 10: Oo0Ooo / Oo0Ooo / I1Ii111 . I1Ii111
+ if 98 - 98: Oo0Ooo / I1IiiI . O0 + OoO0O00
+ if 43 - 43: II111iiii . oO0o / I1ii11iIi11i
+def i1iI1 ( args ) :
+ for o0O in Oooo0000 :
+  OoO0O00IIiII = o0O . get ( 'title' )
+  if 33 - 33: IiII % iIii1I11I1II1 * I1IiiI
+  OO0OoO0o00 = { 'mode' : o0O . get ( 'mode' )
+ , 'stype' : o0O . get ( 'stype' )
  , 'page' : '1'
  }
-    OOoO = True
-   else :
-    IioOOo0 = { 'mode' : 'MOVIE'
- , 'mediacode' : I1i1iiiII1i . get ( 'code' )
+  if 95 - 95: ooOoO0o / ooOoO0o
+  o00OO00OoO ( OoO0O00IIiII , sublabel = '' , img = '' , infoLabels = None , isFolder = True , params = OO0OoO0o00 )
+ if len ( Oooo0000 ) > 0 : xbmcplugin . endOfDirectory ( OOO )
+ if 30 - 30: I1ii11iIi11i + Oo0Ooo / Oo0Ooo % I1ii11iIi11i . I1ii11iIi11i
+ if 55 - 55: ooOoO0o - I11i + II111iiii + iII111i % Ii1I
+ if 41 - 41: i1IIi - I11i - Ii1I
+ if 8 - 8: OoO0O00 + I1Ii111 - o0oOOo0O0Ooo % Oo0Ooo % o0oOOo0O0Ooo * oO0o
+def IIIi11I11 ( args ) :
+ if 44 - 44: II111iiii
+ i1 . SaveCredential ( oo0 ( ) )
+ if 52 - 52: I1ii11iIi11i - Oo0Ooo + I1ii11iIi11i % o0oOOo0O0Ooo
+ iI1 = __addon__ . getSetting ( 'id' )
+ I11iI = int ( args . get ( 'page' ) )
+ O0oo00o0O = args . get ( 'stype' )
+ if 12 - 12: I1IiiI . i1IIi + OoOoOO00 + OOooOOo + I1IiiI / iII111i
+ if 'search_key' in args :
+  I1i1iiiI1 = args . get ( 'search_key' )
+ else :
+  I1i1iiiI1 = oOoO ( __language__ ( 30003 ) . encode ( 'utf-8' ) )
+  if not I1i1iiiI1 : return
+  if 24 - 24: oO0o / i11iIiiIii + oO0o
+ I1i11i , O0O0OOOOoo = i1 . GetSearchList ( I1i1iiiI1 , iI1 , I11iI , O0oo00o0O , premiumyn = III1ii1iII ( ) )
+ if len ( I1i11i ) == 0 : return
+ if 11 - 11: I1IiiI / II111iiii + o0oOOo0O0Ooo * I1ii11iIi11i - I1ii11iIi11i - I1IiiI
+ for O0oOooooo0O in I1i11i :
+  OoO0O00IIiII = O0oOooooo0O . get ( 'title' )
+  oOOoo00O00o = O0oOooooo0O . get ( 'thumbnail' )
+  O0O00Oo = O0oOooooo0O . get ( 'synopsis' )
+  iiI1I1 = O0oOooooo0O . get ( 'program' )
+  if 56 - 56: I1IiiI . O0 + Oo0Ooo
+  O0O0ooOOO = { }
+  O0O0ooOOO [ 'plot' ] = '%s\n\n%s' % ( OoO0O00IIiII , O0O00Oo )
+  if 1 - 1: iII111i
+  if O0oo00o0O == 'vod' :
+   OO0OoO0o00 = { 'mode' : 'EPISODE'
+ , 'programcode' : O0oOooooo0O . get ( 'program' )
+ , 'page' : '1'
+ }
+   Ii = True
+  else :
+   OO0OoO0o00 = { 'mode' : 'MOVIE'
+ , 'mediacode' : O0oOooooo0O . get ( 'movie' )
  , 'stype' : 'movie'
- , 'title' : Oo0O
- , 'thumbnail' : OO
+ , 'title' : OoO0O00IIiII
+ , 'thumbnail' : oOOoo00O00o
  }
-    OOoO = False
-    if 45 - 45: I1Ii111
-   Oo000o ( Oo0O , sublabel = '' , img = OO , infoLabels = oOO00O , isFolder = OOoO , params = IioOOo0 )
-   if 83 - 83: OoOoOO00 . OoooooooOO
-  oOO00O = { 'plot' : '시청목록을 삭제합니다.' }
-  Oo0O = '*** 시청목록 삭제 ***'
-  IioOOo0 = { 'mode' : 'MYVIEW_REMOVE'
- , 'stype' : I1iI1iIi111i
+   Ii = False
+   if 97 - 97: OOooOOo + iII111i + O0 + i11iIiiIii
+  o00OO00OoO ( OoO0O00IIiII , sublabel = '' , img = oOOoo00O00o , infoLabels = O0O0ooOOO , isFolder = Ii , params = OO0OoO0o00 )
+  if 77 - 77: o0oOOo0O0Ooo / OoooooooOO
+ if O0O0OOOOoo :
+  if 46 - 46: o0oOOo0O0Ooo % iIii1I11I1II1 . iII111i % iII111i + i11iIiiIii
+  OO0OoO0o00 [ 'mode' ] = 'SEARCH'
+  OO0OoO0o00 [ 'search_key' ] = I1i1iiiI1
+  OO0OoO0o00 [ 'page' ] = str ( I11iI + 1 )
+  OoO0O00IIiII = '[B]%s >>[/B]' % '다음 페이지'
+  oOo0O = str ( I11iI + 1 )
+  o00OO00OoO ( OoO0O00IIiII , sublabel = oOo0O , img = '' , infoLabels = None , isFolder = True , params = OO0OoO0o00 )
+  if 72 - 72: iIii1I11I1II1 * Ii1I % ooOoO0o / OoO0O00
+ if len ( I1i11i ) > 0 : xbmcplugin . endOfDirectory ( OOO )
+ if 35 - 35: ooOoO0o + i1IIi % I1ii11iIi11i % I11i + oO0o
+ if 17 - 17: i1IIi
+ if 21 - 21: Oo0Ooo
+ if 29 - 29: I11i / II111iiii / ooOoO0o * OOooOOo
+def I111i1i1111 ( stype ) :
+ try :
+  IIII1 = xbmc . translatePath ( os . path . join ( __profile__ , 'watchedlist_%s.txt' % stype ) )
+  with open ( IIII1 , 'w' ) as I1I1i :
+   I1I1i . write ( '' )
+ except :
+  None
+  if 1 - 1: I11i % OOooOOo + O0 + i1IIi - OoO0O00
+  if 22 - 22: I1IiiI % I1ii11iIi11i
+  if 57 - 57: OOooOOo + O0 . Ii1I
+  if 46 - 46: IiII
+def ii1iIi1iIiI1i ( args ) :
+ O0oo00o0O = args . get ( 'stype' )
+ if 40 - 40: i1IIi % OOooOOo
+ OoOooOOOO = xbmcgui . Dialog ( )
+ iiIi1I1iIIi = OoOooOOOO . yesno ( __name__ , __language__ ( 30201 ) . encode ( 'utf8' ) , __language__ ( 30202 ) . encode ( 'utf8' ) )
+ if iiIi1I1iIIi == False : sys . exit ( )
+ if 71 - 71: OoOoOO00
+ I111i1i1111 ( O0oo00o0O )
+ if 14 - 14: i11iIiiIii % OOooOOo
+ xbmc . executebuiltin ( "Container.Refresh" )
+ if 82 - 82: iIii1I11I1II1 + Oo0Ooo . iIii1I11I1II1 % IiII / Ii1I . Ii1I
+ if 14 - 14: o0oOOo0O0Ooo . OOooOOo . I11i + OoooooooOO - OOooOOo + IiII
+ if 9 - 9: Ii1I
+ if 59 - 59: I1IiiI * II111iiii . O0
+def O000OoOO0 ( stype ) :
+ try :
+  IIII1 = xbmc . translatePath ( os . path . join ( __profile__ , 'watchedlist_%s.txt' % stype ) )
+  with open ( IIII1 , 'r' ) as I1I1i :
+   i1IiIII111i1 = I1I1i . readlines ( )
+ except :
+  i1IiIII111i1 = [ ]
+  if 57 - 57: Ii1I % Ii1I * i11iIiiIii
+ return i1IiIII111i1
+ if 7 - 7: O0 . Ii1I
+ if 51 - 51: OoO0O00 - O0 % oO0o - II111iiii
+ if 31 - 31: iII111i / Oo0Ooo - iII111i - OOooOOo
+ if 7 - 7: iII111i % O0 . OoOoOO00 + I1IiiI - I11i
+def o0o0O00oo0 ( stype , in_params ) :
+ try :
+  IIII1 = xbmc . translatePath ( os . path . join ( __profile__ , 'watchedlist_%s.txt' % stype ) )
+  Ii1ii1IiIII = O000OoOO0 ( stype )
+  if 57 - 57: iIii1I11I1II1 / I11i - i1IIi
+  with open ( IIII1 , 'w' ) as I1I1i :
+   ooOOo00O00Oo = urllib . urlencode ( in_params )
+   ooOOo00O00Oo = ooOOo00O00Oo . encode ( 'utf-8' ) + '\n'
+   I1I1i . write ( ooOOo00O00Oo )
+   if 42 - 42: O0 / o0oOOo0O0Ooo + OoooooooOO * ooOoO0o % ooOoO0o
+   i1iIi = 0
+   for IIIII in Ii1ii1IiIII :
+    o0ooOoO000oO = dict ( urlparse . parse_qsl ( IIIII ) )
+    if in_params . get ( 'code' ) != o0ooOoO000oO . get ( 'code' ) :
+     I1I1i . write ( IIIII )
+     i1iIi += 1
+     if i1iIi >= 50 : break
+ except :
+  None
+  if 85 - 85: o0oOOo0O0Ooo . OoOoOO00 / ooOoO0o . O0 % I1Ii111
+  if 90 - 90: Oo0Ooo % O0 * iIii1I11I1II1 . iII111i
+  if 8 - 8: ooOoO0o + II111iiii / iII111i / I11i
+  if 74 - 74: O0 / i1IIi
+def OoO ( args ) :
+ O0oo00o0O = args . get ( 'stype' )
+ if 41 - 41: i1IIi * II111iiii / OoooooooOO . OOooOOo
+ if O0oo00o0O == '-' :
+  for o0O in OOo :
+   OoO0O00IIiII = o0O . get ( 'title' )
+   if 83 - 83: iII111i . O0 / Oo0Ooo / OOooOOo - II111iiii
+   OO0OoO0o00 = { 'mode' : o0O . get ( 'mode' )
+ , 'stype' : o0O . get ( 'stype' )
  }
-  if 58 - 58: i11iIiiIii + OoooooooOO % OoooooooOO / IiII / i11iIiiIii
-  Oo000o ( Oo0O , sublabel = '' , img = '' , infoLabels = oOO00O , isFolder = False , params = IioOOo0 )
-  if 62 - 62: OoO0O00 / I1ii11iIi11i
-  xbmcplugin . endOfDirectory ( oO0o0OOOO , cacheToDisc = False )
-  if 7 - 7: OoooooooOO . IiII
-  if 53 - 53: Ii1I % Ii1I * o0oOOo0O0Ooo + OoOoOO00
-  if 92 - 92: OoooooooOO + i1IIi / Ii1I * O0
-  if 100 - 100: ooOoO0o % iIii1I11I1II1 * II111iiii - iII111i
-  if 92 - 92: ooOoO0o
-def II11iI111i1 ( args ) :
- if 95 - 95: OoooooooOO - IiII * I1IiiI + OoOoOO00
- oooo0O0 . SaveCredential ( I1II1III11iii ( ) )
- if 10 - 10: o0oOOo0O0Ooo / i11iIiiIii
- o00 = args . get ( 'mediacode' )
- I1iI1iIi111i = args . get ( 'stype' )
- oO = I1111I1iII11 ( I1iI1iIi111i )
- if 92 - 92: IiII * Oo0Ooo * Oo0Ooo * I1IiiI . iIii1I11I1II1
- I1Ii1111iIi , I11o0oO00oO0o0o0 = oooo0O0 . GetBroadURL ( o00 , oO , I1iI1iIi111i )
- if 17 - 17: I11i . IiII - II111iiii + O0 / iIii1I11I1II1 / i11iIiiIii
- i1iIIi1 ( 'qt, stype, url : %s - %s - %s' % ( str ( oO ) , I1iI1iIi111i , I1Ii1111iIi ) )
- if 39 - 39: IiII * Oo0Ooo + iIii1I11I1II1 - IiII + OOooOOo
- if I1Ii1111iIi == '' :
+   if 100 - 100: OoO0O00
+   o00OO00OoO ( OoO0O00IIiII , sublabel = '' , img = '' , infoLabels = None , isFolder = True , params = OO0OoO0o00 )
+  if len ( OOo ) > 0 : xbmcplugin . endOfDirectory ( OOO )
+  if 46 - 46: OoOoOO00 / iIii1I11I1II1 % iII111i . iIii1I11I1II1 * iII111i
+ else :
+  IIi1ii1Ii = O000OoOO0 ( O0oo00o0O )
+  if 91 - 91: i11iIiiIii / OoooooooOO + iII111i - i11iIiiIii + OOooOOo
+  for ii1i in IIi1ii1Ii :
+   oOOoo = dict ( urlparse . parse_qsl ( ii1i ) )
+   if 14 - 14: o0oOOo0O0Ooo * oO0o
+   OoO0O00IIiII = oOOoo . get ( 'title' )
+   oOOoo00O00o = oOOoo . get ( 'img' )
+   if 81 - 81: Ii1I * o0oOOo0O0Ooo + I1Ii111 + Oo0Ooo - OoooooooOO
+   O0O0ooOOO = { }
+   O0O0ooOOO [ 'plot' ] = OoO0O00IIiII
+   if 32 - 32: Ii1I * O0
+   if O0oo00o0O == 'vod' :
+    OO0OoO0o00 = { 'mode' : 'EPISODE'
+ , 'programcode' : oOOoo . get ( 'code' )
+ , 'page' : '1'
+ }
+    Ii = True
+   else :
+    OO0OoO0o00 = { 'mode' : 'MOVIE'
+ , 'mediacode' : oOOoo . get ( 'code' )
+ , 'stype' : 'movie'
+ , 'title' : OoO0O00IIiII
+ , 'thumbnail' : oOOoo00O00o
+ }
+    Ii = False
+    if 100 - 100: ooOoO0o % iIii1I11I1II1 * II111iiii - iII111i
+   o00OO00OoO ( OoO0O00IIiII , sublabel = '' , img = oOOoo00O00o , infoLabels = O0O0ooOOO , isFolder = Ii , params = OO0OoO0o00 )
+   if 92 - 92: ooOoO0o
+  O0O0ooOOO = { 'plot' : '시청목록을 삭제합니다.' }
+  OoO0O00IIiII = '*** 시청목록 삭제 ***'
+  OO0OoO0o00 = { 'mode' : 'MYVIEW_REMOVE'
+ , 'stype' : O0oo00o0O
+ }
+  if 22 - 22: Oo0Ooo % iII111i * I1ii11iIi11i / OOooOOo % i11iIiiIii * I11i
+  o00OO00OoO ( OoO0O00IIiII , sublabel = '' , img = '' , infoLabels = O0O0ooOOO , isFolder = False , params = OO0OoO0o00 )
+  if 95 - 95: OoooooooOO - IiII * I1IiiI + OoOoOO00
+  xbmcplugin . endOfDirectory ( OOO , cacheToDisc = False )
+  if 10 - 10: o0oOOo0O0Ooo / i11iIiiIii
+  if 92 - 92: I11i . I1Ii111
+  if 85 - 85: I1ii11iIi11i . I1Ii111
+  if 78 - 78: ooOoO0o * I1Ii111 + iIii1I11I1II1 + iIii1I11I1II1 / I1Ii111 . Ii1I
+  if 97 - 97: ooOoO0o / I1Ii111 % i1IIi % I1ii11iIi11i
+def ii111I11iI ( args ) :
+ if 93 - 93: I1ii11iIi11i / iIii1I11I1II1 * i1IIi % OoooooooOO * O0 * I11i
+ i1 . SaveCredential ( oo0 ( ) )
+ if 64 - 64: II111iiii + O0 / iIii1I11I1II1 / Oo0Ooo . ooOoO0o % IiII
+ iiI1I1ii = args . get ( 'mediacode' )
+ O0oo00o0O = args . get ( 'stype' )
+ o0ooO = I1III ( O0oo00o0O )
+ if 74 - 74: O0 * oO0o - i11iIiiIii + I1Ii111
+ Iii , I1iiiiI1iI = i1 . GetBroadURL ( iiI1I1ii , o0ooO , O0oo00o0O )
+ if 43 - 43: oO0o - OoooooooOO
+ i1iIIi1 ( 'qt, stype, url : %s - %s - %s' % ( str ( o0ooO ) , O0oo00o0O , Iii ) )
+ if 3 - 3: O0 / iII111i
+ if Iii == '' :
   iIiiI1 ( __language__ ( 30303 ) . encode ( 'utf8' ) )
   return
-  if 69 - 69: O0
-  if 85 - 85: ooOoO0o / O0
-  if 18 - 18: o0oOOo0O0Ooo % O0 * I1ii11iIi11i
- o0Iii = I1Ii1111iIi . find ( 'Policy=' )
- if o0Iii != - 1 :
-  I1iiiiI1iI = I1Ii1111iIi . split ( '?' ) [ 0 ]
-  if 43 - 43: oO0o - OoooooooOO
-  ii1iI = dict ( urlparse . parse_qsl ( urlparse . urlsplit ( I1Ii1111iIi ) . query ) )
-  ii1iI = urllib . urlencode ( ii1iI )
-  ii1iI = ii1iI . replace ( '&' , ';' )
-  ii1iI = ii1iI . replace ( 'Policy' , 'CloudFront-Policy' )
-  ii1iI = ii1iI . replace ( 'Signature' , 'CloudFront-Signature' )
-  ii1iI = ii1iI . replace ( 'Key-Pair-Id' , 'CloudFront-Key-Pair-Id' )
-  if 49 - 49: o0oOOo0O0Ooo . IiII / OoO0O00 + II111iiii
-  ii11i = '%s|Cookie=%s' % ( I1iiiiI1iI , ii1iI )
+  if 31 - 31: OOooOOo + o0oOOo0O0Ooo . OoooooooOO
+  if 89 - 89: II111iiii + i1IIi + II111iiii
+  if 7 - 7: O0 % o0oOOo0O0Ooo + I1ii11iIi11i * iII111i - iII111i
+ II1Ii11I111I = Iii . find ( 'Policy=' )
+ if II1Ii11I111I != - 1 :
+  I111 = Iii . split ( '?' ) [ 0 ]
+  if 13 - 13: OoO0O00 * oO0o * iII111i
+  IiIIiiI11III = dict ( urlparse . parse_qsl ( urlparse . urlsplit ( Iii ) . query ) )
+  IiIIiiI11III = urllib . urlencode ( IiIIiiI11III )
+  IiIIiiI11III = IiIIiiI11III . replace ( '&' , ';' )
+  IiIIiiI11III = IiIIiiI11III . replace ( 'Policy' , 'CloudFront-Policy' )
+  IiIIiiI11III = IiIIiiI11III . replace ( 'Signature' , 'CloudFront-Signature' )
+  IiIIiiI11III = IiIIiiI11III . replace ( 'Key-Pair-Id' , 'CloudFront-Key-Pair-Id' )
+  if 42 - 42: I1ii11iIi11i
+  OOooOOOOOOooo = '%s|Cookie=%s' % ( I111 , IiIIiiI11III )
  else :
-  ii11i = I1Ii1111iIi
-  if 35 - 35: I1ii11iIi11i * iII111i - OoO0O00 % o0oOOo0O0Ooo
-  if 87 - 87: OoOoOO00 * I1Ii111 . I11i
- i1iIIi1 ( ii11i , False )
- if 51 - 51: OOooOOo % iIii1I11I1II1 - OoooooooOO % ooOoO0o * iIii1I11I1II1 % OoO0O00
- if 99 - 99: oO0o * II111iiii * I1Ii111
- if 92 - 92: Oo0Ooo
- if 40 - 40: OoOoOO00 / IiII
- OOOoO000 = xbmcgui . ListItem ( path = ii11i )
- if 57 - 57: II111iiii
- if 54 - 54: Oo0Ooo + oO0o + i11iIiiIii
- if I11o0oO00oO0o0o0 != '' :
-  i1i1ii111 = I11o0oO00oO0o0o0
-  IiI1i = 'https://cj.drmkeyserver.com/widevine_license'
-  if 87 - 87: ooOoO0o
-  IIIii = 'mpd'
-  O00OooOo00o = 'com.widevine.alpha'
-  if 20 - 20: i1IIi * I1Ii111 + II111iiii % o0oOOo0O0Ooo % oO0o
-  iIi1II = inputstreamhelper . Helper ( IIIii , drm = O00OooOo00o )
-  if 17 - 17: OOooOOo % Oo0Ooo / I1ii11iIi11i . IiII * OOooOOo - II111iiii
-  if iIi1II . check_inputstream ( ) :
-   if 41 - 41: Ii1I
-   oOOoo0o0OOOO = { 'origin' : 'https://www.tving.com'
+  OOooOOOOOOooo = Iii
+  if 61 - 61: IiII . i1IIi / I1Ii111 % i11iIiiIii * iII111i
+  if 31 - 31: OOooOOo + O0
+ i1iIIi1 ( OOooOOOOOOooo , False )
+ if 87 - 87: ooOoO0o
+ if 45 - 45: OoO0O00 / OoooooooOO - iII111i / Ii1I % IiII
+ if 83 - 83: I1IiiI . iIii1I11I1II1 - IiII * i11iIiiIii
+ if 20 - 20: i1IIi * I1Ii111 + II111iiii % o0oOOo0O0Ooo % oO0o
+ iIi1II = xbmcgui . ListItem ( path = OOooOOOOOOooo )
+ if 17 - 17: OOooOOo % Oo0Ooo / I1ii11iIi11i . IiII * OOooOOo - II111iiii
+ if 41 - 41: Ii1I
+ if I1iiiiI1iI != '' :
+  oOOoo0o0OOOO = I1iiiiI1iI
+  i1IiII1III = 'https://cj.drmkeyserver.com/widevine_license'
+  if 30 - 30: O0
+  Oo00oo0000OO = 'mpd'
+  O0oOOo0Oo = 'com.widevine.alpha'
+  if 73 - 73: Ii1I - I1Ii111
+  O00oooo00o0O = inputstreamhelper . Helper ( Oo00oo0000OO , drm = O0oOOo0Oo )
+  if 9 - 9: I1IiiI % I1IiiI % II111iiii
+  if O00oooo00o0O . check_inputstream ( ) :
+   if 30 - 30: IiII + I1Ii111 - IiII . IiII - II111iiii + O0
+   oOO0 = { 'origin' : 'https://www.tving.com'
  , 'pragma' : 'no-cache'
- , 'referer' : 'https://www.tving.com/live/player/%s' % o00
+ , 'referer' : 'https://www.tving.com/live/player/%s' % iiI1I1ii
  , 'sec-fetch-mode' : 'cors'
  , 'sec-fetch-site' : 'same-site'
    , 'user-agent' : O0o
- , 'AcquireLicenseAssertion' : i1i1ii111
+ , 'AcquireLicenseAssertion' : oOOoo0o0OOOO
  , 'Host' : 'cj.drmkeyserver.com'
  }
-   i1IiII1III = IiI1i + '|' + urllib . urlencode ( oOOoo0o0OOOO ) + '|R{SSM}|'
-   if 30 - 30: O0
-   OOOoO000 . setProperty ( 'inputstreamaddon' , iIi1II . inputstream_addon )
-   if 99 - 99: II111iiii * IiII % iIii1I11I1II1 / Ii1I
-   OOOoO000 . setProperty ( 'inputstream.adaptive.manifest_type' , IIIii )
-   OOOoO000 . setProperty ( 'inputstream.adaptive.license_type' , O00OooOo00o )
-   if 90 - 90: oO0o % OOooOOo - OOooOOo % II111iiii * OoO0O00
-   OOOoO000 . setProperty ( 'inputstream.adaptive.license_key' , i1IiII1III )
-   if 39 - 39: I11i
-   if 58 - 58: i1IIi % o0oOOo0O0Ooo
-   if 79 - 79: o0oOOo0O0Ooo % iII111i * OoooooooOO * iIii1I11I1II1 . iII111i / Ii1I
-   if 19 - 19: O0 + I11i + Ii1I / II111iiii / II111iiii
-   if 86 - 86: I1ii11iIi11i * O0 * IiII
- xbmcplugin . setResolvedUrl ( oO0o0OOOO , True , OOOoO000 )
- if 51 - 51: II111iiii + IiII . i1IIi . I1ii11iIi11i + OoOoOO00 * I1IiiI
+   i1IIiIii1i = i1IiII1III + '|' + urllib . urlencode ( oOO0 ) + '|R{SSM}|'
+   if 77 - 77: O0 % oO0o - OoO0O00
+   iIi1II . setProperty ( 'inputstreamaddon' , O00oooo00o0O . inputstream_addon )
+   if 97 - 97: OoooooooOO . i11iIiiIii + I1IiiI
+   iIi1II . setProperty ( 'inputstream.adaptive.manifest_type' , Oo00oo0000OO )
+   iIi1II . setProperty ( 'inputstream.adaptive.license_type' , O0oOOo0Oo )
+   if 84 - 84: oO0o % i1IIi
+   iIi1II . setProperty ( 'inputstream.adaptive.license_key' , i1IIiIii1i )
+   if 70 - 70: Oo0Ooo . OoooooooOO - iII111i
+   if 30 - 30: I1ii11iIi11i % I1IiiI
+   if 89 - 89: I1Ii111 + OoooooooOO + I1Ii111 * i1IIi + iIii1I11I1II1 % I11i
+   if 59 - 59: OOooOOo + i11iIiiIii
+   if 88 - 88: i11iIiiIii - ooOoO0o
+ xbmcplugin . setResolvedUrl ( OOO , True , iIi1II )
+ if 67 - 67: OOooOOo . Oo0Ooo + OoOoOO00 - OoooooooOO
  if args . get ( 'mode' ) in [ 'VOD' , 'MOVIE' ] and args . get ( 'title' ) :
-  IioOOo0 = { 'code' : args . get ( 'programcode' ) if args . get ( 'mode' ) == 'VOD' else args . get ( 'mediacode' )
+  OO0OoO0o00 = { 'code' : args . get ( 'programcode' ) if args . get ( 'mode' ) == 'VOD' else args . get ( 'mediacode' )
  , 'img' : args . get ( 'thumbnail' )
  , 'title' : args . get ( 'title' )
  }
-  o0 ( args . get ( 'stype' ) , IioOOo0 )
-  if 72 - 72: oO0o + oO0o / II111iiii . OoooooooOO % Ii1I
-  if 49 - 49: oO0o . OoO0O00 - Oo0Ooo * OoooooooOO . Oo0Ooo
-  if 2 - 2: OoooooooOO % OOooOOo
-  if 63 - 63: I1IiiI % iIii1I11I1II1
-  if 39 - 39: iII111i / II111iiii / I1ii11iIi11i % I1IiiI
-  if 89 - 89: I1Ii111 + OoooooooOO + I1Ii111 * i1IIi + iIii1I11I1II1 % I11i
-oooo0O0 = oo0Ooo0 ( )
-oO0o0OOOO = int ( sys . argv [ 1 ] )
-if 59 - 59: OOooOOo + i11iIiiIii
-IioOOo0 = Ii11iII1 ( )
-oo0OOo0O = IioOOo0 . get ( 'mode' , None )
-if 39 - 39: OoooooooOO + oO0o % OOooOOo / OOooOOo
-I1111IIi ( )
-if 27 - 27: iII111i . I11i . iIii1I11I1II1 . iIii1I11I1II1
-if oo0OOo0O is None :
- if 20 - 20: o0oOOo0O0Ooo / i1IIi
- Ii ( )
- if 71 - 71: OoOoOO00 . i1IIi
- if 94 - 94: OOooOOo . I1Ii111
-elif oo0OOo0O in [ 'LIVE_GROUP' , 'VOD_GROUP' ] :
- i1 ( IioOOo0 )
- if 84 - 84: O0 . I11i - II111iiii . ooOoO0o / II111iiii
-elif oo0OOo0O == 'CHANNEL' :
- i1Ii1Ii ( IioOOo0 )
- if 47 - 47: OoooooooOO
-elif oo0OOo0O in [ 'LIVE' , 'VOD' , 'MOVIE' ] :
- II11iI111i1 ( IioOOo0 )
+  o0o0O00oo0 ( args . get ( 'stype' ) , OO0OoO0o00 )
+  if 70 - 70: OOooOOo / II111iiii - iIii1I11I1II1 - iII111i
+  if 11 - 11: iIii1I11I1II1 . OoooooooOO . II111iiii / i1IIi - I11i
+  if 30 - 30: OoOoOO00
+  if 21 - 21: i11iIiiIii / I1Ii111 % OOooOOo * O0 . I11i - iIii1I11I1II1
+  if 26 - 26: II111iiii * OoOoOO00
+  if 10 - 10: II111iiii . iII111i
+i1 = oo0Ooo0 ( )
+OOO = int ( sys . argv [ 1 ] )
+if 32 - 32: Ii1I . IiII . OoooooooOO - OoO0O00 + oO0o
+OO0OoO0o00 = oOO ( )
+ooO0oO00O0o = OO0OoO0o00 . get ( 'mode' , None )
+if 70 - 70: I1Ii111
+IIIIiiII111 ( )
+if 16 - 16: iII111i - OoooooooOO % Oo0Ooo
+if ooO0oO00O0o is None :
+ if 36 - 36: OOooOOo
+ O0ii1ii1ii ( )
+ if 84 - 84: I1Ii111 . OoO0O00 . II111iiii . I11i / Ii1I % I1ii11iIi11i
+ if 57 - 57: I1IiiI % I11i - OOooOOo . I1IiiI / Oo0Ooo % iII111i
+elif ooO0oO00O0o in [ 'LIVE_GROUP' , 'VOD_GROUP' ] :
+ I1Ii ( OO0OoO0o00 )
+ if 56 - 56: oO0o . iII111i . IiII * OoOoOO00 . ooOoO0o / O0
+elif ooO0oO00O0o == 'CHANNEL' :
+ oOO0O00oO0Ooo ( OO0OoO0o00 )
+ if 23 - 23: i1IIi + iII111i + IiII + OoO0O00
+elif ooO0oO00O0o in [ 'LIVE' , 'VOD' , 'MOVIE' ] :
+ ii111I11iI ( OO0OoO0o00 )
  xbmc . sleep ( 200 )
- if 4 - 4: I1IiiI % I11i
-elif oo0OOo0O == 'PROGRAM' :
- oO00oooOOoOo0 ( IioOOo0 )
- if 10 - 10: IiII . OoooooooOO - OoO0O00 + IiII - O0
-elif oo0OOo0O == 'EPISODE' :
- OoOOo0OOoO ( IioOOo0 )
- if 82 - 82: ooOoO0o + II111iiii
-elif oo0OOo0O == 'MOVIE_GROUP' :
- o0O ( IioOOo0 )
- if 39 - 39: oO0o % iIii1I11I1II1 % O0 % OoooooooOO * I1ii11iIi11i + iII111i
-elif oo0OOo0O == 'SEARCH_GROUP' :
- OooooOoooO ( IioOOo0 )
- if 68 - 68: Oo0Ooo + i11iIiiIii
-elif oo0OOo0O == 'SEARCH' :
- o0oo0 ( IioOOo0 )
- if 69 - 69: iIii1I11I1II1 * iIii1I11I1II1 * i11iIiiIii + I1IiiI / OOooOOo % Ii1I
-elif oo0OOo0O == 'WATCH' :
- i1iIi ( IioOOo0 )
- if 58 - 58: OOooOOo * o0oOOo0O0Ooo + O0 % OOooOOo
-elif oo0OOo0O == 'MYVIEW_REMOVE' :
- ooo000o000 ( IioOOo0 )
- if 25 - 25: Oo0Ooo % I1ii11iIi11i * ooOoO0o
-elif oo0OOo0O == 'ORDER_BY' :
- i1OOO0000oO ( IioOOo0 )
- if 6 - 6: iII111i . IiII * OoOoOO00 . i1IIi
+ if 12 - 12: iIii1I11I1II1 - I1ii11iIi11i + i11iIiiIii
+elif ooO0oO00O0o == 'PROGRAM' :
+ Oo ( OO0OoO0o00 )
+ if 10 - 10: I1IiiI - i1IIi - ooOoO0o % Oo0Ooo
+elif ooO0oO00O0o == 'EPISODE' :
+ ooooooo00o ( OO0OoO0o00 )
+ if 6 - 6: I1ii11iIi11i + oO0o
+elif ooO0oO00O0o == 'MOVIE_GROUP' :
+ IIIIiIiIi1 ( OO0OoO0o00 )
+ if 48 - 48: iIii1I11I1II1 % i1IIi % iII111i + ooOoO0o
+elif ooO0oO00O0o == 'SEARCH_GROUP' :
+ i1iI1 ( OO0OoO0o00 )
+ if 30 - 30: i11iIiiIii % iIii1I11I1II1 . I11i % iIii1I11I1II1
+elif ooO0oO00O0o == 'SEARCH' :
+ IIIi11I11 ( OO0OoO0o00 )
+ if 62 - 62: Oo0Ooo * OoOoOO00
+elif ooO0oO00O0o == 'WATCH' :
+ OoO ( OO0OoO0o00 )
+ if 79 - 79: OoO0O00 . iII111i * Ii1I - OOooOOo + ooOoO0o
+elif ooO0oO00O0o == 'MYVIEW_REMOVE' :
+ ii1iIi1iIiI1i ( OO0OoO0o00 )
+ if 14 - 14: i11iIiiIii - iII111i * OoOoOO00
+elif ooO0oO00O0o == 'ORDER_BY' :
+ I11IIIi ( OO0OoO0o00 )
+ if 51 - 51: I1ii11iIi11i / iIii1I11I1II1 % oO0o + o0oOOo0O0Ooo * ooOoO0o + I1Ii111
 else :
  None
- if 98 - 98: i1IIi
- if 65 - 65: OoOoOO00 / OoO0O00 % IiII
- if 45 - 45: OoOoOO00
+ if 77 - 77: ooOoO0o * OoOoOO00
+ if 14 - 14: I11i % I11i / IiII
+ if 72 - 72: i1IIi - II111iiii - OOooOOo + OOooOOo * o0oOOo0O0Ooo * OOooOOo
 # dd678faae9ac167bc83abf78e5cb2f3f0688d3a3
