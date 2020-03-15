@@ -16,6 +16,10 @@
 	<string id="10311">CJONE</string>
 	<string id="10312">TVING</string>
 	<!-- Warning -->
+	<string id="10341">Thumbnail</string>
+	<string id="10342">landscape</string>
+	<string id="10343">portrait</string>
+	<!-- Warning -->
 	<string id="30101">Set your ID or Password.</string>
 	<string id="30102">Are you change settings now?</string>
 	<string id="30103">Login Failed!</string>

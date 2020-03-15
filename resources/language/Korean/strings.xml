@@ -16,6 +16,10 @@
 	<string id="10311">CJONE</string>
 	<string id="10312">TVING</string>
 	<!-- Warning -->
+	<string id="10341">썸네일 방향</string>
+	<string id="10342">가로</string>
+	<string id="10343">세로</string>
+	<!-- Warning -->
 	<string id="30101">아이디 또는 패스워드를 설정하세요.</string>
 	<string id="30102">지금 설정하겠습니까?</string>
 	<string id="30103">로그인 실패!</string>
