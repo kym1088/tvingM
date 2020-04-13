@@ -8,5 +8,4 @@
 	<setting id="thumbnail_way" type="enum" label="10341" lvalues="10342|10343" default="1" />	
 	<setting type="sep"/>
 	<setting id="premium_movieyn" type="bool" label="10203" default="false" />
-	<setting id="movie_quality" type="enum" label="10204" lvalues="10301|10302|10303|10304" default="1"/>
 </settings>

@@ -2,10 +2,20 @@
  티빙 애드온 for Kodi18
 
 - DRM 실시간 채널(ocn, super action 등)이 설정한 화질보다 낮게 재생될때
-  InputStream Adaptive 애드온 설정에서 Ignore Display Resolution 활성화
+  InputStream Adaptive 애드온 설정에서
+  Ignore Display Resolution 활성화
+  또는 스트림수동 선택후 재생화면 옵션에서 수동변경해볼것
 - (필수) Tving 홈페이지 기기등록 화면에서 PC로 등록된 기기 필요 (1회)
 
+
 # 변경사항
+## Version 1.5.0 (2020.04.13)
+- 애드온 버전 통일
+- 내부폴더명 변경 (이전버전 애드온은 삭제후 설치하세요)
+- info 정보 추가
+- 화질관련 옵션 정리
+
+
 ## Version 1.3.0 (2020.04.08)
 - 성능개선을 위한 일부구조 변경
 

@@ -448,56 +448,82 @@ class oo0Ooo0 ( object ) :
    if 68 - 68: iII111i - I1IiiI / I1Ii111 / I11i
    if 12 - 12: Ii1I + i11iIiiIii * iIii1I11I1II1 / I1ii11iIi11i . I11i
    for oO0o0 in ii :
-    Iii1iI = IiI1iiiIii = I1III1111iIi = I1i111I = ''
-    Ooo = Oo0oo0O0o00O = ''
-    if 48 - 48: ooOoO0o / I1Ii111 . iIii1I11I1II1 * OoOoOO00 * oO0o / i1IIi
-    OOOOoOOo0O0 = oO0o0 [ 'live_code' ]
-    Iii1iI = oO0o0 [ 'schedule' ] [ 'channel' ] [ 'name' ] [ 'ko' ]
-    if 92 - 92: I1ii11iIi11i + iIii1I11I1II1 / II111iiii
+    Iii1iI = { }
+    Iii1iI [ 'mediatype' ] = 'video'
+    if 29 - 29: I1IiiI % OOooOOo - I1IiiI / OOooOOo . i1IIi
+    i11III1111iIi = I1i111I = Ooo = Oo0oo0O0o00O = ''
+    I1i11 = IiIi1I1 = ''
+    if 39 - 39: II111iiii + OoOoOO00 - ooOoO0o . OoOoOO00
+    OOOooo = oO0o0 [ 'live_code' ]
+    i11III1111iIi = oO0o0 [ 'schedule' ] [ 'channel' ] [ 'name' ] [ 'ko' ]
+    if 94 - 94: OoooooooOO + Oo0Ooo / OoOoOO00 * OOooOOo
     if oO0o0 [ 'schedule' ] [ 'episode' ] != None :
-     IiI1iiiIii = oO0o0 [ 'schedule' ] [ 'program' ] [ 'name' ] [ 'ko' ]
-     IiI1iiiIii = IiI1iiiIii + ', ' + str ( oO0o0 [ 'schedule' ] [ 'episode' ] [ 'frequency' ] ) + '회'
+     I1i111I = oO0o0 [ 'schedule' ] [ 'program' ] [ 'name' ] [ 'ko' ]
+     I1i111I = I1i111I + ', ' + str ( oO0o0 [ 'schedule' ] [ 'episode' ] [ 'frequency' ] ) + '회'
      if oO0o0 [ 'schedule' ] [ 'episode' ] [ 'image' ] != [ ] :
-      I1III1111iIi = oO0o0 [ 'schedule' ] [ 'episode' ] [ 'image' ] [ 0 ] [ 'url' ]
-     I1i111I = oO0o0 [ 'schedule' ] [ 'episode' ] [ 'synopsis' ] [ 'ko' ]
+      Ooo = oO0o0 [ 'schedule' ] [ 'episode' ] [ 'image' ] [ 0 ] [ 'url' ]
+     Oo0oo0O0o00O = oO0o0 [ 'schedule' ] [ 'episode' ] [ 'synopsis' ] [ 'ko' ]
     else :
-     IiI1iiiIii = oO0o0 [ 'schedule' ] [ 'program' ] [ 'name' ] [ 'ko' ]
+     I1i111I = oO0o0 [ 'schedule' ] [ 'program' ] [ 'name' ] [ 'ko' ]
      if oO0o0 [ 'schedule' ] [ 'program' ] [ 'image' ] != [ ] :
-      I1III1111iIi = oO0o0 [ 'schedule' ] [ 'program' ] [ 'image' ] [ 0 ] [ 'url' ]
-     I1i111I = oO0o0 [ 'schedule' ] [ 'program' ] [ 'synopsis' ] [ 'ko' ]
-     if 94 - 94: OoooooooOO + Oo0Ooo / OoOoOO00 * OOooOOo
-    if I1III1111iIi == '' :
-     I1III1111iIi = oO0o0 [ 'schedule' ] [ 'channel' ] [ 'image' ] [ 0 ] [ 'url' ]
-    if I1III1111iIi != '' : I1III1111iIi = self . IMG_DOMAIN + I1III1111iIi
-    if 69 - 69: ooOoO0o % oO0o
-    Ooo = str ( oO0o0 [ 'schedule' ] [ 'broadcast_start_time' ] ) [ 8 : 12 ]
-    Oo0oo0O0o00O = str ( oO0o0 [ 'schedule' ] [ 'broadcast_end_time' ] ) [ 8 : 12 ]
-    if 50 - 50: OoooooooOO % I11i
-    IIii1111 = { 'channel' : unicode ( Iii1iI )
- , 'title' : unicode ( IiI1iiiIii )
- , 'mediacode' : OOOOoOOo0O0
- , 'thumbnail' : I1III1111iIi
- , 'synopsis' : unicode ( I1i111I )
- , 'channelepg' : ' [%s:%s ~ %s:%s]' % ( Ooo [ 0 : 2 ] , Ooo [ 2 : ] , Oo0oo0O0o00O [ 0 : 2 ] , Oo0oo0O0o00O [ 2 : ] )
+      Ooo = oO0o0 [ 'schedule' ] [ 'program' ] [ 'image' ] [ 0 ] [ 'url' ]
+     Oo0oo0O0o00O = oO0o0 [ 'schedule' ] [ 'program' ] [ 'synopsis' ] [ 'ko' ]
+     if 69 - 69: ooOoO0o % oO0o
+     if 50 - 50: OoooooooOO % I11i
+    Iii1iI [ 'title' ] = oO0o0 [ 'schedule' ] [ 'program' ] [ 'name' ] [ 'ko' ]
+    Iii1iI [ 'studio' ] = i11III1111iIi
+    try :
+     IIii1111 = [ ]
+     for I1iI in oO0o0 . get ( 'schedule' ) . get ( 'program' ) . get ( 'actor' ) : IIii1111 . append ( I1iI )
+     if IIii1111 [ 0 ] != '' and IIii1111 [ 0 ] != u'없음' : Iii1iI [ 'cast' ] = IIii1111
+    except :
+     None
+    try :
+     IIIIiIiIi1 = [ ]
+     if oO0o0 . get ( 'schedule' ) . get ( 'program' ) . get ( 'category1_name' ) . get ( 'ko' ) != '' :
+      IIIIiIiIi1 . append ( oO0o0 [ 'schedule' ] [ 'program' ] [ 'category1_name' ] [ 'ko' ] )
+     if oO0o0 . get ( 'schedule' ) . get ( 'program' ) . get ( 'category2_name' ) . get ( 'ko' ) != '' :
+      IIIIiIiIi1 . append ( oO0o0 [ 'schedule' ] [ 'program' ] [ 'category2_name' ] [ 'ko' ] )
+     if IIIIiIiIi1 [ 0 ] != '' : Iii1iI [ 'genre' ] = IIIIiIiIi1
+    except :
+     None
+     if 2 - 2: iII111i % iIii1I11I1II1 * iIii1I11I1II1 . o0oOOo0O0Ooo / iII111i
+     if 27 - 27: OoO0O00 + ooOoO0o - i1IIi
+     if 69 - 69: IiII - O0 % I1ii11iIi11i + i11iIiiIii . OoOoOO00 / OoO0O00
+     if 79 - 79: O0 * i11iIiiIii - IiII / IiII
+    if Ooo == '' :
+     Ooo = oO0o0 [ 'schedule' ] [ 'channel' ] [ 'image' ] [ 0 ] [ 'url' ]
+    if Ooo != '' : Ooo = self . IMG_DOMAIN + Ooo
+    if 48 - 48: O0
+    I1i11 = str ( oO0o0 [ 'schedule' ] [ 'broadcast_start_time' ] ) [ 8 : 12 ]
+    IiIi1I1 = str ( oO0o0 [ 'schedule' ] [ 'broadcast_end_time' ] ) [ 8 : 12 ]
+    if 93 - 93: i11iIiiIii - I1IiiI * I1ii11iIi11i * I11i % O0 + OoooooooOO
+    I1i1i1 = { 'channel' : unicode ( i11III1111iIi )
+ , 'title' : unicode ( I1i111I )
+ , 'mediacode' : OOOooo
+ , 'thumbnail' : Ooo
+ , 'synopsis' : unicode ( Oo0oo0O0o00O )
+ , 'channelepg' : ' [%s:%s ~ %s:%s]' % ( I1i11 [ 0 : 2 ] , I1i11 [ 2 : ] , IiIi1I1 [ 0 : 2 ] , IiIi1I1 [ 2 : ] )
+ , 'info' : Iii1iI
  }
-    if 42 - 42: I11i / o0oOOo0O0Ooo . oO0o + oO0o % OoOoOO00 + i11iIiiIii
-    o0oooOO00 . append ( IIii1111 )
-    if 56 - 56: o0oOOo0O0Ooo
+    if 73 - 73: O0 * iII111i + Ii1I + ooOoO0o
+    o0oooOO00 . append ( I1i1i1 )
+    if 40 - 40: II111iiii . OoOoOO00 * I1Ii111 + OOooOOo + OOooOOo
    if OOOO0oo0 [ 'body' ] [ 'has_more' ] == 'Y' : iiIiii1IIIII = True
-   if 28 - 28: iII111i . iII111i % iIii1I11I1II1 * iIii1I11I1II1 . o0oOOo0O0Ooo / iII111i
+   if 9 - 9: I11i % OoooooooOO . oO0o % I11i
   except Exception as II111iiiI1Ii :
    print ( II111iiiI1Ii )
-   if 27 - 27: OoO0O00 + ooOoO0o - i1IIi
+   if 32 - 32: i11iIiiIii
   return o0oooOO00 , iiIiii1IIIII
-  if 69 - 69: IiII - O0 % I1ii11iIi11i + i11iIiiIii . OoOoOO00 / OoO0O00
-  if 79 - 79: O0 * i11iIiiIii - IiII / IiII
+  if 31 - 31: iIii1I11I1II1 / OoO0O00 / I1ii11iIi11i
+  if 41 - 41: Oo0Ooo
  def GetProgramList ( self , stype , orderby , page_int , landyn = False ) :
   o0oooOO00 = [ ]
   iiIiii1IIIII = False
-  if 48 - 48: O0
+  if 10 - 10: Oo0Ooo / Oo0Ooo / I1Ii111 . I1Ii111
   try :
    O0O = '/v2/media/episodes'
-   if 93 - 93: i11iIiiIii - I1IiiI * I1ii11iIi11i * I11i % O0 + OoooooooOO
+   if 98 - 98: Oo0Ooo / I1IiiI . O0 + OoO0O00
    OOooooO0Oo = self . GetDefaultParams ( )
    OO = { 'pageNo' : str ( page_int )
  , 'pageSize' : str ( self . VOD_LIMIT )
@@ -512,67 +538,100 @@ class oo0Ooo0 ( object ) :
    , '_' : str ( self . GetNoCache ( 2 ) )
  }
    if stype != 'all' : OO [ 'multiCategoryCode' ] = stype
-   if 25 - 25: IiII + Ii1I / ooOoO0o . o0oOOo0O0Ooo % O0 * OoO0O00
+   if 43 - 43: II111iiii . oO0o / I1ii11iIi11i
    Ii = self . makeurl ( self . API_DOMAIN , O0O , OO , OOooooO0Oo )
-   if 84 - 84: ooOoO0o % Ii1I + i11iIiiIii
+   if 20 - 20: I1IiiI
    II1Iiii1111i = [
  ( 'User-Agent' , i1I1ii1II1iII )
  , ( 'Cookie' , '%s=%s; %s=%s' % ( '_tving_token' , self . TVING_TOKEN , 'POC_USERINFO' , self . POC_USERINFO ) )
  ]
-   if 28 - 28: Oo0Ooo + OoO0O00 * OOooOOo % oO0o . I11i % O0
+   if 95 - 95: iII111i - I1IiiI
    i1IIi11111i = self . SESSION . Request ( Ii , params = None , cookie = II1Iiii1111i )
    OOOO0oo0 = json . loads ( i1IIi11111i )
-   if 16 - 16: I11i - iIii1I11I1II1 / I1IiiI . II111iiii + iIii1I11I1II1
+   if 34 - 34: ooOoO0o * I1IiiI . i1IIi * ooOoO0o / ooOoO0o
    if not ( 'result' in OOOO0oo0 [ 'body' ] ) : return o0oooOO00 , iiIiii1IIIII
    ii = OOOO0oo0 [ 'body' ] [ 'result' ]
-   if 19 - 19: OoO0O00 - Oo0Ooo . O0
-   if 60 - 60: II111iiii + Oo0Ooo
+   if 30 - 30: I1ii11iIi11i + Oo0Ooo / Oo0Ooo % I1ii11iIi11i . I1ii11iIi11i
+   if 55 - 55: ooOoO0o - I11i + II111iiii + iII111i % Ii1I
    for oO0o0 in ii :
-    I1IiIiiIiIII = oO0o0 [ 'program' ] [ 'code' ]
-    IiI1iiiIii = oO0o0 [ 'program' ] [ 'name' ] [ 'ko' ]
-    if 8 - 8: oO0o / I1ii11iIi11i
-    I1III1111iIi = self . IMG_DOMAIN + oO0o0 [ 'program' ] [ 'image' ] [ 0 ] [ 'url' ]
-    i1iI1 = 'CAIP0200' if landyn else 'CAIP0900'
-    if 33 - 33: IiII % iIii1I11I1II1 * I1IiiI
-    for o00o0 in oO0o0 [ 'program' ] [ 'image' ] :
-     if o00o0 [ 'code' ] == i1iI1 :
-      I1III1111iIi = self . IMG_DOMAIN + o00o0 [ 'url' ]
+    iiI11i1II = oO0o0 [ 'program' ] [ 'code' ]
+    I1i111I = oO0o0 [ 'program' ] [ 'name' ] [ 'ko' ]
+    if 51 - 51: o0oOOo0O0Ooo % Oo0Ooo % o0oOOo0O0Ooo * O0 - OOooOOo % Oo0Ooo
+    Ooo = self . IMG_DOMAIN + oO0o0 [ 'program' ] [ 'image' ] [ 0 ] [ 'url' ]
+    o0O00OooOOOOO = 'CAIP0200' if landyn else 'CAIP0900'
+    if 40 - 40: o0oOOo0O0Ooo - i11iIiiIii + OoO0O00 . iIii1I11I1II1 * I1Ii111
+    for iiIII1i in oO0o0 [ 'program' ] [ 'image' ] :
+     if iiIII1i [ 'code' ] == o0O00OooOOOOO :
+      Ooo = self . IMG_DOMAIN + iiIII1i [ 'url' ]
       break
-      if 50 - 50: Oo0Ooo / Oo0Ooo % I1ii11iIi11i . I1ii11iIi11i
-    I1i111I = oO0o0 [ 'program' ] [ 'synopsis' ] [ 'ko' ]
-    O0O0Oo00 = oO0o0 [ 'program' ] [ 'channel_code' ]
-    if 80 - 80: oO0o + OOooOOo / I11i
-    IIii1111 = { 'program' : I1IiIiiIiIII
- , 'title' : unicode ( IiI1iiiIii )
- , 'thumbnail' : I1III1111iIi
- , 'synopsis' : unicode ( I1i111I )
- , 'channel' : O0O0Oo00
+      if 31 - 31: iII111i . OOooOOo - ooOoO0o . OoooooooOO / OoooooooOO
+    Oo0oo0O0o00O = oO0o0 [ 'program' ] [ 'synopsis' ] [ 'ko' ]
+    OOoO = oO0o0 [ 'program' ] [ 'channel_code' ]
+    if 44 - 44: oO0o
+    Iii1iI = { }
+    Iii1iI [ 'title' ] = unicode ( I1i111I )
+    Iii1iI [ 'mediatype' ] = 'episode'
+    try :
+     IIii1111 = [ ]
+     for I1iI in oO0o0 . get ( 'program' ) . get ( 'actor' ) : IIii1111 . append ( I1iI )
+     if IIii1111 [ 0 ] != '' and IIii1111 [ 0 ] != '-' : Iii1iI [ 'cast' ] = IIii1111
+    except :
+     None
+    try :
+     I1i11i = [ ]
+     for IiIi in oO0o0 . get ( 'program' ) . get ( 'director' ) : I1i11i . append ( IiIi )
+     if I1i11i [ 0 ] != '' and I1i11i [ 0 ] != '-' : Iii1iI [ 'director' ] = I1i11i
+    except :
+     None
+     if 87 - 87: I1ii11iIi11i - I1ii11iIi11i - iII111i + oO0o
+    IIIIiIiIi1 = [ ]
+    if oO0o0 . get ( 'program' ) . get ( 'category1_name' ) . get ( 'ko' ) != '' :
+     IIIIiIiIi1 . append ( oO0o0 [ 'program' ] [ 'category1_name' ] [ 'ko' ] )
+    if oO0o0 . get ( 'program' ) . get ( 'category2_name' ) . get ( 'ko' ) != '' :
+     IIIIiIiIi1 . append ( oO0o0 [ 'program' ] [ 'category2_name' ] [ 'ko' ] )
+    if IIIIiIiIi1 [ 0 ] != '' : Iii1iI [ 'genre' ] = IIIIiIiIi1
+    if 82 - 82: oO0o / iIii1I11I1II1 . I1IiiI . OOooOOo / o0oOOo0O0Ooo
+    try :
+     if oO0o0 . get ( 'program' ) . get ( 'product_year' ) : Iii1iI [ 'year' ] = oO0o0 [ 'program' ] [ 'product_year' ]
+     if 'broad_dt' in oO0o0 . get ( 'program' ) :
+      iiI1I1 = oO0o0 . get ( 'program' ) . get ( 'broad_dt' )
+      Iii1iI [ 'aired' ] = '%s-%s-%s' % ( iiI1I1 [ : 4 ] , iiI1I1 [ 4 : 6 ] , iiI1I1 [ 6 : ] )
+    except :
+     None
+     if 56 - 56: I1IiiI . O0 + Oo0Ooo
+     if 1 - 1: iII111i
+    I1i1i1 = { 'program' : iiI11i1II
+ , 'title' : unicode ( I1i111I )
+ , 'thumbnail' : Ooo
+ , 'synopsis' : unicode ( Oo0oo0O0o00O )
+ , 'channel' : OOoO
+ , 'info' : Iii1iI
  }
-    if 79 - 79: ooOoO0o
-    o0oooOO00 . append ( IIii1111 )
-    if 48 - 48: I1Ii111 - o0oOOo0O0Ooo % Ii1I
-    if 36 - 36: oO0o - Ii1I . Oo0Ooo - i11iIiiIii - OOooOOo * Oo0Ooo
+    if 97 - 97: OOooOOo + iII111i + O0 + i11iIiiIii
+    o0oooOO00 . append ( I1i1i1 )
+    if 77 - 77: o0oOOo0O0Ooo / OoooooooOO
+    if 46 - 46: o0oOOo0O0Ooo % iIii1I11I1II1 . iII111i % iII111i + i11iIiiIii
    if OOOO0oo0 [ 'body' ] [ 'has_more' ] == 'Y' : iiIiii1IIIII = True
-   if 76 - 76: i11iIiiIii + o0oOOo0O0Ooo / I1ii11iIi11i - OoO0O00 - Ii1I + I1ii11iIi11i
+   if 72 - 72: iIii1I11I1II1 * Ii1I % ooOoO0o / OoO0O00
   except Exception as II111iiiI1Ii :
    print ( II111iiiI1Ii )
-   if 51 - 51: iIii1I11I1II1 . ooOoO0o + iIii1I11I1II1
+   if 35 - 35: ooOoO0o + i1IIi % I1ii11iIi11i % I11i + oO0o
   return o0oooOO00 , iiIiii1IIIII
-  if 95 - 95: I1IiiI
-  if 46 - 46: OoOoOO00 + OoO0O00
+  if 17 - 17: i1IIi
+  if 21 - 21: Oo0Ooo
  def GetEpisodoList ( self , program_code , page_int , orderby = 'desc' ) :
   o0oooOO00 = [ ]
   iiIiii1IIIII = False
-  if 70 - 70: iII111i / iIii1I11I1II1
-  if 85 - 85: OoooooooOO % i1IIi * OoooooooOO / I1ii11iIi11i
-  if 96 - 96: OoooooooOO + oO0o
-  if 44 - 44: oO0o
-  if 20 - 20: I11i + Ii1I / O0 % iIii1I11I1II1
-  if 88 - 88: OoOoOO00 / II111iiii
-  if 87 - 87: I1ii11iIi11i - I1ii11iIi11i - iII111i + oO0o
+  if 29 - 29: I11i / II111iiii / ooOoO0o * OOooOOo
+  if 10 - 10: I1Ii111 % IiII * IiII . I11i / Ii1I % OOooOOo
+  if 49 - 49: OoO0O00 / oO0o + O0 * o0oOOo0O0Ooo
+  if 28 - 28: ooOoO0o + i11iIiiIii / I11i % OoOoOO00 % Oo0Ooo - O0
+  if 54 - 54: i1IIi + II111iiii
+  if 83 - 83: I1ii11iIi11i - I1IiiI + OOooOOo
+  if 5 - 5: Ii1I
   try :
    O0O = '/v2/media/frequency/program/' + program_code
-   if 82 - 82: oO0o / iIii1I11I1II1 . I1IiiI . OOooOOo / o0oOOo0O0Ooo
+   if 46 - 46: IiII
    OOooooO0Oo = self . GetDefaultParams ( )
    OO = { 'pageNo' : '1'
    , 'pageSize' : '10'
@@ -583,72 +642,90 @@ class oo0Ooo0 ( object ) :
 
    , '_' : str ( self . GetNoCache ( 2 ) )
  }
-   if 42 - 42: Oo0Ooo
+   if 45 - 45: ooOoO0o
    Ii = self . makeurl ( self . API_DOMAIN , O0O , OO , OOooooO0Oo )
-   if 19 - 19: oO0o % I1ii11iIi11i * iIii1I11I1II1 + I1IiiI
+   if 21 - 21: oO0o . I1Ii111 . OOooOOo / Oo0Ooo / I1Ii111
    II1Iiii1111i = [
  ( 'User-Agent' , i1I1ii1II1iII )
  , ( 'Cookie' , '%s=%s; %s=%s' % ( '_tving_token' , self . TVING_TOKEN , 'POC_USERINFO' , self . POC_USERINFO ) )
  ]
-   if 46 - 46: Oo0Ooo
+   if 17 - 17: OOooOOo / OOooOOo / I11i
    i1IIi11111i = self . SESSION . Request ( Ii , params = None , cookie = II1Iiii1111i )
    OOOO0oo0 = json . loads ( i1IIi11111i )
-   if 1 - 1: iII111i
+   if 1 - 1: i1IIi . i11iIiiIii % OOooOOo
    if not ( 'result' in OOOO0oo0 [ 'body' ] ) : return o0oooOO00 , iiIiii1IIIII
    ii = OOOO0oo0 [ 'body' ] [ 'result' ]
-   if 97 - 97: OOooOOo + iII111i + O0 + i11iIiiIii
-   oOoO0 = int ( OOOO0oo0 [ 'body' ] [ 'total_count' ] )
-   if 77 - 77: iIii1I11I1II1 . iII111i % iII111i + i11iIiiIii
-   Oo00o0OO0O00o = int ( oOoO0 // ( self . EPISODE_LIMIT + 1 ) ) + 1
+   if 82 - 82: iIii1I11I1II1 + Oo0Ooo . iIii1I11I1II1 % IiII / Ii1I . Ii1I
+   IIi = int ( OOOO0oo0 [ 'body' ] [ 'total_count' ] )
+   if 66 - 66: oO0o % OoO0O00 . OOooOOo
+   o0O = int ( IIi // ( self . EPISODE_LIMIT + 1 ) ) + 1
    if orderby == 'desc' :
-    O0Oooo = ( oOoO0 - 1 ) - ( ( page_int - 1 ) * self . EPISODE_LIMIT )
+    IiiiI = ( IIi - 1 ) - ( ( page_int - 1 ) * self . EPISODE_LIMIT )
    else :
-    O0Oooo = ( page_int - 1 ) * self . EPISODE_LIMIT
-    if 21 - 21: Oo0Ooo
-   for I1ii1 in range ( self . EPISODE_LIMIT ) :
+    IiiiI = ( page_int - 1 ) * self . EPISODE_LIMIT
+    if 61 - 61: OOooOOo % OOooOOo * o0oOOo0O0Ooo / o0oOOo0O0Ooo
+   for o0 in range ( self . EPISODE_LIMIT ) :
     if orderby == 'desc' :
-     O00 = O0Oooo - I1ii1
-     if O00 < 0 : break
+     oOO = IiiiI - o0
+     if oOO < 0 : break
     else :
-     O00 = O0Oooo + I1ii1
-     if O00 >= oOoO0 : break
-     if 92 - 92: iIii1I11I1II1 * i1IIi * iII111i % OOooOOo % I1ii11iIi11i + II111iiii
-    i1iIi1I1i = ii [ O00 ] [ 'episode' ] [ 'code' ]
-    IiI1iiiIii = ii [ O00 ] [ 'vod_name' ] [ 'ko' ]
-    if ii [ O00 ] [ 'episode' ] [ 'image' ] != [ ] :
-     I1III1111iIi = self . IMG_DOMAIN + ii [ O00 ] [ 'episode' ] [ 'image' ] [ 0 ] [ 'url' ]
+     oOO = IiiiI + o0
+     if oOO >= IIi : break
+     if 53 - 53: I1Ii111 * IiII . Oo0Ooo - Ii1I % Ii1I * i11iIiiIii
+    iiOOO0oOOoo = ii [ oOO ] [ 'episode' ] [ 'code' ]
+    I1i111I = ii [ oOO ] [ 'vod_name' ] [ 'ko' ]
+    oOOO00o000o = ''
+    try :
+     iiI1I1 = str ( ii [ oOO ] [ 'episode' ] [ 'broadcast_date' ] )
+     oOOO00o000o = '%s-%s-%s' % ( iiI1I1 [ : 4 ] , iiI1I1 [ 4 : 6 ] , iiI1I1 [ 6 : ] )
+    except :
+     None
+    if ii [ oOO ] [ 'episode' ] [ 'image' ] != [ ] :
+     Ooo = self . IMG_DOMAIN + ii [ oOO ] [ 'episode' ] [ 'image' ] [ 0 ] [ 'url' ]
     else :
-     I1III1111iIi = self . IMG_DOMAIN + ii [ O00 ] [ 'program' ] [ 'image' ] [ 0 ] [ 'url' ]
-    I1i111I = ii [ O00 ] [ 'episode' ] [ 'synopsis' ] [ 'ko' ]
-    if 1 - 1: I11i % OOooOOo + O0 + i1IIi - OoO0O00
-    IIii1111 = { 'episode' : i1iIi1I1i
- , 'title' : unicode ( IiI1iiiIii )
- , 'thumbnail' : I1III1111iIi
- , 'synopsis' : unicode ( I1i111I )
+     Ooo = self . IMG_DOMAIN + ii [ oOO ] [ 'program' ] [ 'image' ] [ 0 ] [ 'url' ]
+    Oo0oo0O0o00O = ii [ oOO ] [ 'episode' ] [ 'synopsis' ] [ 'ko' ]
+    if 9 - 9: oO0o + I11i / I11i
+    Iii1iI = { }
+    Iii1iI [ 'mediatype' ] = 'episode'
+    try :
+     Iii1iI [ 'title' ] = unicode ( ii [ oOO ] [ 'program' ] [ 'name' ] [ 'ko' ] )
+     Iii1iI [ 'aired' ] = oOOO00o000o
+     Iii1iI [ 'studio' ] = ii [ oOO ] [ 'channel' ] [ 'name' ] [ 'ko' ]
+     if 'frequency' in ii [ oOO ] [ 'episode' ] : Iii1iI [ 'episode' ] = ii [ oOO ] [ 'episode' ] [ 'frequency' ]
+    except :
+     None
+     if 12 - 12: OoooooooOO % o0oOOo0O0Ooo * I11i % iIii1I11I1II1 / Ii1I
+    I1i1i1 = { 'episode' : iiOOO0oOOoo
+ , 'title' : unicode ( I1i111I )
+ , 'subtitle' : oOOO00o000o
+ , 'thumbnail' : Ooo
+ , 'synopsis' : unicode ( Oo0oo0O0o00O )
+ , 'info' : Iii1iI
  }
-    if 22 - 22: I1IiiI % I1ii11iIi11i
-    o0oooOO00 . append ( IIii1111 )
-    if 57 - 57: OOooOOo + O0 . Ii1I
-   if Oo00o0OO0O00o > page_int : iiIiii1IIIII = True
-   if 46 - 46: IiII
+    if 27 - 27: i11iIiiIii % II111iiii % I11i . O0 - Oo0Ooo + OoOoOO00
+    o0oooOO00 . append ( I1i1i1 )
+    if 57 - 57: iIii1I11I1II1 / I11i - i1IIi
+   if o0O > page_int : iiIiii1IIIII = True
+   if 51 - 51: IiII
   except Exception as II111iiiI1Ii :
    print ( II111iiiI1Ii )
-   if 45 - 45: ooOoO0o
-  return o0oooOO00 , iiIiii1IIIII , Oo00o0OO0O00o
-  if 21 - 21: oO0o . I1Ii111 . OOooOOo / Oo0Ooo / I1Ii111
-  if 17 - 17: OOooOOo / OOooOOo / I11i
+   if 25 - 25: OoooooooOO + IiII * I1ii11iIi11i
+  return o0oooOO00 , iiIiii1IIIII , o0O
+  if 92 - 92: I1IiiI + I11i + O0 / o0oOOo0O0Ooo + I1Ii111
+  if 18 - 18: ooOoO0o * OoOoOO00 . iII111i / I1ii11iIi11i / i11iIiiIii
  def GetMovieList ( self , orderby , page_int , premiumyn = False , landyn = False ) :
   o0oooOO00 = [ ]
   iiIiii1IIIII = False
-  if 1 - 1: i1IIi . i11iIiiIii % OOooOOo
+  if 21 - 21: oO0o / I1ii11iIi11i + Ii1I + OoooooooOO
   if premiumyn == True :
-   OooO0oo = self . MOVIE_LITE + ',' + self . MOVIE_PREMIUM
+   OoOo = self . MOVIE_LITE + ',' + self . MOVIE_PREMIUM
   else :
-   OooO0oo = self . MOVIE_LITE
-   if 89 - 89: Ii1I
+   OoOo = self . MOVIE_LITE
+   if 35 - 35: ooOoO0o * OOooOOo . I11i * o0oOOo0O0Ooo . OoOoOO00 / O0
   try :
    O0O = '/v2/media/movies'
-   if 76 - 76: ooOoO0o
+   if 100 - 100: I1Ii111 . o0oOOo0O0Ooo * Oo0Ooo % O0 * O0
    OOooooO0Oo = self . GetDefaultParams ( )
    OO = { 'pageNo' : str ( page_int )
  , 'pageSize' : str ( self . MOVIE_LIMIT )
@@ -657,140 +734,179 @@ class oo0Ooo0 ( object ) :
  , 'adult' : 'all'
  , 'guest' : 'all'
  , 'scope' : 'all'
- , 'productPackageCode' : OooO0oo
-   # o0oOOo0O0Ooo
+ , 'productPackageCode' : OoOo
+   # iII111i
    , '_' : str ( self . GetNoCache ( 2 ) )
  }
-   if 1 - 1: I11i + OoooooooOO - OOooOOo + IiII
+   if 8 - 8: ooOoO0o + II111iiii / iII111i / I11i
    Ii = self . makeurl ( self . API_DOMAIN , O0O , OO , OOooooO0Oo )
-   if 9 - 9: Ii1I
+   if 74 - 74: O0 / i1IIi
    II1Iiii1111i = [
  ( 'User-Agent' , i1I1ii1II1iII )
  , ( 'Cookie' , '%s=%s; %s=%s' % ( '_tving_token' , self . TVING_TOKEN , 'POC_USERINFO' , self . POC_USERINFO ) )
  ]
-   if 59 - 59: I1IiiI * II111iiii . O0
+   if 78 - 78: OoooooooOO . OoO0O00 + ooOoO0o - i1IIi
    i1IIi11111i = self . SESSION . Request ( Ii , params = None , cookie = II1Iiii1111i )
    OOOO0oo0 = json . loads ( i1IIi11111i )
-   if 56 - 56: Ii1I - iII111i % I1IiiI - o0oOOo0O0Ooo
+   if 31 - 31: OoooooooOO . OOooOOo
    if not ( 'result' in OOOO0oo0 [ 'body' ] ) : return o0oooOO00 , iiIiii1IIIII
    ii = OOOO0oo0 [ 'body' ] [ 'result' ]
-   if 51 - 51: O0 / ooOoO0o * iIii1I11I1II1 + I1ii11iIi11i + o0oOOo0O0Ooo
-   if 98 - 98: iIii1I11I1II1 * I1ii11iIi11i * OOooOOo + ooOoO0o % i11iIiiIii % O0
+   if 83 - 83: iII111i . O0 / Oo0Ooo / OOooOOo - II111iiii
+   if 100 - 100: OoO0O00
    for oO0o0 in ii :
-    i1 = oO0o0 [ 'movie' ] [ 'code' ]
-    IiI1iiiIii = oO0o0 [ 'movie' ] [ 'name' ] [ 'ko' ]
-    I1III1111iIi = self . IMG_DOMAIN + oO0o0 [ 'movie' ] [ 'image' ] [ 0 ] [ 'url' ]
-    i1iI1 = 'CAIM0400' if landyn else 'CAIM2100'
-    if 51 - 51: OoO0O00 - O0 % oO0o - II111iiii
-    for o00o0 in oO0o0 [ 'movie' ] [ 'image' ] :
-     if o00o0 [ 'code' ] == i1iI1 :
-      I1III1111iIi = self . IMG_DOMAIN + o00o0 [ 'url' ]
+    II1i = oO0o0 [ 'movie' ] [ 'code' ]
+    I1i111I = oO0o0 [ 'movie' ] [ 'name' ] [ 'ko' ] . strip ( )
+    I1i111I += u' (%s년)' % ( oO0o0 . get ( 'movie' ) . get ( 'product_year' ) )
+    Ooo = self . IMG_DOMAIN + oO0o0 [ 'movie' ] [ 'image' ] [ 0 ] [ 'url' ]
+    o0O00OooOOOOO = 'CAIM0400' if landyn else 'CAIM2100'
+    if 2 - 2: iIii1I11I1II1 * Oo0Ooo % oO0o - II111iiii - iII111i
+    for iiIII1i in oO0o0 [ 'movie' ] [ 'image' ] :
+     if iiIII1i [ 'code' ] == o0O00OooOOOOO :
+      Ooo = self . IMG_DOMAIN + iiIII1i [ 'url' ]
       break
-      if 31 - 31: iII111i / Oo0Ooo - iII111i - OOooOOo
-    I1i111I = oO0o0 [ 'movie' ] [ 'story' ] [ 'ko' ]
-    if 7 - 7: iII111i % O0 . OoOoOO00 + I1IiiI - I11i
-    IIii1111 = { 'moviecode' : i1
- , 'title' : unicode ( IiI1iiiIii . strip ( ) )
- , 'thumbnail' : I1III1111iIi
- , 'synopsis' : unicode ( I1i111I )
+      if 3 - 3: I1Ii111
+    Oo0oo0O0o00O = oO0o0 [ 'movie' ] [ 'story' ] [ 'ko' ]
+    if 45 - 45: I1Ii111
+    Iii1iI = { }
+    Iii1iI [ 'mediatype' ] = 'movie'
+    Iii1iI [ 'title' ] = unicode ( oO0o0 [ 'movie' ] [ 'name' ] [ 'ko' ] . strip ( ) )
+    Iii1iI [ 'year' ] = oO0o0 . get ( 'movie' ) . get ( 'product_year' )
+    try :
+     IIii1111 = [ ]
+     for I1iI in oO0o0 . get ( 'movie' ) . get ( 'actor' ) : IIii1111 . append ( I1iI )
+     if IIii1111 [ 0 ] != '' : Iii1iI [ 'cast' ] = IIii1111
+    except :
+     None
+    try :
+     I1i11i = [ ]
+     for IiIi in oO0o0 . get ( 'movie' ) . get ( 'director' ) : I1i11i . append ( IiIi )
+     if I1i11i [ 0 ] != '' : Iii1iI [ 'director' ] = I1i11i
+    except :
+     None
+    try :
+     IIIIiIiIi1 = [ ]
+     if oO0o0 . get ( 'movie' ) . get ( 'category1_name' ) . get ( 'ko' ) != '' :
+      IIIIiIiIi1 . append ( oO0o0 [ 'movie' ] [ 'category1_name' ] [ 'ko' ] )
+     if oO0o0 . get ( 'movie' ) . get ( 'category2_name' ) . get ( 'ko' ) != '' :
+      IIIIiIiIi1 . append ( oO0o0 [ 'movie' ] [ 'category2_name' ] [ 'ko' ] )
+     if IIIIiIiIi1 [ 0 ] != '' : Iii1iI [ 'genre' ] = IIIIiIiIi1
+    except :
+     None
+    try :
+     if 'release_date' in oO0o0 . get ( 'movie' ) :
+      iiI1I1 = str ( oO0o0 . get ( 'movie' ) . get ( 'release_date' ) )
+      Iii1iI [ 'aired' ] = '%s-%s-%s' % ( iiI1I1 [ : 4 ] , iiI1I1 [ 4 : 6 ] , iiI1I1 [ 6 : ] )
+    except :
+     None
+    try :
+     if 'duration' in oO0o0 . get ( 'movie' ) : Iii1iI [ 'duration' ] = oO0o0 . get ( 'movie' ) . get ( 'duration' )
+    except :
+     None
+     if 83 - 83: OoOoOO00 . OoooooooOO
+     if 58 - 58: i11iIiiIii + OoooooooOO % OoooooooOO / IiII / i11iIiiIii
+    I1i1i1 = { 'moviecode' : II1i
+ , 'title' : unicode ( I1i111I )
+ , 'thumbnail' : Ooo
+ , 'synopsis' : unicode ( Oo0oo0O0o00O )
+ , 'info' : Iii1iI
  }
-    if 75 - 75: I11i
+    if 62 - 62: OoO0O00 / I1ii11iIi11i
     if premiumyn == True :
-     oO00oo0o00o0o = False
-     for IiIIIIIi in oO0o0 [ 'billing_package_id' ] :
-      if IiIIIIIi == self . MOVIE_LITE :
-       oO00oo0o00o0o = True
+     ii1O000OOO0OOo = False
+     for i1i1I111iIi1 in oO0o0 [ 'billing_package_id' ] :
+      if i1i1I111iIi1 == self . MOVIE_LITE :
+       ii1O000OOO0OOo = True
        break
-     if oO00oo0o00o0o == False :
-      IIii1111 [ 'title' ] = unicode ( IIii1111 [ 'title' ] + ' [Premium]' )
-      if 11 - 11: i1IIi % i11iIiiIii - i1IIi * OoOoOO00
-    o0oooOO00 . append ( IIii1111 )
-    if 39 - 39: I1Ii111
-    if 86 - 86: I11i * I1IiiI + I11i + II111iiii
+     if ii1O000OOO0OOo == False :
+      I1i1i1 [ 'title' ] = unicode ( I1i1i1 [ 'title' ] + ' [Premium]' )
+      if 92 - 92: ooOoO0o
+    o0oooOO00 . append ( I1i1i1 )
+    if 22 - 22: Oo0Ooo % iII111i * I1ii11iIi11i / OOooOOo % i11iIiiIii * I11i
+    if 95 - 95: OoooooooOO - IiII * I1IiiI + OoOoOO00
    if OOOO0oo0 [ 'body' ] [ 'has_more' ] == 'Y' : iiIiii1IIIII = True
-   if 8 - 8: I1Ii111 - iII111i / ooOoO0o
+   if 10 - 10: o0oOOo0O0Ooo / i11iIiiIii
   except Exception as II111iiiI1Ii :
    print ( II111iiiI1Ii )
-   if 96 - 96: OoOoOO00
+   if 92 - 92: I11i . I1Ii111
   return o0oooOO00 , iiIiii1IIIII
-  if 29 - 29: I1ii11iIi11i / i1IIi . I1IiiI - OoOoOO00 - OoOoOO00 - Ii1I
-  if 20 - 20: i1IIi % OoO0O00 . I1IiiI / IiII * i11iIiiIii * OOooOOo
+  if 85 - 85: I1ii11iIi11i . I1Ii111
+  if 78 - 78: ooOoO0o * I1Ii111 + iIii1I11I1II1 + iIii1I11I1II1 / I1Ii111 . Ii1I
  def GetMovieListGenre ( self , genre , page_int , premiumyn = False ) :
   o0oooOO00 = [ ]
   iiIiii1IIIII = False
-  if 85 - 85: o0oOOo0O0Ooo . OoOoOO00 / ooOoO0o . O0 % I1Ii111
+  if 97 - 97: ooOoO0o / I1Ii111 % i1IIi % I1ii11iIi11i
   if premiumyn == True :
-   OooO0oo = self . MOVIE_LITE + ',' + self . MOVIE_PREMIUM
+   OoOo = self . MOVIE_LITE + ',' + self . MOVIE_PREMIUM
   else :
-   OooO0oo = self . MOVIE_LITE
-   if 90 - 90: Oo0Ooo % O0 * iIii1I11I1II1 . iII111i
+   OoOo = self . MOVIE_LITE
+   if 18 - 18: iIii1I11I1II1 % I11i
   try :
    O0O = '/v2/media/movie/curation/' + genre
-   if 8 - 8: ooOoO0o + II111iiii / iII111i / I11i
+   if 95 - 95: ooOoO0o + i11iIiiIii * I1Ii111 - i1IIi * I1Ii111 - iIii1I11I1II1
    OOooooO0Oo = self . GetDefaultParams ( )
    OO = { 'pageNo' : str ( page_int )
  , 'pageSize' : str ( self . MOVIE_LIMIT )
- , 'productPackageCode' : OooO0oo
-   # II111iiii / i1IIi . I1ii11iIi11i % OoooooooOO . OoOoOO00
+ , 'productPackageCode' : OoOo
+   # ooOoO0o / IiII / I11i . IiII - OoO0O00
    , '_' : str ( self . GetNoCache ( 2 ) )
  }
-   if 41 - 41: i1IIi * II111iiii / OoooooooOO . OOooOOo
+   if 27 - 27: II111iiii . iIii1I11I1II1
    Ii = self . makeurl ( self . API_DOMAIN , O0O , OO , OOooooO0Oo )
-   if 83 - 83: iII111i . O0 / Oo0Ooo / OOooOOo - II111iiii
+   if 1 - 1: ooOoO0o % OoOoOO00 * Oo0Ooo
    II1Iiii1111i = [
  ( 'User-Agent' , i1I1ii1II1iII )
  , ( 'Cookie' , '%s=%s; %s=%s' % ( '_tving_token' , self . TVING_TOKEN , 'POC_USERINFO' , self . POC_USERINFO ) )
  ]
-   if 100 - 100: OoO0O00
+   if 55 - 55: OoOoOO00
    i1IIi11111i = self . SESSION . Request ( Ii , params = None , cookie = II1Iiii1111i )
    OOOO0oo0 = json . loads ( i1IIi11111i )
-   if 46 - 46: OoOoOO00 / iIii1I11I1II1 % iII111i . iIii1I11I1II1 * iII111i
+   if 87 - 87: OoooooooOO % iII111i . I1IiiI / ooOoO0o
    if not ( 'movies' in OOOO0oo0 [ 'body' ] ) : return o0oooOO00 , iiIiii1IIIII
    ii = OOOO0oo0 [ 'body' ] [ 'movies' ]
-   if 38 - 38: I1ii11iIi11i - iII111i / O0 . I1Ii111
-   if 45 - 45: I1Ii111
+   if 8 - 8: I11i + o0oOOo0O0Ooo
+   if 90 - 90: I1ii11iIi11i
    for oO0o0 in ii :
-    i1 = oO0o0 [ 'code' ]
-    IiI1iiiIii = oO0o0 [ 'name' ] [ 'ko' ]
-    I1III1111iIi = self . IMG_DOMAIN + oO0o0 [ 'image' ] [ 0 ] [ 'url' ]
-    for o00o0 in oO0o0 [ 'image' ] :
-     if o00o0 [ 'code' ] == 'CAIM2100' :
-      I1III1111iIi = self . IMG_DOMAIN + o00o0 [ 'url' ]
-    I1i111I = oO0o0 [ 'story' ] [ 'ko' ]
-    if 83 - 83: OoOoOO00 . OoooooooOO
-    IIii1111 = { 'moviecode' : i1
- , 'title' : unicode ( IiI1iiiIii . strip ( ) )
- , 'thumbnail' : I1III1111iIi
- , 'synopsis' : unicode ( I1i111I )
+    II1i = oO0o0 [ 'code' ]
+    I1i111I = oO0o0 [ 'name' ] [ 'ko' ]
+    Ooo = self . IMG_DOMAIN + oO0o0 [ 'image' ] [ 0 ] [ 'url' ]
+    for iiIII1i in oO0o0 [ 'image' ] :
+     if iiIII1i [ 'code' ] == 'CAIM2100' :
+      Ooo = self . IMG_DOMAIN + iiIII1i [ 'url' ]
+    Oo0oo0O0o00O = oO0o0 [ 'story' ] [ 'ko' ]
+    if 62 - 62: I1Ii111 . IiII . OoooooooOO
+    I1i1i1 = { 'moviecode' : II1i
+ , 'title' : unicode ( I1i111I . strip ( ) )
+ , 'thumbnail' : Ooo
+ , 'synopsis' : unicode ( Oo0oo0O0o00O )
  }
-    if 58 - 58: i11iIiiIii + OoooooooOO % OoooooooOO / IiII / i11iIiiIii
+    if 11 - 11: OOooOOo / I11i
     if premiumyn == True :
-     oO00oo0o00o0o = False
-     for IiIIIIIi in oO0o0 [ 'billing_package_id' ] :
-      if IiIIIIIi == self . MOVIE_LITE :
-       oO00oo0o00o0o = True
+     ii1O000OOO0OOo = False
+     for i1i1I111iIi1 in oO0o0 [ 'billing_package_id' ] :
+      if i1i1I111iIi1 == self . MOVIE_LITE :
+       ii1O000OOO0OOo = True
        break
-     if oO00oo0o00o0o == False :
-      IIii1111 [ 'title' ] = unicode ( IIii1111 [ 'title' ] + ' [Premium]' )
-      if 62 - 62: OoO0O00 / I1ii11iIi11i
-    o0oooOO00 . append ( IIii1111 )
-    if 7 - 7: OoooooooOO . IiII
-    if 53 - 53: Ii1I % Ii1I * o0oOOo0O0Ooo + OoOoOO00
-    if 92 - 92: OoooooooOO + i1IIi / Ii1I * O0
-    if 100 - 100: ooOoO0o % iIii1I11I1II1 * II111iiii - iII111i
+     if ii1O000OOO0OOo == False :
+      I1i1i1 [ 'title' ] = unicode ( I1i1i1 [ 'title' ] + ' [Premium]' )
+      if 73 - 73: i1IIi / i11iIiiIii
+    o0oooOO00 . append ( I1i1i1 )
+    if 58 - 58: Oo0Ooo . II111iiii + oO0o - i11iIiiIii / II111iiii / O0
+    if 85 - 85: OoOoOO00 + OOooOOo
+    if 10 - 10: IiII / OoO0O00 + OoOoOO00 / i1IIi
+    if 27 - 27: Ii1I
   except Exception as II111iiiI1Ii :
    print ( II111iiiI1Ii )
-   if 92 - 92: ooOoO0o
+   if 67 - 67: I1IiiI
   return o0oooOO00 , iiIiii1IIIII
-  if 22 - 22: Oo0Ooo % iII111i * I1ii11iIi11i / OOooOOo % i11iIiiIii * I11i
-  if 95 - 95: OoooooooOO - IiII * I1IiiI + OoOoOO00
+  if 55 - 55: I1ii11iIi11i - iII111i * o0oOOo0O0Ooo + OoOoOO00 * OoOoOO00 * O0
+  if 91 - 91: I1Ii111 - OOooOOo % iIii1I11I1II1 - OoooooooOO % ooOoO0o
  def GetMovieGenre ( self ) :
   o0oooOO00 = [ ]
   iiIiii1IIIII = False
-  if 10 - 10: o0oOOo0O0Ooo / i11iIiiIii
+  if 98 - 98: OoO0O00 . OoO0O00 * oO0o * II111iiii * I1Ii111
   try :
    O0O = '/v2/media/movie/curations'
-   if 92 - 92: I11i . I1Ii111
+   if 92 - 92: Oo0Ooo
    OOooooO0Oo = self . GetDefaultParams ( )
    OO = { 'pageNo' : '1'
    , 'pageSize' : '10'
@@ -800,45 +916,45 @@ class oo0Ooo0 ( object ) :
 
    , '_' : str ( self . GetNoCache ( 2 ) )
  }
-   if 85 - 85: I1ii11iIi11i . I1Ii111
+   if 40 - 40: OoOoOO00 / IiII
    Ii = self . makeurl ( self . API_DOMAIN , O0O , OO , OOooooO0Oo )
-   if 78 - 78: ooOoO0o * I1Ii111 + iIii1I11I1II1 + iIii1I11I1II1 / I1Ii111 . Ii1I
+   if 79 - 79: OoO0O00 - iIii1I11I1II1 + Ii1I - I1Ii111
    II1Iiii1111i = [
  ( 'User-Agent' , i1I1ii1II1iII )
  , ( 'Cookie' , '%s=%s; %s=%s' % ( '_tving_token' , self . TVING_TOKEN , 'POC_USERINFO' , self . POC_USERINFO ) )
  ]
-   if 97 - 97: ooOoO0o / I1Ii111 % i1IIi % I1ii11iIi11i
+   if 93 - 93: II111iiii . I1IiiI - Oo0Ooo + OoOoOO00
    i1IIi11111i = self . SESSION . Request ( Ii , params = None , cookie = II1Iiii1111i )
    OOOO0oo0 = json . loads ( i1IIi11111i )
-   if 18 - 18: iIii1I11I1II1 % I11i
+   if 61 - 61: II111iiii
    if not ( 'result' in OOOO0oo0 [ 'body' ] ) : return o0oooOO00 , iiIiii1IIIII
    ii = OOOO0oo0 [ 'body' ] [ 'result' ]
-   if 95 - 95: ooOoO0o + i11iIiiIii * I1Ii111 - i1IIi * I1Ii111 - iIii1I11I1II1
-   if 75 - 75: OoooooooOO * IiII
+   if 15 - 15: i11iIiiIii % I1IiiI * I11i / I1Ii111
+   if 90 - 90: iII111i
    for oO0o0 in ii :
-    I1Iiiiiii = oO0o0 [ 'curation_code' ]
-    I1IIIiI1I1ii1 = oO0o0 [ 'curation_name' ]
-    if 30 - 30: O0 * OoooooooOO
-    IIii1111 = { 'curation_code' : I1Iiiiiii
- , 'curation_name' : unicode ( I1IIIiI1I1ii1 )
+    i1i1i1I = oO0o0 [ 'curation_code' ]
+    oOoo000 = oO0o0 [ 'curation_name' ]
+    if 87 - 87: OoooooooOO - o0oOOo0O0Ooo / IiII . i11iIiiIii * OoooooooOO
+    I1i1i1 = { 'curation_code' : i1i1i1I
+ , 'curation_name' : unicode ( oOoo000 )
  }
-    o0oooOO00 . append ( IIii1111 )
-    if 38 - 38: IiII - I1ii11iIi11i . OoOoOO00 - I1Ii111 . OoooooooOO
-    if 89 - 89: iIii1I11I1II1
-    if 21 - 21: I11i % I11i
+    o0oooOO00 . append ( I1i1i1 )
+    if 84 - 84: OoOoOO00 / I11i * iII111i / oO0o - i11iIiiIii . Oo0Ooo
+    if 60 - 60: I1ii11iIi11i * I1IiiI
+    if 17 - 17: OOooOOo % Oo0Ooo / I1ii11iIi11i . IiII * OOooOOo - II111iiii
   except Exception as II111iiiI1Ii :
    print ( II111iiiI1Ii )
-   if 27 - 27: i11iIiiIii / I1ii11iIi11i
+   if 41 - 41: Ii1I
   return o0oooOO00 , iiIiii1IIIII
-  if 84 - 84: Oo0Ooo
-  if 43 - 43: oO0o - OoooooooOO
+  if 77 - 77: I1Ii111
+  if 65 - 65: II111iiii . I1IiiI % oO0o * OoO0O00
  def GetSearchList ( self , search_key , userid , page_int , stype , premiumyn = False , landyn = False ) :
-  ii1iI = [ ]
+  iI11I = [ ]
   iiIiii1IIIII = False
-  if 49 - 49: o0oOOo0O0Ooo . IiII / OoO0O00 + II111iiii
+  if 11 - 11: iII111i - oO0o + II111iiii - iIii1I11I1II1
   try :
    O0O = '/search/getSearch.jsp'
-   if 47 - 47: O0 / Ii1I
+   if 7 - 7: IiII - I11i / II111iiii * Ii1I . iII111i * iII111i
    OOooooO0Oo = self . GetDefaultParams ( )
    OO = { 'kwd' : search_key
  , 'notFoundText' : search_key
@@ -883,111 +999,151 @@ class oo0Ooo0 ( object ) :
 
    , '_' : str ( self . GetNoCache ( 2 ) )
  }
-   if 67 - 67: I1IiiI
+   if 61 - 61: I11i % ooOoO0o - OoO0O00 / Oo0Ooo
    Ii = self . makeurl ( self . SEARCH_DOMAIN , O0O , OO , None )
-   if 55 - 55: I1ii11iIi11i - iII111i * o0oOOo0O0Ooo + OoOoOO00 * OoOoOO00 * O0
+   if 4 - 4: OoooooooOO - i1IIi % Ii1I - OOooOOo * o0oOOo0O0Ooo
    II1Iiii1111i = [
  ( 'User-Agent' , i1I1ii1II1iII )
  , ( 'Cookie' , '%s=%s; %s=%s' % ( '_tving_token' , self . TVING_TOKEN , 'POC_USERINFO' , self . POC_USERINFO ) )
  ]
-   if 91 - 91: I1Ii111 - OOooOOo % iIii1I11I1II1 - OoooooooOO % ooOoO0o
+   if 85 - 85: OoooooooOO * iIii1I11I1II1 . iII111i / OoooooooOO % I1IiiI % O0
    i1IIi11111i = self . SESSION . Request ( Ii , params = None , cookie = II1Iiii1111i )
    OOOO0oo0 = json . loads ( i1IIi11111i )
-   if 98 - 98: OoO0O00 . OoO0O00 * oO0o * II111iiii * I1Ii111
+   if 36 - 36: Ii1I / II111iiii / IiII / IiII + I1ii11iIi11i
    if stype == 'vod' :
-    if not ( 'programRsb' in OOOO0oo0 ) : return ii1iI , iiIiii1IIIII
-    oOooO0 = OOOO0oo0 [ 'programRsb' ] [ 'dataList' ]
-    OOOoO000 = int ( OOOO0oo0 [ 'programRsb' ] [ 'count' ] )
-    if 57 - 57: II111iiii
-    if 54 - 54: Oo0Ooo + oO0o + i11iIiiIii
-    for oO0o0 in oOooO0 :
-     I1IiIiiIiIII = oO0o0 [ 'mast_cd' ]
-     IiI1iiiIii = oO0o0 [ 'mast_nm' ]
-     I1III1111iIi = self . IMG_DOMAIN + oO0o0 [ 'web_url' ]
+    if not ( 'programRsb' in OOOO0oo0 ) : return iI11I , iiIiii1IIIII
+    oO0Ooo0ooOO0 = OOOO0oo0 [ 'programRsb' ] [ 'dataList' ]
+    i1IIiIii1i = int ( OOOO0oo0 [ 'programRsb' ] [ 'count' ] )
+    if 77 - 77: O0 % oO0o - OoO0O00
+    if 97 - 97: OoooooooOO . i11iIiiIii + I1IiiI
+    for oO0o0 in oO0Ooo0ooOO0 :
+     iiI11i1II = oO0o0 [ 'mast_cd' ]
+     I1i111I = oO0o0 [ 'mast_nm' ]
+     Ooo = self . IMG_DOMAIN + oO0o0 [ 'web_url' ]
      if landyn == False :
-      I1III1111iIi = self . IMG_DOMAIN + oO0o0 [ 'web_url4' ]
-      if 28 - 28: oO0o
-     I1i111I = oO0o0 [ 'mast_synop' ]
-     if 70 - 70: IiII
-     IIii1111 = { 'program' : I1IiIiiIiIII
- , 'title' : unicode ( IiI1iiiIii )
- , 'thumbnail' : I1III1111iIi
- , 'synopsis' : unicode ( I1i111I )
+      Ooo = self . IMG_DOMAIN + oO0o0 [ 'web_url4' ]
+      if 84 - 84: oO0o % i1IIi
+     Oo0oo0O0o00O = oO0o0 [ 'mast_synop' ]
+     if 70 - 70: Oo0Ooo . OoooooooOO - iII111i
+     Iii1iI = { }
+     Iii1iI [ 'title' ] = oO0o0 [ 'mast_nm' ]
+     Iii1iI [ 'mediatype' ] = 'episode'
+     if 30 - 30: I1ii11iIi11i % I1IiiI
+     try :
+      if oO0o0 . get ( 'actor' ) != '' and oO0o0 . get ( 'actor' ) != '-' : Iii1iI [ 'cast' ] = oO0o0 . get ( 'actor' ) . split ( ',' )
+      if oO0o0 . get ( 'director' ) != '' and oO0o0 . get ( 'director' ) != '-' : Iii1iI [ 'director' ] = oO0o0 . get ( 'director' ) . split ( ',' )
+      if oO0o0 . get ( 'cate_nm' ) != '' : Iii1iI [ 'genre' ] = oO0o0 . get ( 'cate_nm' ) . split ( '/' )
+      if 'targetage' in oO0o0 : Iii1iI [ 'mpaa' ] = oO0o0 . get ( 'targetage' )
+     except :
+      None
+     try :
+      if 'broad_dt' in oO0o0 :
+       iiI1I1 = oO0o0 . get ( 'broad_dt' )
+       Iii1iI [ 'aired' ] = '%s-%s-%s' % ( iiI1I1 [ : 4 ] , iiI1I1 [ 4 : 6 ] , iiI1I1 [ 6 : ] )
+     except :
+      None
+      if 89 - 89: I1Ii111 + OoooooooOO + I1Ii111 * i1IIi + iIii1I11I1II1 % I11i
+     I1i1i1 = { 'program' : iiI11i1II
+ , 'title' : unicode ( I1i111I )
+ , 'thumbnail' : Ooo
+ , 'synopsis' : unicode ( Oo0oo0O0o00O )
+ , 'info' : Iii1iI
  }
-     if 34 - 34: I1Ii111 % IiII
-     ii1iI . append ( IIii1111 )
+     if 59 - 59: OOooOOo + i11iIiiIii
+     iI11I . append ( I1i1i1 )
    else :
-    if not ( 'vodMVRsb' in OOOO0oo0 ) : return ii1iI , iiIiii1IIIII
-    IiI1i = OOOO0oo0 [ 'vodMVRsb' ] [ 'dataList' ]
-    OOOoO000 = int ( OOOO0oo0 [ 'vodMVRsb' ] [ 'count' ] )
-    if 87 - 87: ooOoO0o
-    if 45 - 45: OoO0O00 / OoooooooOO - iII111i / Ii1I % IiII
-    for oO0o0 in IiI1i :
-     I1IiIiiIiIII = oO0o0 [ 'mast_cd' ]
-     IiI1iiiIii = oO0o0 [ 'mast_nm' ]
-     I1III1111iIi = self . IMG_DOMAIN + oO0o0 [ 'web_url' ]
+    if not ( 'vodMVRsb' in OOOO0oo0 ) : return iI11I , iiIiii1IIIII
+    oo0OOo0O = OOOO0oo0 [ 'vodMVRsb' ] [ 'dataList' ]
+    i1IIiIii1i = int ( OOOO0oo0 [ 'vodMVRsb' ] [ 'count' ] )
+    if 39 - 39: OoooooooOO + oO0o % OOooOOo / OOooOOo
+    if 27 - 27: iII111i . I11i . iIii1I11I1II1 . iIii1I11I1II1
+    for oO0o0 in oo0OOo0O :
+     iiI11i1II = oO0o0 [ 'mast_cd' ]
+     I1i111I = oO0o0 [ 'mast_nm' ] . strip ( )
+     Ooo = self . IMG_DOMAIN + oO0o0 [ 'web_url' ]
      if landyn :
-      I1III1111iIi = I1III1111iIi . replace ( 'CAIM2100' , 'CAIM0400' )
-      if 83 - 83: I1IiiI . iIii1I11I1II1 - IiII * i11iIiiIii
-     I1i111I = oO0o0 [ 'mast_synop' ]
-     if 20 - 20: i1IIi * I1Ii111 + II111iiii % o0oOOo0O0Ooo % oO0o
-     iIi1II = False
-     I1iIiI11I1 = False
-     for IiIIIIIi in oO0o0 [ 'bill' ] :
-      if IiIIIIIi == self . MOVIE_LITE : I1iIiI11I1 = True
-      elif IiIIIIIi == self . MOVIE_PREMIUM : iIi1II = True
-      if 27 - 27: Ii1I . i11iIiiIii % I1Ii111
-     if I1iIiI11I1 or ( premiumyn == True and iIi1II ) :
-      IIii1111 = { 'movie' : I1IiIiiIiIII
- , 'title' : unicode ( IiI1iiiIii . strip ( ) )
- , 'thumbnail' : I1III1111iIi
- , 'synopsis' : unicode ( I1i111I )
+      Ooo = Ooo . replace ( 'CAIM2100' , 'CAIM0400' )
+      if 20 - 20: o0oOOo0O0Ooo / i1IIi
+     Oo0oo0O0o00O = oO0o0 [ 'mast_synop' ]
+     if 71 - 71: OoOoOO00 . i1IIi
+     o0OooO0ooo0o = False
+     iii1 = False
+     for i1i1I111iIi1 in oO0o0 [ 'bill' ] :
+      if i1i1I111iIi1 == self . MOVIE_LITE : iii1 = True
+      elif i1i1I111iIi1 == self . MOVIE_PREMIUM : o0OooO0ooo0o = True
+      if 32 - 32: Ii1I . IiII . OoooooooOO - OoO0O00 + oO0o
+     Iii1iI = { }
+     Iii1iI [ 'title' ] = unicode ( I1i111I )
+     Iii1iI [ 'mediatype' ] = 'movie'
+     if 88 - 88: iII111i
+     try :
+      if oO0o0 . get ( 'actor' ) != '' : Iii1iI [ 'cast' ] = oO0o0 . get ( 'actor' ) . split ( ',' )
+      if oO0o0 . get ( 'director' ) != '' : Iii1iI [ 'director' ] = oO0o0 . get ( 'director' ) . split ( ',' )
+      if oO0o0 . get ( 'cate_nm' ) != '' : Iii1iI [ 'genre' ] = oO0o0 . get ( 'cate_nm' ) . split ( '/' )
+      if oO0o0 . get ( 'runtime_sec' ) != '' : Iii1iI [ 'duration' ] = oO0o0 . get ( 'runtime_sec' )
+      if 'grade_nm' in oO0o0 : Iii1iI [ 'mpaa' ] = oO0o0 . get ( 'grade_nm' )
+     except :
+      None
+     try :
+      iiI1I1 = oO0o0 . get ( 'broad_dt' )
+      Iii1iI [ 'aired' ] = '%s-%s-%s' % ( iiI1I1 [ : 4 ] , iiI1I1 [ 4 : 6 ] , iiI1I1 [ 6 : ] )
+      Iii1iI [ 'year' ] = iiI1I1 [ : 4 ]
+     except :
+      None
+      if 19 - 19: II111iiii * IiII + Ii1I
+      if 65 - 65: OOooOOo . I1Ii111 . OoO0O00 . iII111i - OOooOOo
+     if iii1 or ( premiumyn == True and o0OooO0ooo0o ) :
+      I1i1i1 = { 'movie' : iiI11i1II
+ , 'title' : unicode ( I1i111I )
+ , 'thumbnail' : Ooo
+ , 'synopsis' : unicode ( Oo0oo0O0o00O )
+ , 'info' : Iii1iI
  }
-      if I1iIiI11I1 == False : IIii1111 [ 'title' ] = unicode ( IIii1111 [ 'title' ] + ' [Premium]' )
-      ii1iI . append ( IIii1111 )
-      if 65 - 65: II111iiii . I1IiiI % oO0o * OoO0O00
-      if 38 - 38: OoOoOO00 / iII111i % Oo0Ooo
-      if 11 - 11: iII111i - oO0o + II111iiii - iIii1I11I1II1
-      if 7 - 7: IiII - I11i / II111iiii * Ii1I . iII111i * iII111i
+      if iii1 == False : I1i1i1 [ 'title' ] = unicode ( I1i1i1 [ 'title' ] + ' [Premium]' )
+      iI11I . append ( I1i1i1 )
+      if 19 - 19: i11iIiiIii + iII111i % ooOoO0o
+      if 14 - 14: OoO0O00 . II111iiii . I11i / Ii1I % I1ii11iIi11i - ooOoO0o
+      if 67 - 67: I11i - OOooOOo . i1IIi
+      if 35 - 35: iII111i + ooOoO0o - oO0o . iII111i . IiII
   except Exception as II111iiiI1Ii :
    print ( II111iiiI1Ii )
-   if 61 - 61: I11i % ooOoO0o - OoO0O00 / Oo0Ooo
-  return ii1iI , iiIiii1IIIII
-  if 4 - 4: OoooooooOO - i1IIi % Ii1I - OOooOOo * o0oOOo0O0Ooo
-  if 85 - 85: OoooooooOO * iIii1I11I1II1 . iII111i / OoooooooOO % I1IiiI % O0
+   if 87 - 87: OoOoOO00
+  return iI11I , iiIiii1IIIII
+  if 25 - 25: i1IIi . OoO0O00 - OoOoOO00 / OoO0O00 % OoO0O00 * iIii1I11I1II1
+  if 50 - 50: OoO0O00 . i11iIiiIii - oO0o . oO0o
  def GetDeviceList ( self , tving_token , poc_userinfo ) :
   o0oooOO00 = [ ]
   OOoO00 = '-'
-  if 36 - 36: Ii1I / II111iiii / IiII / IiII + I1ii11iIi11i
+  if 31 - 31: OOooOOo / Oo0Ooo * i1IIi . OoOoOO00
   try :
    O0O = '/v1/user/device/list'
-   if 95 - 95: IiII
-   if 51 - 51: II111iiii + IiII . i1IIi . I1ii11iIi11i + OoOoOO00 * I1IiiI
+   if 57 - 57: OOooOOo + iIii1I11I1II1 % i1IIi % I1IiiI
+   if 83 - 83: o0oOOo0O0Ooo / i11iIiiIii % iIii1I11I1II1 . I11i % oO0o . OoooooooOO
    OO = { 'apiKey' : '4263d7d76161f4a19a9efe9ca7903ec4'
  , 'model' : 'PC'
  }
-   if 72 - 72: oO0o + oO0o / II111iiii . OoooooooOO % Ii1I
+   if 94 - 94: Ii1I + iIii1I11I1II1 % OoO0O00
    Ii = self . makeurl ( self . API_DOMAIN , O0O , OO )
-   if 49 - 49: oO0o . OoO0O00 - Oo0Ooo * OoooooooOO . Oo0Ooo
+   if 93 - 93: Ii1I - OOooOOo + iIii1I11I1II1 * o0oOOo0O0Ooo + I1Ii111 . iII111i
    II1Iiii1111i = [
  ( 'User-Agent' , i1I1ii1II1iII )
  , ( 'Cookie' , '%s=%s; %s=%s' % ( '_tving_token' , tving_token , 'POC_USERINFO' , poc_userinfo ) )
  ]
-   if 2 - 2: OoooooooOO % OOooOOo
+   if 49 - 49: OoooooooOO * I11i - Oo0Ooo . oO0o
    i1IIi11111i = self . SESSION . Request ( Ii , params = None , cookie = II1Iiii1111i )
    OOOO0oo0 = json . loads ( i1IIi11111i )
-   if 63 - 63: I1IiiI % iIii1I11I1II1
-   if 39 - 39: iII111i / II111iiii / I1ii11iIi11i % I1IiiI
+   if 89 - 89: ooOoO0o + Ii1I * ooOoO0o / ooOoO0o
+   if 46 - 46: OoO0O00
    o0oooOO00 = OOOO0oo0 [ 'body' ]
-   if 89 - 89: I1Ii111 + OoooooooOO + I1Ii111 * i1IIi + iIii1I11I1II1 % I11i
+   if 71 - 71: I11i / I11i * oO0o * oO0o / II111iiii
    for oO0o0 in o0oooOO00 :
     if oO0o0 [ 'model' ] == 'PC' :
      OOoO00 = oO0o0 [ 'uuid' ]
-     if 59 - 59: OOooOOo + i11iIiiIii
-     if 88 - 88: i11iIiiIii - ooOoO0o
+     if 35 - 35: OOooOOo * o0oOOo0O0Ooo * I1IiiI % Oo0Ooo . OoOoOO00
+     if 58 - 58: I11i + II111iiii * iII111i * i11iIiiIii - iIii1I11I1II1
   except Exception as II111iiiI1Ii :
    print ( II111iiiI1Ii )
-   if 67 - 67: OOooOOo . Oo0Ooo + OoOoOO00 - OoooooooOO
+   if 68 - 68: OoooooooOO % II111iiii
   return OOoO00
-  if 70 - 70: OOooOOo / II111iiii - iIii1I11I1II1 - iII111i
+  if 26 - 26: II111iiii % i11iIiiIii % iIii1I11I1II1 % I11i * I11i * I1ii11iIi11i
 # dd678faae9ac167bc83abf78e5cb2f3f0688d3a3
