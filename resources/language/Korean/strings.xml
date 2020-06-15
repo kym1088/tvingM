@@ -20,6 +20,10 @@
 	<string id="10342">가로</string>
 	<string id="10343">세로</string>
 	<!-- Warning -->
+	<string id="10351">VOD 시청목록 재생방법</string>
+	<string id="10352">에피소드 목록 조회</string>
+	<string id="10353">에피소드 바로 재생</string>
+	<!-- Warning -->
 	<string id="30101">아이디 또는 패스워드를 설정하세요.</string>
 	<string id="30102">지금 설정하겠습니까?</string>
 	<string id="30103">로그인 실패!</string>
