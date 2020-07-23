@@ -34,7 +34,7 @@ Oo0oO0ooo = [
  , { 'title' : '월정액 영화관 (인기)' , 'mode' : 'MOVIE_GROUP' , 'stype' : 'movie' , 'orderby' : 'viewWeek' , 'ordernm' : '-' }
  , { 'title' : '월정액 영화관 (최신)' , 'mode' : 'MOVIE_GROUP' , 'stype' : 'movie' , 'orderby' : 'new' , 'ordernm' : '-' }
  , { 'title' : '-----------------' , 'mode' : 'XXX' , 'stype' : 'XXX' , 'orderby' : '-' , 'ordernm' : '-' }
- , { 'title' : '검색 (VOD,영화)' , 'mode' : 'SEARCH_GROUP' , 'stype' : '-' , 'orderby' : '-' , 'ordernm' : '-' }
+ , { 'title' : '검색 (search)' , 'mode' : 'SEARCH_GROUP' , 'stype' : '-' , 'orderby' : '-' , 'ordernm' : '-' }
  , { 'title' : 'Watched (시청목록)' , 'mode' : 'WATCH' , 'stype' : '-' , 'orderby' : '-' , 'ordernm' : '-' }
  ]
 if 56 - 56: I11i - i1IIi
@@ -122,7 +122,7 @@ class i1iIIi1 ( object ) :
   self . _addon_url = in_addonurl
   self . _addon_handle = in_handle
   self . main_params = in_params
-  self . TvingObj = oo0Ooo0 ( )
+  self . TvingObj = oOOo0oo ( )
   if 77 - 77: II111iiii - II111iiii . I1IiiI / o0oOOo0O0Ooo
   if 14 - 14: I11i % O0
   if 41 - 41: i1IIi + I1Ii111 + OOooOOo - IiII
@@ -540,39 +540,40 @@ class i1iIIi1 ( object ) :
    OoOO0o = str ( I11I + 1 )
    self . add_dir ( Oo0OoO00oOO0o , sublabel = OoOO0o , img = '' , infoLabels = None , isFolder = True , params = I1 )
    if 9 - 9: Oo0Ooo - i11iIiiIii - OOooOOo * Ii1I + ooOoO0o
-  if len ( OoO0O00O0oo0O ) > 0 : xbmcplugin . endOfDirectory ( self . _addon_handle , cacheToDisc = False )
-  if 44 - 44: II111iiii
+   if 44 - 44: II111iiii
+  if len ( OoO0O00O0oo0O ) > 0 : xbmcplugin . endOfDirectory ( self . _addon_handle , cacheToDisc = True )
   if 52 - 52: I1ii11iIi11i - Oo0Ooo + I1ii11iIi11i % o0oOOo0O0Ooo
   if 35 - 35: iIii1I11I1II1
   if 42 - 42: I1Ii111 . I1IiiI . i1IIi + OoOoOO00 + OOooOOo + I1IiiI
+  if 31 - 31: iII111i . OOooOOo - ooOoO0o . OoooooooOO / OoooooooOO
  def dp_setEpOrderby ( self , args ) :
   O0OoooO0 = args . get ( 'orderby' )
-  if 31 - 31: iII111i . OOooOOo - ooOoO0o . OoooooooOO / OoooooooOO
+  if 56 - 56: OoO0O00 / oO0o / i11iIiiIii + OoooooooOO - Oo0Ooo - I11i
   self . set_winEpisodeOrderby ( O0OoooO0 )
   xbmc . executebuiltin ( "Container.Refresh" )
-  if 56 - 56: OoO0O00 / oO0o / i11iIiiIii + OoooooooOO - Oo0Ooo - I11i
   if 21 - 21: O0 % IiII . I1IiiI / II111iiii + IiII
   if 53 - 53: oO0o - I1IiiI - oO0o * iII111i
   if 71 - 71: O0 - iIii1I11I1II1
- def dp_Movie_List ( self , args ) :
   if 12 - 12: OOooOOo / o0oOOo0O0Ooo
-  self . TvingObj . SaveCredential ( self . get_winCredential ( ) )
+ def dp_Movie_List ( self , args ) :
   if 42 - 42: Oo0Ooo
+  self . TvingObj . SaveCredential ( self . get_winCredential ( ) )
+  if 19 - 19: oO0o % I1ii11iIi11i * iIii1I11I1II1 + I1IiiI
   O0OoooO0 = args . get ( 'orderby' )
   I11I = int ( args . get ( 'page' ) )
-  if 19 - 19: oO0o % I1ii11iIi11i * iIii1I11I1II1 + I1IiiI
-  iii11I , iiI = self . TvingObj . GetMovieList ( O0OoooO0 , I11I , premiumyn = self . get_settings_premiumyn ( ) , landyn = self . get_settings_thumbnail_landyn ( ) )
-  if 50 - 50: iII111i + O0 + Ii1I . II111iiii / o0oOOo0O0Ooo
-  for i1Iii11I1i in iii11I :
-   Oo0OoO00oOO0o = i1Iii11I1i . get ( 'title' )
-   iII11 = i1Iii11I1i . get ( 'thumbnail' )
-   iiIiii1IIIII = i1Iii11I1i . get ( 'synopsis' )
+  if 46 - 46: Oo0Ooo
+  i1II1I1Iii1 , iiI = self . TvingObj . GetMovieList ( O0OoooO0 , I11I , premiumyn = self . get_settings_premiumyn ( ) , landyn = self . get_settings_thumbnail_landyn ( ) )
+  if 30 - 30: OoooooooOO - OoOoOO00
+  for Ooo00O0o in i1II1I1Iii1 :
+   Oo0OoO00oOO0o = Ooo00O0o . get ( 'title' )
+   iII11 = Ooo00O0o . get ( 'thumbnail' )
+   iiIiii1IIIII = Ooo00O0o . get ( 'synopsis' )
    if 72 - 72: iIii1I11I1II1 * Ii1I % ooOoO0o / OoO0O00
-   iiI1IIIi = i1Iii11I1i . get ( 'info' )
+   iiI1IIIi = Ooo00O0o . get ( 'info' )
    iiI1IIIi [ 'plot' ] = '%s\n\n%s' % ( Oo0OoO00oOO0o , iiIiii1IIIII )
    if 35 - 35: ooOoO0o + i1IIi % I1ii11iIi11i % I11i + oO0o
    I1 = { 'mode' : 'MOVIE'
- , 'mediacode' : i1Iii11I1i . get ( 'moviecode' )
+ , 'mediacode' : Ooo00O0o . get ( 'moviecode' )
  , 'stype' : 'movie'
  , 'title' : Oo0OoO00oOO0o
  , 'thumbnail' : iII11
@@ -589,7 +590,7 @@ class i1iIIi1 ( object ) :
    OoOO0o = str ( I11I + 1 )
    self . add_dir ( Oo0OoO00oOO0o , sublabel = OoOO0o , img = '' , infoLabels = None , isFolder = True , params = I1 )
    if 10 - 10: I1Ii111 % IiII * IiII . I11i / Ii1I % OOooOOo
-  if len ( iii11I ) > 0 : xbmcplugin . endOfDirectory ( self . _addon_handle , cacheToDisc = False )
+  if len ( i1II1I1Iii1 ) > 0 : xbmcplugin . endOfDirectory ( self . _addon_handle , cacheToDisc = False )
   if 49 - 49: OoO0O00 / oO0o + O0 * o0oOOo0O0Ooo
   if 28 - 28: ooOoO0o + i11iIiiIii / I11i % OoOoOO00 % Oo0Ooo - O0
   if 54 - 54: i1IIi + II111iiii
