@@ -93,11 +93,11 @@ class oOOo0oo ( object ) :
   self . OSCODE = 'CSOD0900'
   self . TELECODE = 'CSCD0900'
   self . SCREENCODE = 'CSSD0100'
-  self . LIVE_LIMIT = 30
-  self . VOD_LIMIT = 30
-  self . EPISODE_LIMIT = 40
+  self . LIVE_LIMIT = 23
+  self . VOD_LIMIT = 20
+  self . EPISODE_LIMIT = 30
   self . SEARCH_LIMIT = 80
-  self . MOVIE_LIMIT = 30
+  self . MOVIE_LIMIT = 18
   self . API_DOMAIN = 'https://api.tving.com'
   self . IMG_DOMAIN = 'https://image.tving.com'
   self . SEARCH_DOMAIN = 'https://search.tving.com'
@@ -1101,22 +1101,24 @@ class oOOo0oo ( object ) :
      if 11 - 11: IiII % I1ii11iIi11i % Ii1I / II111iiii % I1Ii111 - Oo0Ooo
      if landyn == False :
       i1I1iIi = self . IMG_DOMAIN + O00o0 [ 'web_url5' ]
-      if 96 - 96: I1ii11iIi11i / II111iiii . Ii1I - iII111i * I11i * oO0o
-      if 76 - 76: Ii1I - II111iiii * OOooOOo / OoooooooOO
-      if 18 - 18: OoO0O00 + iIii1I11I1II1 - II111iiii - I1IiiI
-     ooo = False
-     OOOO0oooo = False
-     for Iii in O00o0 [ 'bill' ] :
-      if Iii == self . MOVIE_LITE : OOOO0oooo = True
-      elif Iii == self . MOVIE_PREMIUM : ooo = True
-      if 51 - 51: O0 - i1IIi / I1IiiI
+     if 96 - 96: I1ii11iIi11i / II111iiii . Ii1I - iII111i * I11i * oO0o
+     if 76 - 76: Ii1I - II111iiii * OOooOOo / OoooooooOO
+     if 18 - 18: OoO0O00 + iIii1I11I1II1 - II111iiii - I1IiiI
+     if 71 - 71: OoooooooOO
+     if 33 - 33: I1Ii111
+     if 62 - 62: I1ii11iIi11i + Ii1I + i1IIi / OoooooooOO
+     if 7 - 7: o0oOOo0O0Ooo + i1IIi . I1IiiI / Oo0Ooo
+     if 22 - 22: ooOoO0o - ooOoO0o % OOooOOo . I1Ii111 + oO0o
+     if 63 - 63: I1IiiI % I1Ii111 * o0oOOo0O0Ooo + I1Ii111 / Oo0Ooo % iII111i
+     if 45 - 45: IiII
+     if 20 - 20: OoooooooOO * o0oOOo0O0Ooo * O0 . OOooOOo
      oOO0OOOo = { }
      oOO0OOOo [ 'title' ] = unicode ( o0O00oOOoo )
      oOO0OOOo [ 'mediatype' ] = 'movie'
-     if 37 - 37: o0oOOo0O0Ooo % ooOoO0o
+     if 78 - 78: iIii1I11I1II1 + I11i - Ii1I * I1Ii111 - OoooooooOO % OoOoOO00
      try :
       if O00o0 . get ( 'actor' ) != '' : oOO0OOOo [ 'cast' ] = O00o0 . get ( 'actor' ) . split ( ',' )
-      if 83 - 83: OOooOOo . I1Ii111 + oO0o - OOooOOo * I1Ii111 / I1Ii111
+      if 34 - 34: O0
       if O00o0 . get ( 'cate_nm' ) != '' : oOO0OOOo [ 'genre' ] = O00o0 . get ( 'cate_nm' ) . split ( '/' )
       if O00o0 . get ( 'runtime_sec' ) != '' : oOO0OOOo [ 'duration' ] = O00o0 . get ( 'runtime_sec' )
       if 'grade_nm' in O00o0 : oOO0OOOo [ 'mpaa' ] = O00o0 . get ( 'grade_nm' )
@@ -1129,61 +1131,62 @@ class oOOo0oo ( object ) :
        oOO0OOOo [ 'year' ] = ooo0OOO [ : 4 ]
      except :
       None
-      if 39 - 39: I1Ii111 / Oo0Ooo % OoO0O00 % i11iIiiIii
-      if 90 - 90: I1Ii111 - OoooooooOO
-     if OOOO0oooo or ( premiumyn == True and ooo ) :
+      if 80 - 80: i1IIi - Oo0Ooo / OoO0O00 - i11iIiiIii
+      if 68 - 68: oO0o - I1ii11iIi11i % O0 % I1Ii111
+      if 11 - 11: O0 / OoO0O00 % OOooOOo + o0oOOo0O0Ooo + iIii1I11I1II1
+     if True :
       III11I1 = { 'movie' : II1IIiiIiI
  , 'title' : unicode ( o0O00oOOoo )
  , 'thumbnail' : i1I1iIi
  , 'synopsis' : ''
       , 'info' : oOO0OOOo
  }
-      if OOOO0oooo == False : III11I1 [ 'title' ] = unicode ( III11I1 [ 'title' ] + ' [Premium]' )
+      if 40 - 40: ooOoO0o - OOooOOo . Ii1I * Oo0Ooo % I1Ii111
       OOOoO . append ( III11I1 )
-      if 96 - 96: O0 . Ii1I % OoO0O00 * iIii1I11I1II1
-      if 54 - 54: Ii1I * I1Ii111 - OoooooooOO % I1IiiI + O0
-      if 6 - 6: I1ii11iIi11i - II111iiii / oO0o + i11iIiiIii + OOooOOo
-      if 54 - 54: Ii1I - I11i - I1Ii111 . iIii1I11I1II1
+      if 56 - 56: i11iIiiIii . o0oOOo0O0Ooo - I1IiiI * I11i
+      if 91 - 91: oO0o + OoooooooOO - i1IIi
+      if 84 - 84: Ii1I / IiII
+      if 86 - 86: OoOoOO00 * II111iiii - O0 . OoOoOO00 % iIii1I11I1II1 / OOooOOo
   except Exception as IIiII111iiI1I :
-   if 79 - 79: Ii1I . OoO0O00
+   if 11 - 11: I1IiiI * oO0o + I1ii11iIi11i / I1ii11iIi11i
    print ( IIiII111iiI1I )
-   if 40 - 40: o0oOOo0O0Ooo + Oo0Ooo . o0oOOo0O0Ooo % ooOoO0o
+   if 37 - 37: i11iIiiIii + i1IIi
   return OOOoO , OOO0000oO
-  if 15 - 15: Ii1I * Oo0Ooo % I1ii11iIi11i * iIii1I11I1II1 - i11iIiiIii
-  if 60 - 60: I1IiiI * I1Ii111 % OoO0O00 + oO0o
+  if 23 - 23: iII111i + I11i . OoOoOO00 * I1IiiI + I1ii11iIi11i
+  if 18 - 18: IiII * o0oOOo0O0Ooo . IiII / O0
  def GetDeviceList ( self , tving_token , poc_userinfo ) :
   i1 = [ ]
   ii1iII1II = '-'
-  if 52 - 52: i1IIi
+  if 8 - 8: o0oOOo0O0Ooo
   try :
    oOO00O = '/v1/user/device/list'
-   if 84 - 84: Ii1I / IiII
-   if 86 - 86: OoOoOO00 * II111iiii - O0 . OoOoOO00 % iIii1I11I1II1 / OOooOOo
+   if 4 - 4: I1ii11iIi11i + I1ii11iIi11i * ooOoO0o - OoOoOO00
+   if 78 - 78: Ii1I / II111iiii % OoOoOO00
    o0O = { 'apiKey' : '4263d7d76161f4a19a9efe9ca7903ec4'
  , 'model' : 'PC'
  }
-   if 11 - 11: I1IiiI * oO0o + I1ii11iIi11i / I1ii11iIi11i
+   if 52 - 52: OOooOOo - iII111i * oO0o
    OOOOo = self . makeurl ( self . API_DOMAIN , oOO00O , o0O )
-   if 37 - 37: i11iIiiIii + i1IIi
+   if 17 - 17: OoooooooOO + OOooOOo * I11i * OoOoOO00
    oo0Ooo0 = [
  ( 'User-Agent' , i1I1ii1II1iII )
  , ( 'Cookie' , '%s=%s; %s=%s' % ( '_tving_token' , tving_token , 'POC_USERINFO' , poc_userinfo ) )
  ]
-   if 23 - 23: iII111i + I11i . OoOoOO00 * I1IiiI + I1ii11iIi11i
+   if 36 - 36: O0 + Oo0Ooo
    I1I11I1I1I = self . SESSION . Request ( OOOOo , params = None , cookie = oo0Ooo0 )
    oOOoo00O00o = json . loads ( I1I11I1I1I )
-   if 18 - 18: IiII * o0oOOo0O0Ooo . IiII / O0
-   if 8 - 8: o0oOOo0O0Ooo
+   if 5 - 5: Oo0Ooo * OoOoOO00
+   if 46 - 46: ooOoO0o
    i1 = oOOoo00O00o [ 'body' ]
-   if 4 - 4: I1ii11iIi11i + I1ii11iIi11i * ooOoO0o - OoOoOO00
+   if 33 - 33: iII111i - II111iiii * OoooooooOO - Oo0Ooo - OOooOOo
    for O00o0 in i1 :
     if O00o0 [ 'model' ] == 'PC' :
      ii1iII1II = O00o0 [ 'uuid' ]
-     if 78 - 78: Ii1I / II111iiii % OoOoOO00
-     if 52 - 52: OOooOOo - iII111i * oO0o
+     if 84 - 84: I1Ii111 + Oo0Ooo - OoOoOO00 * OoOoOO00
+     if 61 - 61: OoooooooOO . oO0o . OoooooooOO / Oo0Ooo
   except Exception as IIiII111iiI1I :
    print ( IIiII111iiI1I )
-   if 17 - 17: OoooooooOO + OOooOOo * I11i * OoOoOO00
+   if 72 - 72: i1IIi
   return ii1iII1II
-  if 36 - 36: O0 + Oo0Ooo
+  if 82 - 82: OoOoOO00 + OoooooooOO / i11iIiiIii * I1ii11iIi11i . OoooooooOO
 # dd678faae9ac167bc83abf78e5cb2f3f0688d3a3

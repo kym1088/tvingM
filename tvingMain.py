@@ -29,7 +29,7 @@ def Oo0oO0ooo ( ) :
  if 64 - 64: I1ii11iIi11i % OoO0O00
  if 1 - 1: IiII
  if 91 - 91: I1ii11iIi11i * iIii1I11I1II1 . IiII / Ii1I
-Ooo0 = i1iIIi1 ( sys . argv [ 0 ] , int ( sys . argv [ 1 ] ) , Oo0oO0ooo ( ) )
+Ooo0 = O0O00Ooo ( sys . argv [ 0 ] , int ( sys . argv [ 1 ] ) , Oo0oO0ooo ( ) )
 Ooo0 . tving_main ( )
 if 89 - 89: OoooooooOO - IiII * ooOoO0o
 if 82 - 82: I11i . I1Ii111 / IiII % II111iiii % iIii1I11I1II1 % IiII

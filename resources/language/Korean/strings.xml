@@ -29,7 +29,11 @@
 	<string id="30103">로그인 실패!</string>
 	<string id="30201">시청목록을 삭제합니다.</string>
 	<string id="30202">지금 삭제하시겠습니까?</string>
-  <string id="30301">검색어 입력</string>
+	<string id="30301">검색어 입력</string>
 	<string id="30302">DRM채널! 시청불가</string>  
 	<string id="30303">재생권한을 확인하세요</string>  
+	<string id="30108">세션쿠키 삭제 (로그아웃 필요시 클릭하세요)</string>
+	<string id="30109">세션쿠키 유지기간(일) - 다음기간동안 세션정보 재사용</string>
+	<string id="30909">로그아웃 성공!!</string>
+	<string id="30910">로그인 쿠키(세션정보)를 삭제합니다.</string>
 </strings>
