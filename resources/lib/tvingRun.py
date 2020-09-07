@@ -252,780 +252,781 @@ class O0O00Ooo ( object ) :
   try :
    OO0OoO0o00 = 'selected_quality'
    if 53 - 53: O0 * OoO0O00 + OOooOOo
-   if 50 - 50: O0 . O0 - oO0o / I1IiiI - o0oOOo0O0Ooo * OoOoOO00
-   if 61 - 61: I11i
-   if 86 - 86: I11i % OoOoOO00 / I1IiiI / OoOoOO00
-   if 42 - 42: OoO0O00
-   if 67 - 67: I1Ii111 . iII111i . O0
-   if 10 - 10: I1ii11iIi11i % I1ii11iIi11i - iIii1I11I1II1 / OOooOOo + Ii1I
-   OOOOoOoo0O0O0 = [ 1080 , 720 , 480 , 360 ]
-   if 85 - 85: oO0o % i11iIiiIii - iII111i * OoooooooOO / I1IiiI % I1IiiI
-   IIiIi1iI = int ( __addon__ . getSetting ( OO0OoO0o00 ) )
-   return OOOOoOoo0O0O0 [ IIiIi1iI ]
+   Ii = [ 1080 , 720 , 480 , 360 ]
+   if 61 - 61: II111iiii
+   O0OOO = int ( __addon__ . getSetting ( OO0OoO0o00 ) )
+   return Ii [ O0OOO ]
   except :
    None
-   if 35 - 35: Ii1I % O0 - O0
+   if 10 - 10: OOooOOo * I11i % OoOoOO00 / I1IiiI / OoOoOO00
   return 720
-  if 16 - 16: II111iiii % OoOoOO00 - II111iiii + Ii1I
-  if 12 - 12: OOooOOo / OOooOOo + i11iIiiIii
-  if 40 - 40: I1IiiI . iIii1I11I1II1 / I1IiiI / i11iIiiIii
+  if 42 - 42: OoO0O00
+  if 67 - 67: I1Ii111 . iII111i . O0
+  if 10 - 10: I1ii11iIi11i % I1ii11iIi11i - iIii1I11I1II1 / OOooOOo + Ii1I
  def dp_Main_List ( self ) :
-  if 75 - 75: I11i + o0oOOo0O0Ooo
-  for O0i1II1Iiii1I11 in Oo0oO0ooo :
-   i1i = O0i1II1Iiii1I11 . get ( 'title' )
-   if 9 - 9: I1ii11iIi11i / Oo0Ooo - I1IiiI / OoooooooOO / iIii1I11I1II1 - o0oOOo0O0Ooo
-   o00oooO0Oo = { 'mode' : O0i1II1Iiii1I11 . get ( 'mode' )
- , 'stype' : O0i1II1Iiii1I11 . get ( 'stype' )
- , 'orderby' : O0i1II1Iiii1I11 . get ( 'orderby' )
- , 'ordernm' : O0i1II1Iiii1I11 . get ( 'ordernm' )
+  if 87 - 87: oO0o * I1ii11iIi11i + OOooOOo / iIii1I11I1II1 / iII111i
+  for I1111IIi in Oo0oO0ooo :
+   i1i = I1111IIi . get ( 'title' )
+   if 93 - 93: OoooooooOO / I1IiiI % i11iIiiIii + I1ii11iIi11i * OoO0O00
+   I1 = { 'mode' : I1111IIi . get ( 'mode' )
+ , 'stype' : I1111IIi . get ( 'stype' )
+ , 'orderby' : I1111IIi . get ( 'orderby' )
+ , 'ordernm' : I1111IIi . get ( 'ordernm' )
  , 'page' : '1'
  }
-   if 78 - 78: Ii1I % I1Ii111 + I1ii11iIi11i
-   if O0i1II1Iiii1I11 . get ( 'mode' ) == 'XXX' :
-    o00oooO0Oo [ 'mode' ] = 'XXX'
-    OOooOoooOoOo = False
+   if 22 - 22: Oo0Ooo + Ii1I % I1ii11iIi11i
+   if I1111IIi . get ( 'mode' ) == 'XXX' :
+    I1 [ 'mode' ] = 'XXX'
+    iI1 = False
    else :
-    OOooOoooOoOo = True
-    if 84 - 84: IiII
-   self . add_dir ( i1i , sublabel = '' , img = '' , infoLabels = None , isFolder = OOooOoooOoOo , params = o00oooO0Oo )
+    iI1 = True
+    if 28 - 28: OoO0O00 + Ii1I / OoO0O00 . II111iiii
+   self . add_dir ( i1i , sublabel = '' , img = '' , infoLabels = None , isFolder = iI1 , params = I1 )
   if len ( Oo0oO0ooo ) > 0 : xbmcplugin . endOfDirectory ( self . _addon_handle )
-  if 86 - 86: OoOoOO00 - Ii1I - OoO0O00 * iII111i
-  if 66 - 66: OoooooooOO + O0
-  if 11 - 11: I11i + OoooooooOO - OoO0O00 / o0oOOo0O0Ooo + Oo0Ooo . II111iiii
-  if 41 - 41: Ii1I - O0 - O0
-  if 68 - 68: OOooOOo % I1Ii111
+  if 68 - 68: i11iIiiIii % I1ii11iIi11i + i11iIiiIii
+  if 31 - 31: II111iiii . I1IiiI
+  if 1 - 1: Oo0Ooo / o0oOOo0O0Ooo % iII111i * IiII . i11iIiiIii
+  if 2 - 2: I1ii11iIi11i * I11i - iIii1I11I1II1 + I1IiiI . oO0o % iII111i
+  if 92 - 92: iII111i
  def login_main ( self ) :
-  ( ooO00OO0 , i11111IIIII , iIiii1i111iI1 ) = self . get_settings_login_info ( )
-  if 14 - 14: iII111i . iII111i % OoooooooOO
-  if 44 - 44: i1IIi % II111iiii + I11i
-  if not ( ooO00OO0 and i11111IIIII ) :
+  ( IIiIiiIi , O000oo , IIi1I11I1II ) = self . get_settings_login_info ( )
+  if 63 - 63: OoooooooOO - OoO0O00 . II111iiii / o0oOOo0O0Ooo . OoOoOO00 / O0
+  if 84 - 84: IiII
+  if not ( IIiIiiIi and O000oo ) :
    O00oooo0O = xbmcgui . Dialog ( )
-   I1I1I = O00oooo0O . yesno ( __name__ , __language__ ( 30101 ) . encode ( 'utf8' ) , __language__ ( 30102 ) . encode ( 'utf8' ) )
-   if I1I1I == True :
+   OOO00O0O = O00oooo0O . yesno ( __name__ , __language__ ( 30101 ) . encode ( 'utf8' ) , __language__ ( 30102 ) . encode ( 'utf8' ) )
+   if OOO00O0O == True :
     __addon__ . openSettings ( )
     sys . exit ( )
-    if 95 - 95: II111iiii + o0oOOo0O0Ooo + iII111i * iIii1I11I1II1 % oO0o / IiII
-    if 56 - 56: iII111i
-    if 86 - 86: II111iiii % I1Ii111
+    if 33 - 33: O0 . IiII . I1IiiI
+    if 72 - 72: i1IIi / OoO0O00 + OoooooooOO - Oo0Ooo
+    if 29 - 29: I1ii11iIi11i + oO0o % O0
   if self . get_winEpisodeOrderby ( ) == '' :
    self . set_winEpisodeOrderby ( 'desc' )
-   if 15 - 15: i1IIi * I1IiiI + i11iIiiIii
-   if 6 - 6: ooOoO0o / i11iIiiIii + iII111i * oO0o
+   if 10 - 10: I11i / I1Ii111 - I1IiiI * iIii1I11I1II1 - I1IiiI
+   if 97 - 97: I1ii11iIi11i + I1IiiI * Ii1I + OOooOOo % iII111i
   if self . cookiefile_check ( ) : return
+  if 74 - 74: oO0o - Oo0Ooo + OoooooooOO + I1Ii111 / OoOoOO00
+  if 23 - 23: O0
+  if 85 - 85: Ii1I
+  if 84 - 84: I1IiiI . iIii1I11I1II1 % OoooooooOO + Ii1I % OoooooooOO % OoO0O00
+  if 42 - 42: OoO0O00 / I11i / o0oOOo0O0Ooo + iII111i / OoOoOO00
+  if 84 - 84: ooOoO0o * II111iiii + Oo0Ooo
+  if 53 - 53: iII111i % II111iiii . IiII - iIii1I11I1II1 - IiII * II111iiii
+  if 77 - 77: iIii1I11I1II1 * OoO0O00
+  if 95 - 95: I1IiiI + i11iIiiIii
+  if 6 - 6: ooOoO0o / i11iIiiIii + iII111i * oO0o
   if 80 - 80: II111iiii
-  if 83 - 83: I11i . i11iIiiIii + II111iiii . o0oOOo0O0Ooo * I11i
-  if 53 - 53: II111iiii
-  i1Ii1Ii = datetime . datetime . now ( ) . date ( )
-  oOO = xbmcgui . Window ( 10000 ) . getProperty ( 'TVING_M_LOGINTIME' )
-  if oOO == None or oOO == '' : oOO = '1900-01-01'
-  try :
-   oOO = datetime . datetime . strptime ( oOO , '%Y-%m-%d' ) . date ( )
-  except TypeError :
-   oOO = datetime . datetime ( * ( time . strptime ( oOO , '%Y-%m-%d' ) [ 0 : 6 ] ) ) . date ( )
-   if 25 - 25: O0 - O0 * o0oOOo0O0Ooo
-   if 51 - 51: Oo0Ooo - oO0o + II111iiii * Ii1I . I11i + oO0o
-   if 78 - 78: i11iIiiIii / iII111i - Ii1I / OOooOOo + oO0o
+  O0O = int ( datetime . datetime . now ( ) . strftime ( '%Y%m%d' ) )
+  i1I1I = xbmcgui . Window ( 10000 ) . getProperty ( 'TVING_M_LOGINTIME' )
+  if i1I1I == None or i1I1I == '' : i1I1I = int ( '19000101' )
+  if 12 - 12: i11iIiiIii / OoO0O00
+  if 80 - 80: I1Ii111 . i11iIiiIii - o0oOOo0O0Ooo
+  if 25 - 25: OoO0O00
   if xbmcgui . Window ( 10000 ) . getProperty ( 'TVING_M_LOGINWAIT' ) == 'TRUE' :
-   oOoooo0O0Oo = 0
+   oOo0oO = 0
    while True :
-    oOoooo0O0Oo += 1
-    if 76 - 76: Ii1I + IiII
+    oOo0oO += 1
+    if 51 - 51: Oo0Ooo - oO0o + II111iiii * Ii1I . I11i + oO0o
     time . sleep ( 0.05 )
-    if 34 - 34: Oo0Ooo
-    if 89 - 89: Oo0Ooo * OoOoOO00 * I1Ii111 + iII111i - I11i
-    if oOO >= i1Ii1Ii : return
-    if oOoooo0O0Oo > 600 : return
+    if 78 - 78: i11iIiiIii / iII111i - Ii1I / OOooOOo + oO0o
+    if i1I1I >= O0O : return
+    if oOo0oO > 600 : return
   else :
    xbmcgui . Window ( 10000 ) . setProperty ( 'TVING_M_LOGINWAIT' , 'TRUE' )
-   if 8 - 8: o0oOOo0O0Ooo % O0 / I1IiiI - oO0o
-   if 43 - 43: i11iIiiIii + Oo0Ooo * II111iiii * I1Ii111 * O0
-  if oOO >= i1Ii1Ii :
+   if 82 - 82: Ii1I
+  if i1I1I >= O0O :
    xbmcgui . Window ( 10000 ) . setProperty ( 'TVING_M_LOGINWAIT' , 'FALSE' )
    return
-   if 64 - 64: OOooOOo % iIii1I11I1II1 * oO0o
-   if 79 - 79: O0
-  if not self . TvingObj . GetCredential ( ooO00OO0 , i11111IIIII , iIiii1i111iI1 ) :
+   if 46 - 46: OoooooooOO . i11iIiiIii
+   if 94 - 94: o0oOOo0O0Ooo * Ii1I / Oo0Ooo / Ii1I
+  if not self . TvingObj . GetCredential ( IIiIiiIi , O000oo , IIi1I11I1II ) :
    self . addon_noti ( __language__ ( 30103 ) . encode ( 'utf8' ) )
    xbmcgui . Window ( 10000 ) . setProperty ( 'TVING_M_LOGINWAIT' , 'FALSE' )
    sys . exit ( )
-   if 78 - 78: I1ii11iIi11i + OOooOOo - I1Ii111
-   if 38 - 38: o0oOOo0O0Ooo - oO0o + iIii1I11I1II1 / OoOoOO00 % Oo0Ooo
+   if 87 - 87: Oo0Ooo . IiII
+   if 75 - 75: ooOoO0o + OoOoOO00 + o0oOOo0O0Ooo * I11i % oO0o . iII111i
   self . set_winCredential ( self . TvingObj . LoadCredential ( ) )
-  if 57 - 57: OoO0O00 / ooOoO0o
   self . cookiefile_save ( )
   xbmcgui . Window ( 10000 ) . setProperty ( 'TVING_M_LOGINWAIT' , 'FALSE' )
-  if 29 - 29: iIii1I11I1II1 + OoOoOO00 * OoO0O00 * OOooOOo . I1IiiI * I1IiiI
-  if 7 - 7: IiII * I1Ii111 % Ii1I - o0oOOo0O0Ooo
-  if 13 - 13: Ii1I . i11iIiiIii
-  if 56 - 56: I1ii11iIi11i % O0 - I1IiiI
-  if 100 - 100: Ii1I - O0 % oO0o * OOooOOo + I1IiiI
-  if 88 - 88: OoooooooOO - OoO0O00 * O0 * OoooooooOO . OoooooooOO
+  if 55 - 55: OOooOOo . I1IiiI
+  if 61 - 61: Oo0Ooo % IiII . Oo0Ooo
+  if 100 - 100: I1Ii111 * O0
+  if 64 - 64: OOooOOo % iIii1I11I1II1 * oO0o
+  if 79 - 79: O0
+  if 78 - 78: I1ii11iIi11i + OOooOOo - I1Ii111
  def dp_Title_Group ( self , args ) :
-  I111iI = args . get ( 'stype' )
-  if I111iI == 'live' :
-   oOOo0 = o00oOoo
+  IIIIii1I = args . get ( 'stype' )
+  if IIIIii1I == 'live' :
+   IiI1i = o00oOoo
   else :
-   oOOo0 = IiII1I1i1i1ii
-   if 16 - 16: oO0o % I1ii11iIi11i * i11iIiiIii % i11iIiiIii
-  for O0OOOOo0O in oOOo0 :
-   i1i = O0OOOOo0O . get ( 'title' )
-   if 81 - 81: O0 / OoO0O00 . i1IIi + I1IiiI - I11i
+   IiI1i = IiII1I1i1i1ii
+   if 92 - 92: IiII . IiII + OoO0O00
+  for IiIiI1111I1I in IiI1i :
+   i1i = IiIiI1111I1I . get ( 'title' )
+   if 13 - 13: Ii1I . i11iIiiIii
    if args . get ( 'ordernm' ) != '-' :
     i1i += '  (' + args . get ( 'ordernm' ) + ')'
-    if 74 - 74: iIii1I11I1II1 * I1ii11iIi11i + OoOoOO00 / i1IIi / II111iiii . Oo0Ooo
-   o00oooO0Oo = { 'mode' : O0OOOOo0O . get ( 'mode' )
- , 'stype' : O0OOOOo0O . get ( 'stype' )
+    if 56 - 56: I1ii11iIi11i % O0 - I1IiiI
+   I1 = { 'mode' : IiIiI1111I1I . get ( 'mode' )
+ , 'stype' : IiIiI1111I1I . get ( 'stype' )
  , 'orderby' : args . get ( 'orderby' )
  , 'page' : '1'
  }
-   if 62 - 62: OoooooooOO * I1IiiI
-   self . add_dir ( i1i , sublabel = '' , img = '' , infoLabels = None , isFolder = True , params = o00oooO0Oo )
-  if len ( oOOo0 ) > 0 : xbmcplugin . endOfDirectory ( self . _addon_handle )
-  if 58 - 58: OoOoOO00 % o0oOOo0O0Ooo
-  if 50 - 50: I1Ii111 . o0oOOo0O0Ooo
-  if 97 - 97: O0 + OoOoOO00
-  if 89 - 89: o0oOOo0O0Ooo + OoO0O00 * I11i * Ii1I
+   if 100 - 100: Ii1I - O0 % oO0o * OOooOOo + I1IiiI
+   self . add_dir ( i1i , sublabel = '' , img = '' , infoLabels = None , isFolder = True , params = I1 )
+  if len ( IiI1i ) > 0 : xbmcplugin . endOfDirectory ( self . _addon_handle )
+  if 88 - 88: OoooooooOO - OoO0O00 * O0 * OoooooooOO . OoooooooOO
+  if 33 - 33: I1Ii111 + iII111i * oO0o / iIii1I11I1II1 - I1IiiI
+  if 54 - 54: I1Ii111 / OOooOOo . oO0o % iII111i
+  if 57 - 57: i11iIiiIii . I1ii11iIi11i - Ii1I - oO0o + OoOoOO00
  def dp_LiveChannel_List ( self , args ) :
-  if 37 - 37: OoooooooOO - O0 - o0oOOo0O0Ooo
+  if 63 - 63: OoOoOO00 * iII111i
   self . TvingObj . SaveCredential ( self . get_winCredential ( ) )
-  if 77 - 77: OOooOOo * iIii1I11I1II1
-  I111iI = args . get ( 'stype' )
-  oO00oOOoooO = int ( args . get ( 'page' ) )
-  IiIi11iI , Oo0O00O000 = self . TvingObj . GetLiveChannelList ( I111iI , oO00oOOoooO )
-  if 3 - 3: Ii1I * I1ii11iIi11i % I11i
-  for oO0o0o0oo in IiIi11iI :
-   i1i = oO0o0o0oo . get ( 'title' )
-   iI1111iiii = oO0o0o0oo . get ( 'channel' )
-   Oo0OO = oO0o0o0oo . get ( 'thumbnail' )
-   O0OooOo0o = oO0o0o0oo . get ( 'synopsis' )
-   iiI11ii1I1 = oO0o0o0oo . get ( 'channelepg' )
-   if 82 - 82: II111iiii % I11i / OoO0O00 + OoOoOO00 / o0oOOo0O0Ooo / I1Ii111
-   oOo0OOoO0 = oO0o0o0oo . get ( 'info' )
-   oOo0OOoO0 [ 'plot' ] = '%s\n%s\n%s\n\n%s' % ( iI1111iiii , i1i , iiI11ii1I1 , O0OooOo0o )
-   if 11 - 11: I1ii11iIi11i . OoO0O00 * IiII * OoooooooOO + ooOoO0o
-   o00oooO0Oo = { 'mode' : 'LIVE'
- , 'mediacode' : oO0o0o0oo . get ( 'mediacode' )
- , 'stype' : I111iI
+  if 69 - 69: O0 . OoO0O00
+  IIIIii1I = args . get ( 'stype' )
+  ii1111iII = int ( args . get ( 'page' ) )
+  iiiiI , oooOo0OOOoo0 = self . TvingObj . GetLiveChannelList ( IIIIii1I , ii1111iII )
+  if 51 - 51: Oo0Ooo / OoOoOO00 . OOooOOo * o0oOOo0O0Ooo + OoO0O00 * IiII
+  for OOOoOo in iiiiI :
+   i1i = OOOoOo . get ( 'title' )
+   O00o0 = OOOoOo . get ( 'channel' )
+   I11iII = OOOoOo . get ( 'thumbnail' )
+   iIIII = OOOoOo . get ( 'synopsis' )
+   I11 = OOOoOo . get ( 'channelepg' )
+   if 30 - 30: o0oOOo0O0Ooo % II111iiii % iII111i
+   II111iI111I1I = OOOoOo . get ( 'info' )
+   II111iI111I1I [ 'plot' ] = '%s\n%s\n%s\n\n%s' % ( O00o0 , i1i , I11 , iIIII )
+   if 18 - 18: iII111i - OOooOOo . I1Ii111 . iIii1I11I1II1
+   I1 = { 'mode' : 'LIVE'
+ , 'mediacode' : OOOoOo . get ( 'mediacode' )
+ , 'stype' : IIIIii1I
    }
-   if 33 - 33: O0 * o0oOOo0O0Ooo - I1Ii111 % I1Ii111
-   self . add_dir ( iI1111iiii , sublabel = i1i , img = Oo0OO , infoLabels = oOo0OOoO0 , isFolder = False , params = o00oooO0Oo )
-   if 18 - 18: I1Ii111 / Oo0Ooo * I1Ii111 + I1Ii111 * i11iIiiIii * I1ii11iIi11i
-  if Oo0O00O000 :
-   if 11 - 11: ooOoO0o / OoOoOO00 - IiII * OoooooooOO + OoooooooOO . OoOoOO00
-   o00oooO0Oo [ 'mode' ] = 'CHANNEL'
-   o00oooO0Oo [ 'stype' ] = I111iI
-   o00oooO0Oo [ 'page' ] = str ( oO00oOOoooO + 1 )
+   if 2 - 2: OOooOOo . OoO0O00
+   self . add_dir ( O00o0 , sublabel = i1i , img = I11iII , infoLabels = II111iI111I1I , isFolder = False , params = I1 )
+   if 78 - 78: I11i * iIii1I11I1II1 . I1IiiI / o0oOOo0O0Ooo - OoooooooOO / I1Ii111
+  if oooOo0OOOoo0 :
+   if 35 - 35: I11i % OOooOOo - oO0o
+   I1 [ 'mode' ] = 'CHANNEL'
+   I1 [ 'stype' ] = IIIIii1I
+   I1 [ 'page' ] = str ( ii1111iII + 1 )
    i1i = '[B]%s >>[/B]' % '다음 페이지'
-   i1I1i111Ii = str ( oO00oOOoooO + 1 )
-   self . add_dir ( i1i , sublabel = i1I1i111Ii , img = '' , infoLabels = None , isFolder = True , params = o00oooO0Oo )
-   if 67 - 67: I1IiiI . i1IIi
-  if len ( IiIi11iI ) > 0 : xbmcplugin . endOfDirectory ( self . _addon_handle , cacheToDisc = False )
-  if 27 - 27: ooOoO0o % I1IiiI
-  if 73 - 73: OOooOOo
-  if 70 - 70: iIii1I11I1II1
-  if 31 - 31: IiII - I1IiiI % iIii1I11I1II1
+   ii1iii1i = str ( ii1111iII + 1 )
+   self . add_dir ( i1i , sublabel = ii1iii1i , img = '' , infoLabels = None , isFolder = True , params = I1 )
+   if 35 - 35: II111iiii % OOooOOo . ooOoO0o + ooOoO0o % II111iiii % II111iiii
+  if len ( iiiiI ) > 0 : xbmcplugin . endOfDirectory ( self . _addon_handle , cacheToDisc = False )
+  if 72 - 72: II111iiii + i1IIi + o0oOOo0O0Ooo
+  if 94 - 94: oO0o . i1IIi - o0oOOo0O0Ooo % O0 - OoO0O00
+  if 72 - 72: Ii1I
+  if 1 - 1: OoO0O00 * IiII * OoooooooOO + ooOoO0o
  def dp_Program_List ( self , args ) :
-  if 92 - 92: i1IIi - iIii1I11I1II1
+  if 33 - 33: O0 * o0oOOo0O0Ooo - I1Ii111 % I1Ii111
   self . TvingObj . SaveCredential ( self . get_winCredential ( ) )
-  if 16 - 16: OoO0O00 - OoOoOO00 - OOooOOo - i1IIi / Ii1I
-  I111iI = args . get ( 'stype' )
-  o0oOoOO = args . get ( 'orderby' )
-  oO00oOOoooO = int ( args . get ( 'page' ) )
-  if 58 - 58: I1IiiI
-  oOoO , Oo0O00O000 = self . TvingObj . GetProgramList ( I111iI , o0oOoOO , oO00oOOoooO , landyn = self . get_settings_thumbnail_landyn ( ) )
-  if 81 - 81: OoOoOO00 - OoOoOO00 . iII111i
-  for o0OoOo00o0o in oOoO :
-   i1i = o0OoOo00o0o . get ( 'title' )
-   Oo0OO = o0OoOo00o0o . get ( 'thumbnail' )
-   O0OooOo0o = o0OoOo00o0o . get ( 'synopsis' )
-   I1II1I11I1I = O0OoOoo00o . get ( o0OoOo00o0o . get ( 'channel' ) )
-   if 54 - 54: OoooooooOO + o0oOOo0O0Ooo - i1IIi % i11iIiiIii
-   oOo0OOoO0 = o0OoOo00o0o . get ( 'info' )
-   oOo0OOoO0 [ 'studio' ] = I1II1I11I1I
-   oOo0OOoO0 [ 'plot' ] = '%s <%s>\n\n%s' % ( i1i , I1II1I11I1I , O0OooOo0o )
-   if 3 - 3: o0oOOo0O0Ooo % o0oOOo0O0Ooo
-   o00oooO0Oo = { 'mode' : 'EPISODE'
- , 'programcode' : o0OoOo00o0o . get ( 'program' )
+  if 18 - 18: I1Ii111 / Oo0Ooo * I1Ii111 + I1Ii111 * i11iIiiIii * I1ii11iIi11i
+  IIIIii1I = args . get ( 'stype' )
+  I1II1 = args . get ( 'orderby' )
+  ii1111iII = int ( args . get ( 'page' ) )
+  if 86 - 86: iIii1I11I1II1 / OoOoOO00 . II111iiii
+  II1i111Ii1i , oooOo0OOOoo0 = self . TvingObj . GetProgramList ( IIIIii1I , I1II1 , ii1111iII , landyn = self . get_settings_thumbnail_landyn ( ) )
+  if 15 - 15: II111iiii / i1IIi
+  for O0oO0 in II1i111Ii1i :
+   i1i = O0oO0 . get ( 'title' )
+   I11iII = O0oO0 . get ( 'thumbnail' )
+   iIIII = O0oO0 . get ( 'synopsis' )
+   iII11 = O0OoOoo00o . get ( O0oO0 . get ( 'channel' ) )
+   if 32 - 32: I1Ii111
+   II111iI111I1I = O0oO0 . get ( 'info' )
+   II111iI111I1I [ 'studio' ] = iII11
+   II111iI111I1I [ 'plot' ] = '%s <%s>\n\n%s' % ( i1i , iII11 , iIIII )
+   if 30 - 30: iIii1I11I1II1 / I11i . OoO0O00 - o0oOOo0O0Ooo
+   I1 = { 'mode' : 'EPISODE'
+ , 'programcode' : O0oO0 . get ( 'program' )
  , 'page' : '1'
  }
-   if 83 - 83: II111iiii + I1Ii111
-   self . add_dir ( i1i , sublabel = I1II1I11I1I , img = Oo0OO , infoLabels = oOo0OOoO0 , isFolder = True , params = o00oooO0Oo )
-   if 73 - 73: iII111i
-  if Oo0O00O000 :
-   if 42 - 42: i11iIiiIii * iIii1I11I1II1 / I1ii11iIi11i . i11iIiiIii % I11i
-   o00oooO0Oo [ 'mode' ] = 'PROGRAM'
-   o00oooO0Oo [ 'stype' ] = I111iI
-   o00oooO0Oo [ 'orderby' ] = o0oOoOO
-   o00oooO0Oo [ 'page' ] = str ( oO00oOOoooO + 1 )
+   if 48 - 48: i1IIi - Ii1I / O0 * OoO0O00
+   self . add_dir ( i1i , sublabel = iII11 , img = I11iII , infoLabels = II111iI111I1I , isFolder = True , params = I1 )
+   if 71 - 71: I1ii11iIi11i
+  if oooOo0OOOoo0 :
+   if 7 - 7: I1ii11iIi11i - I1IiiI . iIii1I11I1II1 - i1IIi
+   I1 [ 'mode' ] = 'PROGRAM'
+   I1 [ 'stype' ] = IIIIii1I
+   I1 [ 'orderby' ] = I1II1
+   I1 [ 'page' ] = str ( ii1111iII + 1 )
    i1i = '[B]%s >>[/B]' % '다음 페이지'
-   i1I1i111Ii = str ( oO00oOOoooO + 1 )
-   self . add_dir ( i1i , sublabel = i1I1i111Ii , img = '' , infoLabels = None , isFolder = True , params = o00oooO0Oo )
-   if 41 - 41: IiII / O0
-  if len ( oOoO ) > 0 : xbmcplugin . endOfDirectory ( self . _addon_handle , cacheToDisc = False )
-  if 51 - 51: I11i % I1IiiI
-  if 60 - 60: I1IiiI / OOooOOo . I1IiiI / I1Ii111 . IiII
-  if 92 - 92: OoOoOO00 + I1Ii111 * Ii1I % I1IiiI
-  if 42 - 42: Oo0Ooo
+   ii1iii1i = str ( ii1111iII + 1 )
+   self . add_dir ( i1i , sublabel = ii1iii1i , img = '' , infoLabels = None , isFolder = True , params = I1 )
+   if 59 - 59: o0oOOo0O0Ooo
+  if len ( II1i111Ii1i ) > 0 : xbmcplugin . endOfDirectory ( self . _addon_handle , cacheToDisc = False )
+  if 81 - 81: OoOoOO00 - OoOoOO00 . iII111i
+  if 73 - 73: I11i % i11iIiiIii - I1IiiI
+  if 7 - 7: O0 * i11iIiiIii * Ii1I + ooOoO0o % OoO0O00 - ooOoO0o
+  if 39 - 39: Oo0Ooo * OOooOOo % OOooOOo - OoooooooOO + o0oOOo0O0Ooo - I11i
  def dp_Episode_List ( self , args ) :
-  if 76 - 76: I1IiiI * iII111i % I1Ii111
+  if 23 - 23: i11iIiiIii
   self . TvingObj . SaveCredential ( self . get_winCredential ( ) )
-  if 57 - 57: iIii1I11I1II1 - i1IIi / I1Ii111 - O0 * OoooooooOO % II111iiii
-  Oo00OO0o0o00 = args . get ( 'programcode' )
-  oO00oOOoooO = int ( args . get ( 'page' ) )
-  if 12 - 12: i1IIi + i1IIi - I1ii11iIi11i * Oo0Ooo % Oo0Ooo - II111iiii
-  o0O , Oo0O00O000 , OOOooo = self . TvingObj . GetEpisodoList ( Oo00OO0o0o00 , oO00oOOoooO , orderby = self . get_winEpisodeOrderby ( ) )
-  if 94 - 94: OoooooooOO + Oo0Ooo / OoOoOO00 * OOooOOo
-  for o0OOo0o0O0O in o0O :
-   i1i = o0OOo0o0O0O . get ( 'title' )
-   i1I1i111Ii = o0OOo0o0O0O . get ( 'subtitle' )
-   Oo0OO = o0OOo0o0O0O . get ( 'thumbnail' )
-   O0OooOo0o = o0OOo0o0O0O . get ( 'synopsis' )
-   if 65 - 65: i11iIiiIii
-   oOo0OOoO0 = o0OOo0o0O0O . get ( 'info' )
-   oOo0OOoO0 [ 'plot' ] = '%s\n\n%s' % ( i1i , O0OooOo0o )
-   if 85 - 85: Ii1I % iII111i + I11i / o0oOOo0O0Ooo . oO0o + OOooOOo
-   o00oooO0Oo = { 'mode' : 'VOD'
- , 'mediacode' : o0OOo0o0O0O . get ( 'episode' )
+  if 30 - 30: o0oOOo0O0Ooo - i1IIi % II111iiii + I11i * iIii1I11I1II1
+  o0ooooO0o0O = args . get ( 'programcode' )
+  ii1111iII = int ( args . get ( 'page' ) )
+  if 24 - 24: O0 * o0oOOo0O0Ooo
+  IiI1iiiIii , oooOo0OOOoo0 , I1III1111iIi = self . TvingObj . GetEpisodoList ( o0ooooO0o0O , ii1111iII , orderby = self . get_winEpisodeOrderby ( ) )
+  if 38 - 38: iII111i + I11i / I1Ii111 % ooOoO0o - I1ii11iIi11i
+  for iI11 in IiI1iiiIii :
+   i1i = iI11 . get ( 'title' )
+   ii1iii1i = iI11 . get ( 'subtitle' )
+   I11iII = iI11 . get ( 'thumbnail' )
+   iIIII = iI11 . get ( 'synopsis' )
+   if 10 - 10: II111iiii / oO0o % OoooooooOO * I11i % I1ii11iIi11i
+   II111iI111I1I = iI11 . get ( 'info' )
+   II111iI111I1I [ 'plot' ] = '%s\n\n%s' % ( i1i , iIIII )
+   if 48 - 48: ooOoO0o / I1Ii111 . iIii1I11I1II1 * OoOoOO00 * oO0o / i1IIi
+   I1 = { 'mode' : 'VOD'
+ , 'mediacode' : iI11 . get ( 'episode' )
  , 'stype' : 'vod'
- , 'programcode' : Oo00OO0o0o00
+ , 'programcode' : o0ooooO0o0O
  , 'title' : i1i
- , 'thumbnail' : Oo0OO
+ , 'thumbnail' : I11iII
  }
+   if 92 - 92: Oo0Ooo % Oo0Ooo - o0oOOo0O0Ooo / OoOoOO00
+   self . add_dir ( i1i , sublabel = ii1iii1i , img = I11iII , infoLabels = II111iI111I1I , isFolder = False , params = I1 )
+   if 10 - 10: iII111i + Oo0Ooo * I1ii11iIi11i + iIii1I11I1II1 / I1Ii111 / I1ii11iIi11i
+   if 42 - 42: I1IiiI
+   if 38 - 38: OOooOOo + II111iiii % ooOoO0o % OoOoOO00 - Ii1I / OoooooooOO
+   if 73 - 73: o0oOOo0O0Ooo * O0 - i11iIiiIii
+   if 85 - 85: Ii1I % iII111i + I11i / o0oOOo0O0Ooo . oO0o + OOooOOo
    if 62 - 62: i11iIiiIii + i11iIiiIii - o0oOOo0O0Ooo
-   self . add_dir ( i1i , sublabel = i1I1i111Ii , img = Oo0OO , infoLabels = oOo0OOoO0 , isFolder = False , params = o00oooO0Oo )
-   if 28 - 28: iII111i . iII111i % iIii1I11I1II1 * iIii1I11I1II1 . o0oOOo0O0Ooo / iII111i
-   if 27 - 27: OoO0O00 + ooOoO0o - i1IIi
-   if 69 - 69: IiII - O0 % I1ii11iIi11i + i11iIiiIii . OoOoOO00 / OoO0O00
-   if 79 - 79: O0 * i11iIiiIii - IiII / IiII
-   if 48 - 48: O0
-   if 93 - 93: i11iIiiIii - I1IiiI * I1ii11iIi11i * I11i % O0 + OoooooooOO
-  if oO00oOOoooO == 1 :
-   oOo0OOoO0 = { 'plot' : '정렬순서를 변경합니다.' }
-   o00oooO0Oo = { }
-   o00oooO0Oo [ 'mode' ] = 'ORDER_BY'
+  if ii1111iII == 1 :
+   II111iI111I1I = { 'plot' : '정렬순서를 변경합니다.' }
+   I1 = { }
+   I1 [ 'mode' ] = 'ORDER_BY'
    if self . get_winEpisodeOrderby ( ) == 'desc' :
     i1i = '정렬순서변경 : 최신화부터 -> 1회부터'
-    o00oooO0Oo [ 'orderby' ] = 'asc'
+    I1 [ 'orderby' ] = 'asc'
    else :
     i1i = '정렬순서변경 : 1회부터 -> 최신화부터'
-    o00oooO0Oo [ 'orderby' ] = 'desc'
-   self . add_dir ( i1i , sublabel = '' , img = '' , infoLabels = oOo0OOoO0 , isFolder = False , params = o00oooO0Oo )
-   if 25 - 25: IiII + Ii1I / ooOoO0o . o0oOOo0O0Ooo % O0 * OoO0O00
-   if 84 - 84: ooOoO0o % Ii1I + i11iIiiIii
-  if Oo0O00O000 :
-   if 28 - 28: Oo0Ooo + OoO0O00 * OOooOOo % oO0o . I11i % O0
-   o00oooO0Oo [ 'mode' ] = 'EPISODE'
-   o00oooO0Oo [ 'programcode' ] = Oo00OO0o0o00
-   o00oooO0Oo [ 'page' ] = str ( oO00oOOoooO + 1 )
+    I1 [ 'orderby' ] = 'desc'
+   self . add_dir ( i1i , sublabel = '' , img = '' , infoLabels = II111iI111I1I , isFolder = False , params = I1 )
+   if 28 - 28: iII111i . iII111i % iIii1I11I1II1 * iIii1I11I1II1 . o0oOOo0O0Ooo / iII111i
+   if 27 - 27: OoO0O00 + ooOoO0o - i1IIi
+  if oooOo0OOOoo0 :
+   if 69 - 69: IiII - O0 % I1ii11iIi11i + i11iIiiIii . OoOoOO00 / OoO0O00
+   I1 [ 'mode' ] = 'EPISODE'
+   I1 [ 'programcode' ] = o0ooooO0o0O
+   I1 [ 'page' ] = str ( ii1111iII + 1 )
    i1i = '[B]%s >>[/B]' % '다음 페이지'
-   i1I1i111Ii = str ( oO00oOOoooO + 1 )
-   self . add_dir ( i1i , sublabel = i1I1i111Ii , img = '' , infoLabels = None , isFolder = True , params = o00oooO0Oo )
-   if 16 - 16: I11i - iIii1I11I1II1 / I1IiiI . II111iiii + iIii1I11I1II1
-   if 19 - 19: OoO0O00 - Oo0Ooo . O0
-  if len ( o0O ) > 0 : xbmcplugin . endOfDirectory ( self . _addon_handle , cacheToDisc = True )
+   ii1iii1i = str ( ii1111iII + 1 )
+   self . add_dir ( i1i , sublabel = ii1iii1i , img = '' , infoLabels = None , isFolder = True , params = I1 )
+   if 79 - 79: O0 * i11iIiiIii - IiII / IiII
+   if 48 - 48: O0
+  if len ( IiI1iiiIii ) > 0 : xbmcplugin . endOfDirectory ( self . _addon_handle , cacheToDisc = True )
+  if 93 - 93: i11iIiiIii - I1IiiI * I1ii11iIi11i * I11i % O0 + OoooooooOO
+  if 25 - 25: IiII + Ii1I / ooOoO0o . o0oOOo0O0Ooo % O0 * OoO0O00
+  if 84 - 84: ooOoO0o % Ii1I + i11iIiiIii
+  if 28 - 28: Oo0Ooo + OoO0O00 * OOooOOo % oO0o . I11i % O0
+ def dp_setEpOrderby ( self , args ) :
+  I1II1 = args . get ( 'orderby' )
+  if 16 - 16: I11i - iIii1I11I1II1 / I1IiiI . II111iiii + iIii1I11I1II1
+  self . set_winEpisodeOrderby ( I1II1 )
+  xbmc . executebuiltin ( "Container.Refresh" )
+  if 19 - 19: OoO0O00 - Oo0Ooo . O0
   if 60 - 60: II111iiii + Oo0Ooo
   if 9 - 9: ooOoO0o * OoooooooOO - iIii1I11I1II1 + OoOoOO00 / OoO0O00 . OoO0O00
   if 49 - 49: II111iiii
-  if 25 - 25: OoooooooOO - I1IiiI . I1IiiI * oO0o
- def dp_setEpOrderby ( self , args ) :
-  o0oOoOO = args . get ( 'orderby' )
-  if 81 - 81: iII111i + IiII
-  self . set_winEpisodeOrderby ( o0oOoOO )
-  xbmc . executebuiltin ( "Container.Refresh" )
-  if 98 - 98: I1IiiI
-  if 95 - 95: ooOoO0o / ooOoO0o
-  if 30 - 30: I1ii11iIi11i + Oo0Ooo / Oo0Ooo % I1ii11iIi11i . I1ii11iIi11i
-  if 55 - 55: ooOoO0o - I11i + II111iiii + iII111i % Ii1I
  def dp_Movie_List ( self , args ) :
-  if 41 - 41: i1IIi - I11i - Ii1I
+  if 25 - 25: OoooooooOO - I1IiiI . I1IiiI * oO0o
   self . TvingObj . SaveCredential ( self . get_winCredential ( ) )
-  if 8 - 8: OoO0O00 + I1Ii111 - o0oOOo0O0Ooo % Oo0Ooo % o0oOOo0O0Ooo * oO0o
-  o0oOoOO = args . get ( 'orderby' )
-  oO00oOOoooO = int ( args . get ( 'page' ) )
-  if 9 - 9: Oo0Ooo - i11iIiiIii - OOooOOo * Ii1I + ooOoO0o
-  iIIII , Oo0O00O000 = self . TvingObj . GetMovieList ( o0oOoOO , oO00oOOoooO , premiumyn = self . get_settings_premiumyn ( ) , landyn = self . get_settings_thumbnail_landyn ( ) )
-  if 45 - 45: I1ii11iIi11i % I1IiiI - i11iIiiIii
-  for ii1iiIiIII1ii in iIIII :
-   i1i = ii1iiIiIII1ii . get ( 'title' )
-   Oo0OO = ii1iiIiIII1ii . get ( 'thumbnail' )
-   O0OooOo0o = ii1iiIiIII1ii . get ( 'synopsis' )
-   if 82 - 82: iII111i
-   oOo0OOoO0 = ii1iiIiIII1ii . get ( 'info' )
-   oOo0OOoO0 [ 'plot' ] = '%s\n\n%s' % ( i1i , O0OooOo0o )
-   if 65 - 65: ooOoO0o . OoooooooOO / I1ii11iIi11i . i1IIi * OoO0O00
-   o00oooO0Oo = { 'mode' : 'MOVIE'
- , 'mediacode' : ii1iiIiIII1ii . get ( 'moviecode' )
+  if 81 - 81: iII111i + IiII
+  I1II1 = args . get ( 'orderby' )
+  ii1111iII = int ( args . get ( 'page' ) )
+  if 98 - 98: I1IiiI
+  o00o0 , oooOo0OOOoo0 = self . TvingObj . GetMovieList ( I1II1 , ii1111iII , premiumyn = self . get_settings_premiumyn ( ) , landyn = self . get_settings_thumbnail_landyn ( ) )
+  if 50 - 50: Oo0Ooo / Oo0Ooo % I1ii11iIi11i . I1ii11iIi11i
+  for O0O0Oo00 in o00o0 :
+   i1i = O0O0Oo00 . get ( 'title' )
+   I11iII = O0O0Oo00 . get ( 'thumbnail' )
+   iIIII = O0O0Oo00 . get ( 'synopsis' )
+   if 80 - 80: oO0o + OOooOOo / I11i
+   II111iI111I1I = O0O0Oo00 . get ( 'info' )
+   II111iI111I1I [ 'plot' ] = '%s\n\n%s' % ( i1i , iIIII )
+   if 79 - 79: ooOoO0o
+   I1 = { 'mode' : 'MOVIE'
+ , 'mediacode' : O0O0Oo00 . get ( 'moviecode' )
  , 'stype' : 'movie'
  , 'title' : i1i
- , 'thumbnail' : Oo0OO
+ , 'thumbnail' : I11iII
  }
-   if 19 - 19: i11iIiiIii + OoooooooOO - Oo0Ooo - I11i
-   self . add_dir ( i1i , sublabel = '' , img = Oo0OO , infoLabels = oOo0OOoO0 , isFolder = False , params = o00oooO0Oo )
-   if 21 - 21: O0 % IiII . I1IiiI / II111iiii + IiII
-  if Oo0O00O000 :
-   if 53 - 53: oO0o - I1IiiI - oO0o * iII111i
-   o00oooO0Oo [ 'mode' ] = 'MOVIE_GROUP'
-   o00oooO0Oo [ 'orderby' ] = o0oOoOO
-   o00oooO0Oo [ 'page' ] = str ( oO00oOOoooO + 1 )
+   if 48 - 48: I1Ii111 - o0oOOo0O0Ooo % Ii1I
+   self . add_dir ( i1i , sublabel = '' , img = I11iII , infoLabels = II111iI111I1I , isFolder = False , params = I1 )
+   if 36 - 36: oO0o - Ii1I . Oo0Ooo - i11iIiiIii - OOooOOo * Oo0Ooo
+  if oooOo0OOOoo0 :
+   if 76 - 76: i11iIiiIii + o0oOOo0O0Ooo / I1ii11iIi11i - OoO0O00 - Ii1I + I1ii11iIi11i
+   I1 [ 'mode' ] = 'MOVIE_GROUP'
+   I1 [ 'orderby' ] = I1II1
+   I1 [ 'page' ] = str ( ii1111iII + 1 )
    i1i = '[B]%s >>[/B]' % '다음 페이지'
-   i1I1i111Ii = str ( oO00oOOoooO + 1 )
-   self . add_dir ( i1i , sublabel = i1I1i111Ii , img = '' , infoLabels = None , isFolder = True , params = o00oooO0Oo )
-   if 71 - 71: O0 - iIii1I11I1II1
-  if len ( iIIII ) > 0 : xbmcplugin . endOfDirectory ( self . _addon_handle , cacheToDisc = False )
-  if 12 - 12: OOooOOo / o0oOOo0O0Ooo
-  if 42 - 42: Oo0Ooo
-  if 19 - 19: oO0o % I1ii11iIi11i * iIii1I11I1II1 + I1IiiI
-  if 46 - 46: Oo0Ooo
+   ii1iii1i = str ( ii1111iII + 1 )
+   self . add_dir ( i1i , sublabel = ii1iii1i , img = '' , infoLabels = None , isFolder = True , params = I1 )
+   if 51 - 51: iIii1I11I1II1 . ooOoO0o + iIii1I11I1II1
+  if len ( o00o0 ) > 0 : xbmcplugin . endOfDirectory ( self . _addon_handle , cacheToDisc = False )
+  if 95 - 95: I1IiiI
+  if 46 - 46: OoOoOO00 + OoO0O00
+  if 70 - 70: iII111i / iIii1I11I1II1
+  if 85 - 85: OoooooooOO % i1IIi * OoooooooOO / I1ii11iIi11i
  def dp_Search_Group ( self , args ) :
-  for O0OOOOo0O in O0o0o00o0Oo0 :
-   i1i = O0OOOOo0O . get ( 'title' )
-   if 1 - 1: iII111i
-   o00oooO0Oo = { 'mode' : O0OOOOo0O . get ( 'mode' )
- , 'stype' : O0OOOOo0O . get ( 'stype' )
+  for IiIiI1111I1I in O0o0o00o0Oo0 :
+   i1i = IiIiI1111I1I . get ( 'title' )
+   if 96 - 96: OoooooooOO + oO0o
+   I1 = { 'mode' : IiIiI1111I1I . get ( 'mode' )
+ , 'stype' : IiIiI1111I1I . get ( 'stype' )
  , 'page' : '1'
  }
-   if 97 - 97: OOooOOo + iII111i + O0 + i11iIiiIii
-   self . add_dir ( i1i , sublabel = '' , img = '' , infoLabels = None , isFolder = True , params = o00oooO0Oo )
+   if 44 - 44: oO0o
+   self . add_dir ( i1i , sublabel = '' , img = '' , infoLabels = None , isFolder = True , params = I1 )
   if len ( O0o0o00o0Oo0 ) > 0 : xbmcplugin . endOfDirectory ( self . _addon_handle )
-  if 77 - 77: o0oOOo0O0Ooo / OoooooooOO
-  if 46 - 46: o0oOOo0O0Ooo % iIii1I11I1II1 . iII111i % iII111i + i11iIiiIii
-  if 72 - 72: iIii1I11I1II1 * Ii1I % ooOoO0o / OoO0O00
-  if 35 - 35: ooOoO0o + i1IIi % I1ii11iIi11i % I11i + oO0o
+  if 20 - 20: I11i + Ii1I / O0 % iIii1I11I1II1
+  if 88 - 88: OoOoOO00 / II111iiii
+  if 87 - 87: I1ii11iIi11i - I1ii11iIi11i - iII111i + oO0o
+  if 82 - 82: oO0o / iIii1I11I1II1 . I1IiiI . OOooOOo / o0oOOo0O0Ooo
  def dp_Search_List ( self , args ) :
-  if 17 - 17: i1IIi
+  if 42 - 42: Oo0Ooo
   self . TvingObj . SaveCredential ( self . get_winCredential ( ) )
-  if 21 - 21: Oo0Ooo
-  I1ii1 = __addon__ . getSetting ( 'id' )
-  oO00oOOoooO = int ( args . get ( 'page' ) )
-  I111iI = args . get ( 'stype' )
-  if 99 - 99: ooOoO0o . I1Ii111 % IiII * IiII . i1IIi
+  if 19 - 19: oO0o % I1ii11iIi11i * iIii1I11I1II1 + I1IiiI
+  iii11I = __addon__ . getSetting ( 'id' )
+  ii1111iII = int ( args . get ( 'page' ) )
+  IIIIii1I = args . get ( 'stype' )
+  if 50 - 50: iII111i + O0 + Ii1I . II111iiii / o0oOOo0O0Ooo
   if 'search_key' in args :
-   O0OOoOOO0oO = args . get ( 'search_key' )
+   i1Iii11I1i = args . get ( 'search_key' )
   else :
-   O0OOoOOO0oO = self . get_keyboard_input ( __language__ ( 30003 ) . encode ( 'utf-8' ) )
-   if not O0OOoOOO0oO : return
-   if 28 - 28: ooOoO0o + i11iIiiIii / I11i % OoOoOO00 % Oo0Ooo - O0
-  ooo0OOO , Oo0O00O000 = self . TvingObj . GetSearchList ( O0OOoOOO0oO , I1ii1 , oO00oOOoooO , I111iI , premiumyn = self . get_settings_premiumyn ( ) , landyn = self . get_settings_thumbnail_landyn ( ) )
-  if len ( ooo0OOO ) == 0 : return
-  if 49 - 49: i11iIiiIii % Ii1I . OoOoOO00
-  for Ii1i1iI in ooo0OOO :
-   i1i = Ii1i1iI . get ( 'title' )
-   Oo0OO = Ii1i1iI . get ( 'thumbnail' )
-   O0OooOo0o = Ii1i1iI . get ( 'synopsis' )
-   IIiI1 = Ii1i1iI . get ( 'program' )
-   if 17 - 17: OOooOOo / OOooOOo / I11i
-   oOo0OOoO0 = Ii1i1iI . get ( 'info' )
-   oOo0OOoO0 [ 'plot' ] = '%s\n\n%s' % ( i1i , O0OooOo0o )
-   if 1 - 1: i1IIi . i11iIiiIii % OOooOOo
-   if I111iI == 'vod' :
-    o00oooO0Oo = { 'mode' : 'EPISODE'
- , 'programcode' : Ii1i1iI . get ( 'program' )
+   i1Iii11I1i = self . get_keyboard_input ( __language__ ( 30003 ) . encode ( 'utf-8' ) )
+   if not i1Iii11I1i : return
+   if 72 - 72: iIii1I11I1II1 * Ii1I % ooOoO0o / OoO0O00
+  I11i1II , oooOo0OOOoo0 = self . TvingObj . GetSearchList ( i1Iii11I1i , iii11I , ii1111iII , IIIIii1I , premiumyn = self . get_settings_premiumyn ( ) , landyn = self . get_settings_thumbnail_landyn ( ) )
+  if len ( I11i1II ) == 0 : return
+  if 72 - 72: iIii1I11I1II1 . i1IIi / Oo0Ooo . II111iiii
+  for ooo000o000 in I11i1II :
+   i1i = ooo000o000 . get ( 'title' )
+   I11iII = ooo000o000 . get ( 'thumbnail' )
+   iIIII = ooo000o000 . get ( 'synopsis' )
+   O0o = ooo000o000 . get ( 'program' )
+   if 72 - 72: OOooOOo % I1ii11iIi11i + OoO0O00 / oO0o + IiII
+   II111iI111I1I = ooo000o000 . get ( 'info' )
+   II111iI111I1I [ 'plot' ] = '%s\n\n%s' % ( i1i , iIIII )
+   if 10 - 10: I1Ii111 / ooOoO0o + i11iIiiIii / Ii1I
+   if IIIIii1I == 'vod' :
+    I1 = { 'mode' : 'EPISODE'
+ , 'programcode' : ooo000o000 . get ( 'program' )
  , 'page' : '1'
  }
-    OOooOoooOoOo = True
+    iI1 = True
    else :
-    o00oooO0Oo = { 'mode' : 'MOVIE'
- , 'mediacode' : Ii1i1iI . get ( 'movie' )
+    I1 = { 'mode' : 'MOVIE'
+ , 'mediacode' : ooo000o000 . get ( 'movie' )
  , 'stype' : 'movie'
  , 'title' : i1i
- , 'thumbnail' : Oo0OO
+ , 'thumbnail' : I11iII
  }
-    OOooOoooOoOo = False
-    if 82 - 82: iIii1I11I1II1 + Oo0Ooo . iIii1I11I1II1 % IiII / Ii1I . Ii1I
-   self . add_dir ( i1i , sublabel = '' , img = Oo0OO , infoLabels = oOo0OOoO0 , isFolder = OOooOoooOoOo , params = o00oooO0Oo )
-   if 14 - 14: o0oOOo0O0Ooo . OOooOOo . I11i + OoooooooOO - OOooOOo + IiII
-  if Oo0O00O000 :
-   if 9 - 9: Ii1I
-   o00oooO0Oo [ 'mode' ] = 'SEARCH'
-   o00oooO0Oo [ 'search_key' ] = O0OOoOOO0oO
-   o00oooO0Oo [ 'page' ] = str ( oO00oOOoooO + 1 )
+    iI1 = False
+    if 74 - 74: OOooOOo + O0 + i1IIi - i1IIi + II111iiii
+   self . add_dir ( i1i , sublabel = '' , img = I11iII , infoLabels = II111iI111I1I , isFolder = iI1 , params = I1 )
+   if 83 - 83: I1ii11iIi11i - I1IiiI + OOooOOo
+  if oooOo0OOOoo0 :
+   if 5 - 5: Ii1I
+   I1 [ 'mode' ] = 'SEARCH'
+   I1 [ 'search_key' ] = i1Iii11I1i
+   I1 [ 'page' ] = str ( ii1111iII + 1 )
    i1i = '[B]%s >>[/B]' % '다음 페이지'
-   i1I1i111Ii = str ( oO00oOOoooO + 1 )
-   self . add_dir ( i1i , sublabel = i1I1i111Ii , img = '' , infoLabels = None , isFolder = True , params = o00oooO0Oo )
-   if 59 - 59: I1IiiI * II111iiii . O0
-  if len ( ooo0OOO ) > 0 : xbmcplugin . endOfDirectory ( self . _addon_handle )
-  if 56 - 56: Ii1I - iII111i % I1IiiI - o0oOOo0O0Ooo
-  if 51 - 51: O0 / ooOoO0o * iIii1I11I1II1 + I1ii11iIi11i + o0oOOo0O0Ooo
-  if 98 - 98: iIii1I11I1II1 * I1ii11iIi11i * OOooOOo + ooOoO0o % i11iIiiIii % O0
-  if 27 - 27: O0
+   ii1iii1i = str ( ii1111iII + 1 )
+   self . add_dir ( i1i , sublabel = ii1iii1i , img = '' , infoLabels = None , isFolder = True , params = I1 )
+   if 46 - 46: IiII
+  if len ( I11i1II ) > 0 : xbmcplugin . endOfDirectory ( self . _addon_handle )
+  if 45 - 45: ooOoO0o
+  if 21 - 21: oO0o . I1Ii111 . OOooOOo / Oo0Ooo / I1Ii111
+  if 17 - 17: OOooOOo / OOooOOo / I11i
+  if 1 - 1: i1IIi . i11iIiiIii % OOooOOo
  def Delete_Watched_List ( self , stype ) :
   try :
-   OOO0oOOoo = xbmc . translatePath ( os . path . join ( __profile__ , 'watchedlist_%s.txt' % stype ) )
-   with open ( OOO0oOOoo , 'w' ) as oOOO00o000o :
-    oOOO00o000o . write ( '' )
+   OooO0oo = xbmc . translatePath ( os . path . join ( __profile__ , 'watchedlist_%s.txt' % stype ) )
+   with open ( OooO0oo , 'w' ) as o0o0oOoOO0O :
+    o0o0oOoOO0O . write ( '' )
   except :
    None
-   if 9 - 9: oO0o + I11i / I11i
-   if 12 - 12: OoooooooOO % o0oOOo0O0Ooo * I11i % iIii1I11I1II1 / Ii1I
-   if 27 - 27: i11iIiiIii % II111iiii % I11i . O0 - Oo0Ooo + OoOoOO00
-   if 57 - 57: iIii1I11I1II1 / I11i - i1IIi
+   if 16 - 16: IiII % iIii1I11I1II1 . Ii1I
+   if 59 - 59: I1IiiI * II111iiii . O0
+   if 56 - 56: Ii1I - iII111i % I1IiiI - o0oOOo0O0Ooo
+   if 51 - 51: O0 / ooOoO0o * iIii1I11I1II1 + I1ii11iIi11i + o0oOOo0O0Ooo
  def dp_WatchList_Delete ( self , args ) :
-  I111iI = args . get ( 'stype' )
-  if 51 - 51: IiII
+  IIIIii1I = args . get ( 'stype' )
+  if 98 - 98: iIii1I11I1II1 * I1ii11iIi11i * OOooOOo + ooOoO0o % i11iIiiIii % O0
   O00oooo0O = xbmcgui . Dialog ( )
-  I1I1I = O00oooo0O . yesno ( __name__ , __language__ ( 30201 ) . encode ( 'utf8' ) , __language__ ( 30202 ) . encode ( 'utf8' ) )
-  if I1I1I == False : sys . exit ( )
-  if 25 - 25: OoooooooOO + IiII * I1ii11iIi11i
-  self . Delete_Watched_List ( I111iI )
-  if 92 - 92: I1IiiI + I11i + O0 / o0oOOo0O0Ooo + I1Ii111
+  OOO00O0O = O00oooo0O . yesno ( __name__ , __language__ ( 30201 ) . encode ( 'utf8' ) , __language__ ( 30202 ) . encode ( 'utf8' ) )
+  if OOO00O0O == False : sys . exit ( )
+  if 27 - 27: O0
+  self . Delete_Watched_List ( IIIIii1I )
+  if 79 - 79: o0oOOo0O0Ooo - I11i + o0oOOo0O0Ooo . oO0o
   xbmc . executebuiltin ( "Container.Refresh" )
-  if 18 - 18: ooOoO0o * OoOoOO00 . iII111i / I1ii11iIi11i / i11iIiiIii
-  if 21 - 21: oO0o / I1ii11iIi11i + Ii1I + OoooooooOO
-  if 91 - 91: i11iIiiIii / i1IIi + iII111i + ooOoO0o * i11iIiiIii
-  if 66 - 66: iIii1I11I1II1 % i1IIi - O0 + I11i * I1Ii111 . IiII
+  if 28 - 28: i1IIi - iII111i
+  if 54 - 54: iII111i - O0 % OOooOOo
+  if 73 - 73: O0 . OoOoOO00 + I1IiiI - I11i % I11i . I11i
+  if 17 - 17: Ii1I - OoooooooOO % Ii1I . IiII / i11iIiiIii % iII111i
  def Load_Watched_List ( self , stype ) :
   try :
-   OOO0oOOoo = xbmc . translatePath ( os . path . join ( __profile__ , 'watchedlist_%s.txt' % stype ) )
-   with open ( OOO0oOOoo , 'r' ) as oOOO00o000o :
-    O0ooo0 = oOOO00o000o . readlines ( )
+   OooO0oo = xbmc . translatePath ( os . path . join ( __profile__ , 'watchedlist_%s.txt' % stype ) )
+   with open ( OooO0oo , 'r' ) as o0o0oOoOO0O :
+    iIiIIIIIii = o0o0oOoOO0O . readlines ( )
   except :
-   O0ooo0 = [ ]
-   if 8 - 8: ooOoO0o + II111iiii / iII111i / I11i
-  return O0ooo0
-  if 74 - 74: O0 / i1IIi
-  if 78 - 78: OoooooooOO . OoO0O00 + ooOoO0o - i1IIi
-  if 31 - 31: OoooooooOO . OOooOOo
-  if 83 - 83: iII111i . O0 / Oo0Ooo / OOooOOo - II111iiii
+   iIiIIIIIii = [ ]
+   if 58 - 58: o0oOOo0O0Ooo / IiII . OoOoOO00 / OoooooooOO + I1Ii111
+  return iIiIIIIIii
+  if 86 - 86: I11i * I1IiiI + I11i + II111iiii
+  if 8 - 8: I1Ii111 - iII111i / ooOoO0o
+  if 96 - 96: OoOoOO00
+  if 29 - 29: I1ii11iIi11i / i1IIi . I1IiiI - OoOoOO00 - OoOoOO00 - Ii1I
  def Save_Watched_List ( self , stype , in_params ) :
   try :
-   OOO0oOOoo = xbmc . translatePath ( os . path . join ( __profile__ , 'watchedlist_%s.txt' % stype ) )
-   oO0oO0 = self . Load_Watched_List ( stype )
-   if 14 - 14: iII111i
-   with open ( OOO0oOOoo , 'w' ) as oOOO00o000o :
-    oOOOOo0oo0O = urllib . urlencode ( in_params )
-    oOOOOo0oo0O = oOOOOo0oo0O . encode ( 'utf-8' ) + '\n'
-    oOOO00o000o . write ( oOOOOo0oo0O )
-    if 13 - 13: I1IiiI % OoOoOO00 . I1ii11iIi11i / Oo0Ooo % OOooOOo . OoooooooOO
-    i1iIi = 0
-    for iiiii1II in oO0oO0 :
-     O0OOO0OOooo00 = dict ( urlparse . parse_qsl ( iiiii1II ) )
-     if 6 - 6: Ii1I - ooOoO0o * OOooOOo . iII111i / O0 * ooOoO0o
-     II11iI111i1 = in_params . get ( 'code' )
-     Oo00OoOo = O0OOO0OOooo00 . get ( 'code' )
+   OooO0oo = xbmc . translatePath ( os . path . join ( __profile__ , 'watchedlist_%s.txt' % stype ) )
+   IiiIiI111iI = self . Load_Watched_List ( stype )
+   if 85 - 85: o0oOOo0O0Ooo . OoOoOO00 / ooOoO0o . O0 % I1Ii111
+   with open ( OooO0oo , 'w' ) as o0o0oOoOO0O :
+    OO0ooo0oOO = urllib . urlencode ( in_params )
+    OO0ooo0oOO = OO0ooo0oOO . encode ( 'utf-8' ) + '\n'
+    o0o0oOoOO0O . write ( OO0ooo0oOO )
+    if 97 - 97: I1IiiI / iII111i
+    Oooo0 = 0
+    for oOO in IiiIiI111iI :
+     Oooo = dict ( urlparse . parse_qsl ( oOO ) )
+     if 16 - 16: OOooOOo % iII111i . O0 / Oo0Ooo / o0oOOo0O0Ooo
+     ooOO0oO0oo00o = in_params . get ( 'code' )
+     oOOo0oo0O = Oooo . get ( 'code' )
      if stype == 'vod' and self . get_settings_direct_replay ( ) == True :
-      II11iI111i1 = in_params . get ( 'videoid' )
-      Oo00OoOo = O0OOO0OOooo00 . get ( 'videoid' ) if Oo00OoOo != None else '-'
-      if 24 - 24: i11iIiiIii - I1Ii111
-      if 21 - 21: I11i
-     if II11iI111i1 != Oo00OoOo :
-      oOOO00o000o . write ( iiiii1II )
-      i1iIi += 1
-      if i1iIi >= 50 : break
+      ooOO0oO0oo00o = in_params . get ( 'videoid' )
+      oOOo0oo0O = Oooo . get ( 'videoid' ) if oOOo0oo0O != None else '-'
+      if 13 - 13: I1IiiI % OoOoOO00 . I1ii11iIi11i / Oo0Ooo % OOooOOo . OoooooooOO
+      if 22 - 22: IiII / i11iIiiIii
+     if ooOO0oO0oo00o != oOOo0oo0O :
+      o0o0oOoOO0O . write ( oOO )
+      Oooo0 += 1
+      if Oooo0 >= 50 : break
   except :
    None
-   if 92 - 92: i11iIiiIii / I1Ii111 - iII111i % ooOoO0o * I1Ii111 + Oo0Ooo
-   if 11 - 11: OoooooooOO . I1Ii111
-   if 80 - 80: OoooooooOO - OOooOOo * Ii1I * I1ii11iIi11i / I1IiiI / OOooOOo
-   if 13 - 13: I1Ii111 * ooOoO0o + i11iIiiIii * I1Ii111 - ooOoO0o
+   if 62 - 62: OoO0O00 / I1ii11iIi11i
+   if 7 - 7: OoooooooOO . IiII
+   if 53 - 53: Ii1I % Ii1I * o0oOOo0O0Ooo + OoOoOO00
+   if 92 - 92: OoooooooOO + i1IIi / Ii1I * O0
  def dp_Watch_List ( self , args ) :
-  I111iI = args . get ( 'stype' )
+  IIIIii1I = args . get ( 'stype' )
   IiII1I11i1I1I = self . get_settings_direct_replay ( )
-  if 23 - 23: iIii1I11I1II1 * i1IIi % OoooooooOO * IiII
-  if I111iI == '-' :
-   for O0OOOOo0O in OOooo0000ooo :
-    i1i = O0OOOOo0O . get ( 'title' )
-    if 9 - 9: IiII - II111iiii + O0 / iIii1I11I1II1 / i11iIiiIii
-    o00oooO0Oo = { 'mode' : O0OOOOo0O . get ( 'mode' )
- , 'stype' : O0OOOOo0O . get ( 'stype' )
+  if 100 - 100: ooOoO0o % iIii1I11I1II1 * II111iiii - iII111i
+  if IIIIii1I == '-' :
+   for IiIiI1111I1I in OOooo0000ooo :
+    i1i = IiIiI1111I1I . get ( 'title' )
+    if 92 - 92: ooOoO0o
+    I1 = { 'mode' : IiIiI1111I1I . get ( 'mode' )
+ , 'stype' : IiIiI1111I1I . get ( 'stype' )
  }
-    if 39 - 39: IiII * Oo0Ooo + iIii1I11I1II1 - IiII + OOooOOo
-    self . add_dir ( i1i , sublabel = '' , img = '' , infoLabels = None , isFolder = True , params = o00oooO0Oo )
+    if 22 - 22: Oo0Ooo % iII111i * I1ii11iIi11i / OOooOOo % i11iIiiIii * I11i
+    self . add_dir ( i1i , sublabel = '' , img = '' , infoLabels = None , isFolder = True , params = I1 )
    if len ( OOooo0000ooo ) > 0 : xbmcplugin . endOfDirectory ( self . _addon_handle )
-   if 69 - 69: O0
+   if 95 - 95: OoooooooOO - IiII * I1IiiI + OoOoOO00
   else :
-   o0ooO = self . Load_Watched_List ( I111iI )
-   if 74 - 74: O0 * oO0o - i11iIiiIii + I1Ii111
-   for Iii in o0ooO :
-    I1iiiiI1iI = dict ( urlparse . parse_qsl ( Iii ) )
-    if 43 - 43: oO0o - OoooooooOO
-    i1i = I1iiiiI1iI . get ( 'title' )
-    Oo0OO = I1iiiiI1iI . get ( 'img' )
-    ii1iI = I1iiiiI1iI . get ( 'videoid' )
-    if 49 - 49: o0oOOo0O0Ooo . IiII / OoO0O00 + II111iiii
-    oOo0OOoO0 = { }
-    oOo0OOoO0 [ 'plot' ] = i1i
-    if 47 - 47: O0 / Ii1I
-    if I111iI == 'vod' :
-     if IiII1I11i1I1I == False or ii1iI == None :
-      o00oooO0Oo = { 'mode' : 'EPISODE'
- , 'programcode' : I1iiiiI1iI . get ( 'code' )
+   iIi1 = self . Load_Watched_List ( IIIIii1I )
+   if 21 - 21: I11i
+   for OoO00 in iIi1 :
+    OO0Ooooo000Oo = dict ( urlparse . parse_qsl ( OoO00 ) )
+    if 97 - 97: Ii1I * I1ii11iIi11i / I1IiiI / iIii1I11I1II1 % I11i
+    i1i = OO0Ooooo000Oo . get ( 'title' )
+    I11iII = OO0Ooooo000Oo . get ( 'img' )
+    O00oO0 = OO0Ooooo000Oo . get ( 'videoid' )
+    if 97 - 97: I1Ii111 - iIii1I11I1II1
+    II111iI111I1I = { }
+    II111iI111I1I [ 'plot' ] = i1i
+    if 75 - 75: OoooooooOO * IiII
+    if IIIIii1I == 'vod' :
+     if IiII1I11i1I1I == False or O00oO0 == None :
+      I1 = { 'mode' : 'EPISODE'
+ , 'programcode' : OO0Ooooo000Oo . get ( 'code' )
  , 'page' : '1'
  }
-      OOooOoooOoOo = True
+      iI1 = True
      else :
-      o00oooO0Oo = { 'mode' : 'VOD'
- , 'mediacode' : ii1iI
+      I1 = { 'mode' : 'VOD'
+ , 'mediacode' : O00oO0
  , 'stype' : 'vod'
- , 'programcode' : I1iiiiI1iI . get ( 'code' )
+ , 'programcode' : OO0Ooooo000Oo . get ( 'code' )
  , 'title' : i1i
- , 'thumbnail' : Oo0OO
+ , 'thumbnail' : I11iII
  }
-      OOooOoooOoOo = False
+      iI1 = False
     else :
-     o00oooO0Oo = { 'mode' : 'MOVIE'
- , 'mediacode' : I1iiiiI1iI . get ( 'code' )
+     I1 = { 'mode' : 'MOVIE'
+ , 'mediacode' : OO0Ooooo000Oo . get ( 'code' )
  , 'stype' : 'movie'
  , 'title' : i1i
- , 'thumbnail' : Oo0OO
+ , 'thumbnail' : I11iII
  }
-     OOooOoooOoOo = False
-     if 67 - 67: I1IiiI
-    self . add_dir ( i1i , sublabel = '' , img = Oo0OO , infoLabels = oOo0OOoO0 , isFolder = OOooOoooOoOo , params = o00oooO0Oo )
-    if 55 - 55: I1ii11iIi11i - iII111i * o0oOOo0O0Ooo + OoOoOO00 * OoOoOO00 * O0
-   oOo0OOoO0 = { 'plot' : '시청목록을 삭제합니다.' }
+     iI1 = False
+     if 9 - 9: IiII - II111iiii + O0 / iIii1I11I1II1 / i11iIiiIii
+    self . add_dir ( i1i , sublabel = '' , img = I11iII , infoLabels = II111iI111I1I , isFolder = iI1 , params = I1 )
+    if 39 - 39: IiII * Oo0Ooo + iIii1I11I1II1 - IiII + OOooOOo
+   II111iI111I1I = { 'plot' : '시청목록을 삭제합니다.' }
    i1i = '*** 시청목록 삭제 ***'
-   o00oooO0Oo = { 'mode' : 'MYVIEW_REMOVE'
- , 'stype' : I111iI
+   I1 = { 'mode' : 'MYVIEW_REMOVE'
+ , 'stype' : IIIIii1I
  }
-   self . add_dir ( i1i , sublabel = '' , img = '' , infoLabels = oOo0OOoO0 , isFolder = False , params = o00oooO0Oo )
-   if 91 - 91: I1Ii111 - OOooOOo % iIii1I11I1II1 - OoooooooOO % ooOoO0o
+   self . add_dir ( i1i , sublabel = '' , img = '' , infoLabels = II111iI111I1I , isFolder = False , params = I1 )
+   if 69 - 69: O0
    xbmcplugin . endOfDirectory ( self . _addon_handle , cacheToDisc = False )
-   if 98 - 98: OoO0O00 . OoO0O00 * oO0o * II111iiii * I1Ii111
+   if 85 - 85: ooOoO0o / O0
+   if 18 - 18: o0oOOo0O0Ooo % O0 * I1ii11iIi11i
+   if 62 - 62: I1Ii111 . IiII . OoooooooOO
+   if 11 - 11: OOooOOo / I11i
+   if 73 - 73: i1IIi / i11iIiiIii
+ def play_VIDEO ( self , args ) :
+  if 58 - 58: Oo0Ooo . II111iiii + oO0o - i11iIiiIii / II111iiii / O0
+  self . TvingObj . SaveCredential ( self . get_winCredential ( ) )
+  if 85 - 85: OoOoOO00 + OOooOOo
+  I1II = args . get ( 'mediacode' )
+  IIIIii1I = args . get ( 'stype' )
+  iii1 = self . get_selQuality ( IIIIii1I )
+  if 67 - 67: I1IiiI
+  OO00OO0O0 , i1I111Ii1i11 = self . TvingObj . GetBroadURL ( I1II , iii1 , IIIIii1I )
+  if 81 - 81: OoO0O00
+  self . addon_log ( 'qt, stype, url : %s - %s - %s' % ( str ( iii1 ) , IIIIii1I , OO00OO0O0 ) )
+  if 99 - 99: oO0o * II111iiii * I1Ii111
+  if OO00OO0O0 == '' :
+   self . addon_noti ( __language__ ( 30303 ) . encode ( 'utf8' ) )
+   return
    if 92 - 92: Oo0Ooo
    if 40 - 40: OoOoOO00 / IiII
    if 79 - 79: OoO0O00 - iIii1I11I1II1 + Ii1I - I1Ii111
-   if 93 - 93: II111iiii . I1IiiI - Oo0Ooo + OoOoOO00
- def play_VIDEO ( self , args ) :
-  if 61 - 61: II111iiii
-  self . TvingObj . SaveCredential ( self . get_winCredential ( ) )
-  if 15 - 15: i11iIiiIii % I1IiiI * I11i / I1Ii111
-  oooO0o0o0O0 = args . get ( 'mediacode' )
-  I111iI = args . get ( 'stype' )
-  iii11111I = self . get_selQuality ( I111iI )
-  if 16 - 16: iIii1I11I1II1 - IiII
-  o00o , Ii1IIiiIIi = self . TvingObj . GetBroadURL ( oooO0o0o0O0 , iii11111I , I111iI )
-  if 88 - 88: OoooooooOO + I11i * II111iiii % Oo0Ooo
-  self . addon_log ( 'qt, stype, url : %s - %s - %s' % ( str ( iii11111I ) , I111iI , o00o ) )
-  if 17 - 17: IiII * OOooOOo - OoO0O00 / i11iIiiIii
-  if o00o == '' :
-   self . addon_noti ( __language__ ( 30303 ) . encode ( 'utf8' ) )
-   return
-   if 79 - 79: I1Ii111 . oO0o - II111iiii . I1IiiI % ooOoO0o
-   if 65 - 65: I1IiiI + OoOoOO00 / OOooOOo
-   if 83 - 83: o0oOOo0O0Ooo . iII111i - Oo0Ooo
-  Ooo0O = o00o . find ( 'Policy=' )
-  if Ooo0O != - 1 :
-   o0oo0000OO = o00o . split ( '?' ) [ 0 ]
-   if 69 - 69: ooOoO0o - OoO0O00 / i11iIiiIii + I1ii11iIi11i % OoooooooOO
-   o000O000 = dict ( urlparse . parse_qsl ( urlparse . urlsplit ( o00o ) . query ) )
-   o000O000 = urllib . urlencode ( o000O000 )
-   o000O000 = o000O000 . replace ( '&' , ';' )
-   o000O000 = o000O000 . replace ( 'Policy' , 'CloudFront-Policy' )
-   o000O000 = o000O000 . replace ( 'Signature' , 'CloudFront-Signature' )
-   o000O000 = o000O000 . replace ( 'Key-Pair-Id' , 'CloudFront-Key-Pair-Id' )
-   if 19 - 19: iIii1I11I1II1
-   Ii1IiI1i1ii = '%s|Cookie=%s' % ( o0oo0000OO , o000O000 )
+  OoO = OO00OO0O0 . find ( 'Policy=' )
+  if OoO != - 1 :
+   iIIiii = OO00OO0O0 . split ( '?' ) [ 0 ]
+   if 61 - 61: IiII . i1IIi / I1Ii111 % i11iIiiIii * iII111i
+   i1i1i1I = dict ( urlparse . parse_qsl ( urlparse . urlsplit ( OO00OO0O0 ) . query ) )
+   i1i1i1I = urllib . urlencode ( i1i1i1I )
+   i1i1i1I = i1i1i1I . replace ( '&' , ';' )
+   i1i1i1I = i1i1i1I . replace ( 'Policy' , 'CloudFront-Policy' )
+   i1i1i1I = i1i1i1I . replace ( 'Signature' , 'CloudFront-Signature' )
+   i1i1i1I = i1i1i1I . replace ( 'Key-Pair-Id' , 'CloudFront-Key-Pair-Id' )
+   if 83 - 83: oO0o + OoooooooOO
+   I111IiiIi1 = '%s|Cookie=%s' % ( iIIiii , i1i1i1I )
   else :
-   Ii1IiI1i1ii = o00o
-   if 30 - 30: IiII + I1Ii111 - IiII . IiII - II111iiii + O0
-   if 86 - 86: i1IIi
-  self . addon_log ( Ii1IiI1i1ii , False )
-  if 41 - 41: OoOoOO00 * I11i / OoOoOO00 % oO0o
-  if 18 - 18: II111iiii . OoooooooOO % OoOoOO00 % Ii1I
-  if 9 - 9: OoO0O00 - Oo0Ooo * OoooooooOO . Oo0Ooo
-  if 2 - 2: OoooooooOO % OOooOOo
-  oOoOOo0oo0 = xbmcgui . ListItem ( path = Ii1IiI1i1ii )
-  if 60 - 60: ooOoO0o * I1Ii111 + Oo0Ooo
-  if 19 - 19: OoO0O00 * I11i / I11i . OoooooooOO - OOooOOo + i11iIiiIii
-  if Ii1IIiiIIi != '' :
-   oo0OOo0O = Ii1IIiiIIi
-   Ii1IiII = 'https://cj.drmkeyserver.com/widevine_license'
-   if 27 - 27: iII111i . I11i . iIii1I11I1II1 . iIii1I11I1II1
-   iIi1i = 'mpd'
-   i1ii = 'com.widevine.alpha'
-   if 68 - 68: OOooOOo * O0 . I11i - II111iiii . ooOoO0o / II111iiii
-   iii1 = inputstreamhelper . Helper ( iIi1i , drm = i1ii )
-   if 32 - 32: Ii1I . IiII . OoooooooOO - OoO0O00 + oO0o
-   if iii1 . check_inputstream ( ) :
-    if 88 - 88: iII111i
-    iiI11I1i1i1iI = { 'origin' : 'https://www.tving.com'
+   I111IiiIi1 = OO00OO0O0
+   if 88 - 88: OoooooooOO
+   if 84 - 84: OoOoOO00 / I11i * iII111i / oO0o - i11iIiiIii . Oo0Ooo
+  self . addon_log ( I111IiiIi1 , False )
+  if 60 - 60: I1ii11iIi11i * I1IiiI
+  if 17 - 17: OOooOOo % Oo0Ooo / I1ii11iIi11i . IiII * OOooOOo - II111iiii
+  if 41 - 41: Ii1I
+  if 77 - 77: I1Ii111
+  Oo = xbmcgui . ListItem ( path = I111IiiIi1 )
+  if 81 - 81: oO0o * OoO0O00
+  if 38 - 38: OoOoOO00 / iII111i % Oo0Ooo
+  if i1I111Ii1i11 != '' :
+   I1IIIiii1 = i1I111Ii1i11
+   O00oo = 'https://cj.drmkeyserver.com/widevine_license'
+   if 77 - 77: iII111i % OOooOOo - I11i % ooOoO0o - OoO0O00 / Oo0Ooo
+   Ii1iI111 = 'mpd'
+   O0oooo00o0Oo = 'com.widevine.alpha'
+   if 36 - 36: Ii1I / II111iiii / IiII / IiII + I1ii11iIi11i
+   oO0Ooo0ooOO0 = inputstreamhelper . Helper ( Ii1iI111 , drm = O0oooo00o0Oo )
+   if 46 - 46: Ii1I % OoOoOO00
+   if oO0Ooo0ooOO0 . check_inputstream ( ) :
+    if 64 - 64: i11iIiiIii - II111iiii
+    oO0oOOO0Ooo = { 'origin' : 'https://www.tving.com'
  , 'pragma' : 'no-cache'
- , 'referer' : 'https://www.tving.com/live/player/%s' % oooO0o0o0O0
+ , 'referer' : 'https://www.tving.com/live/player/%s' % I1II
  , 'sec-fetch-mode' : 'cors'
  , 'sec-fetch-site' : 'same-site'
     , 'user-agent' : OoOooOOOO
- , 'AcquireLicenseAssertion' : oo0OOo0O
+ , 'AcquireLicenseAssertion' : I1IIIiii1
  , 'Host' : 'cj.drmkeyserver.com'
  }
-    OoOOo000o0 = Ii1IiII + '|' + urllib . urlencode ( iiI11I1i1i1iI ) + '|R{SSM}|'
-    if 12 - 12: II111iiii . I11i / OOooOOo
-    oOoOOo0oo0 . setProperty ( 'inputstreamaddon' , iii1 . inputstream_addon )
-    if 77 - 77: ooOoO0o - I1IiiI % I11i - O0
-    oOoOOo0oo0 . setProperty ( 'inputstream.adaptive.manifest_type' , iIi1i )
-    oOoOOo0oo0 . setProperty ( 'inputstream.adaptive.license_type' , i1ii )
-    if 67 - 67: OOooOOo + Oo0Ooo
-    oOoOOo0oo0 . setProperty ( 'inputstream.adaptive.license_key' , OoOOo000o0 )
-    if 84 - 84: O0 * OoooooooOO - IiII * IiII
-    if 8 - 8: ooOoO0o / i1IIi . oO0o
-    if 41 - 41: iII111i + OoO0O00
-    if 86 - 86: OoOoOO00 . iIii1I11I1II1 - OoO0O00
-    if 56 - 56: O0
-  xbmcplugin . setResolvedUrl ( self . _addon_handle , True , oOoOOo0oo0 )
-  if 61 - 61: o0oOOo0O0Ooo / OOooOOo / Oo0Ooo * O0
+    i1i1I = O00oo + '|' + urllib . urlencode ( oO0oOOO0Ooo ) + '|R{SSM}|'
+    if 25 - 25: iIii1I11I1II1 + I1ii11iIi11i + iII111i / II111iiii / I11i
+    Oo . setProperty ( 'inputstreamaddon' , oO0Ooo0ooOO0 . inputstream_addon )
+    if 60 - 60: ooOoO0o * I1Ii111 + Oo0Ooo
+    Oo . setProperty ( 'inputstream.adaptive.manifest_type' , Ii1iI111 )
+    Oo . setProperty ( 'inputstream.adaptive.license_type' , O0oooo00o0Oo )
+    if 19 - 19: OoO0O00 * I11i / I11i . OoooooooOO - OOooOOo + i11iIiiIii
+    Oo . setProperty ( 'inputstream.adaptive.license_key' , i1i1I )
+    if 88 - 88: i11iIiiIii - ooOoO0o
+    if 67 - 67: OOooOOo . Oo0Ooo + OoOoOO00 - OoooooooOO
+    if 70 - 70: OOooOOo / II111iiii - iIii1I11I1II1 - iII111i
+    if 11 - 11: iIii1I11I1II1 . OoooooooOO . II111iiii / i1IIi - I11i
+    if 30 - 30: OoOoOO00
+  xbmcplugin . setResolvedUrl ( self . _addon_handle , True , Oo )
+  if 21 - 21: i11iIiiIii / I1Ii111 % OOooOOo * O0 . I11i - iIii1I11I1II1
   try :
    if args . get ( 'mode' ) in [ 'VOD' , 'MOVIE' ] and args . get ( 'title' ) :
-    o00oooO0Oo = { 'code' : args . get ( 'programcode' ) if args . get ( 'mode' ) == 'VOD' else args . get ( 'mediacode' )
+    I1 = { 'code' : args . get ( 'programcode' ) if args . get ( 'mode' ) == 'VOD' else args . get ( 'mediacode' )
  , 'img' : args . get ( 'thumbnail' )
  , 'title' : args . get ( 'title' )
  , 'videoid' : args . get ( 'mediacode' )
     }
-    self . Save_Watched_List ( args . get ( 'stype' ) , o00oooO0Oo )
+    self . Save_Watched_List ( args . get ( 'stype' ) , I1 )
   except :
    None
-   if 23 - 23: oO0o - OOooOOo + I11i
-   if 12 - 12: I1IiiI / ooOoO0o % o0oOOo0O0Ooo / i11iIiiIii % OoooooooOO
-   if 15 - 15: iIii1I11I1II1 % OoooooooOO - Oo0Ooo * Ii1I + I11i
-   if 11 - 11: iII111i * Ii1I - OoOoOO00
-   if 66 - 66: OoOoOO00 . i11iIiiIii - iII111i * o0oOOo0O0Ooo + OoooooooOO * I1ii11iIi11i
+   if 26 - 26: II111iiii * OoOoOO00
+   if 10 - 10: II111iiii . iII111i
+   if 32 - 32: Ii1I . IiII . OoooooooOO - OoO0O00 + oO0o
+   if 88 - 88: iII111i
+   if 19 - 19: II111iiii * IiII + Ii1I
  def logout ( self ) :
   O00oooo0O = xbmcgui . Dialog ( )
-  I1I1I = O00oooo0O . yesno ( __language__ ( 30910 ) . encode ( 'utf8' ) , __language__ ( 30202 ) . encode ( 'utf8' ) )
-  if I1I1I == False : sys . exit ( )
-  if 74 - 74: Oo0Ooo
+  OOO00O0O = O00oooo0O . yesno ( __language__ ( 30910 ) . encode ( 'utf8' ) , __language__ ( 30202 ) . encode ( 'utf8' ) )
+  if OOO00O0O == False : sys . exit ( )
+  if 65 - 65: OOooOOo . I1Ii111 . OoO0O00 . iII111i - OOooOOo
   self . wininfo_clear ( )
-  if 61 - 61: Oo0Ooo - I1Ii111 * II111iiii % ooOoO0o * iIii1I11I1II1 + OoO0O00
-  if 71 - 71: I11i / I11i * oO0o * oO0o / II111iiii
+  if 19 - 19: i11iIiiIii + iII111i % ooOoO0o
+  if 14 - 14: OoO0O00 . II111iiii . I11i / Ii1I % I1ii11iIi11i - ooOoO0o
   if os . path . isfile ( i11iiII ) : os . remove ( i11iiII )
-  if 35 - 35: OOooOOo * o0oOOo0O0Ooo * I1IiiI % Oo0Ooo . OoOoOO00
+  if 67 - 67: I11i - OOooOOo . i1IIi
   self . addon_noti ( __language__ ( 30909 ) . encode ( 'utf-8' ) )
-  if 58 - 58: I11i + II111iiii * iII111i * i11iIiiIii - iIii1I11I1II1
-  if 68 - 68: OoooooooOO % II111iiii
-  if 26 - 26: II111iiii % i11iIiiIii % iIii1I11I1II1 % I11i * I11i * I1ii11iIi11i
-  if 24 - 24: II111iiii % I1Ii111 - ooOoO0o + I1IiiI * I1ii11iIi11i
+  if 35 - 35: iII111i + ooOoO0o - oO0o . iII111i . IiII
+  if 87 - 87: OoOoOO00
+  if 25 - 25: i1IIi . OoO0O00 - OoOoOO00 / OoO0O00 % OoO0O00 * iIii1I11I1II1
+  if 50 - 50: OoO0O00 . i11iIiiIii - oO0o . oO0o
  def wininfo_clear ( self ) :
-  if 2 - 2: Ii1I - IiII
+  if 31 - 31: OOooOOo / Oo0Ooo * i1IIi . OoOoOO00
   iII = xbmcgui . Window ( 10000 )
   iII . setProperty ( 'TVING_M_TOKEN' , '' )
   iII . setProperty ( 'TVING_M_USERINFO' , '' )
   iII . setProperty ( 'TVING_M_UUID' , '' )
   iII . setProperty ( 'TVING_M_LOGINTIME' , '' )
-  if 83 - 83: oO0o % o0oOOo0O0Ooo % Ii1I - II111iiii * OOooOOo / OoooooooOO
-  if 18 - 18: OoO0O00 + iIii1I11I1II1 - II111iiii - I1IiiI
-  if 71 - 71: OoooooooOO
-  if 33 - 33: I1Ii111
+  if 57 - 57: OOooOOo + iIii1I11I1II1 % i1IIi % I1IiiI
+  if 83 - 83: o0oOOo0O0Ooo / i11iIiiIii % iIii1I11I1II1 . I11i % oO0o . OoooooooOO
+  if 94 - 94: Ii1I + iIii1I11I1II1 % OoO0O00
+  if 93 - 93: Ii1I - OOooOOo + iIii1I11I1II1 * o0oOOo0O0Ooo + I1Ii111 . iII111i
  def cookiefile_save ( self ) :
-  OOO0ooo = datetime . datetime . now ( )
-  IIiiii = OOO0ooo + datetime . timedelta ( days = int ( __addon__ . getSetting ( 'cache_ttl' ) ) )
-  if 37 - 37: o0oOOo0O0Ooo % ooOoO0o
+  IiI1iII1II111 = datetime . datetime . now ( )
+  IIiI11i1111Ii = IiI1iII1II111 + datetime . timedelta ( days = int ( __addon__ . getSetting ( 'cache_ttl' ) ) )
+  if 63 - 63: OOooOOo + ooOoO0o
   iII = xbmcgui . Window ( 10000 )
-  O0II11i11II = { 'tving_token' : iII . getProperty ( 'TVING_M_TOKEN' )
+  O0ooOOO0 = { 'tving_token' : iII . getProperty ( 'TVING_M_TOKEN' )
  , 'tving_userinfo' : iII . getProperty ( 'TVING_M_USERINFO' )
  , 'tving_uuid' : iII . getProperty ( 'TVING_M_UUID' )
  , 'tving_id' : base64 . standard_b64encode ( __addon__ . getSetting ( 'id' ) . encode ( ) ) . decode ( 'utf-8' )
  , 'tving_pw' : base64 . standard_b64encode ( __addon__ . getSetting ( 'pw' ) . encode ( ) ) . decode ( 'utf-8' )
  , 'tving_logintype' : __addon__ . getSetting ( 'login_type' )
- , 'tving_limitdate' : IIiiii . strftime ( '%Y-%m-%d' )
+ , 'tving_limitdate' : IIiI11i1111Ii . strftime ( '%Y-%m-%d' )
  }
-  if 29 - 29: Oo0Ooo % OoO0O00 % IiII . o0oOOo0O0Ooo / OoooooooOO * ooOoO0o
+  if 42 - 42: II111iiii * iII111i * i11iIiiIii - OOooOOo . OoooooooOO
   try :
-   with open ( i11iiII , 'w' ) as oOOO00o000o :
-    json . dump ( O0II11i11II , oOOO00o000o )
-  except Exception as o0OoO000O :
-   print ( o0OoO000O )
-   if 94 - 94: OoOoOO00 . O0 / Ii1I . I1ii11iIi11i - i1IIi
-   if 26 - 26: OoO0O00 - OOooOOo . o0oOOo0O0Ooo
-   if 65 - 65: I1ii11iIi11i % O0 % iIii1I11I1II1 * Ii1I
-   if 31 - 31: Ii1I
+   with open ( i11iiII , 'w' ) as o0o0oOoOO0O :
+    json . dump ( O0ooOOO0 , o0o0oOoOO0O )
+  except Exception as oo00o :
+   print ( oo00o )
+   if 76 - 76: iII111i
+   if 11 - 11: IiII % I1ii11iIi11i % Ii1I / II111iiii % I1Ii111 - Oo0Ooo
+   if 96 - 96: I1ii11iIi11i / II111iiii . Ii1I - iII111i * I11i * oO0o
+   if 76 - 76: Ii1I - II111iiii * OOooOOo / OoooooooOO
  def cookiefile_check ( self ) :
-  if 44 - 44: OoOoOO00 - iIii1I11I1II1 - Oo0Ooo
-  if 80 - 80: iIii1I11I1II1 * I1Ii111 % I11i % Oo0Ooo
-  O0II11i11II = { }
+  if 18 - 18: OoO0O00 + iIii1I11I1II1 - II111iiii - I1IiiI
+  if 71 - 71: OoooooooOO
+  O0ooOOO0 = { }
   try :
-   with open ( i11iiII , 'r' ) as oOOO00o000o :
-    O0II11i11II = json . load ( oOOO00o000o )
-  except Exception as o0OoO000O :
+   with open ( i11iiII , 'r' ) as o0o0oOoOO0O :
+    O0ooOOO0 = json . load ( o0o0oOoOO0O )
+  except Exception as oo00o :
    self . wininfo_clear ( )
    return False
-   if 95 - 95: iIii1I11I1II1 - I1ii11iIi11i . I1Ii111 - I1IiiI
-   if 75 - 75: OoO0O00 + o0oOOo0O0Ooo - i1IIi . OoooooooOO * Ii1I / IiII
-   if 86 - 86: OoOoOO00 * II111iiii - O0 . OoOoOO00 % iIii1I11I1II1 / OOooOOo
-  ooO00OO0 = __addon__ . getSetting ( 'id' )
-  i11111IIIII = __addon__ . getSetting ( 'pw' )
-  IiIIiIIIiIii = __addon__ . getSetting ( 'login_type' )
-  O0II11i11II [ 'tving_id' ] = base64 . standard_b64decode ( O0II11i11II [ 'tving_id' ] ) . decode ( 'utf-8' )
-  O0II11i11II [ 'tving_pw' ] = base64 . standard_b64decode ( O0II11i11II [ 'tving_pw' ] ) . decode ( 'utf-8' )
-  if ooO00OO0 != O0II11i11II [ 'tving_id' ] or i11111IIIII != O0II11i11II [ 'tving_pw' ] or IiIIiIIIiIii != O0II11i11II [ 'tving_logintype' ] :
+   if 33 - 33: I1Ii111
+   if 62 - 62: I1ii11iIi11i + Ii1I + i1IIi / OoooooooOO
+   if 7 - 7: o0oOOo0O0Ooo + i1IIi . I1IiiI / Oo0Ooo
+  IIiIiiIi = __addon__ . getSetting ( 'id' )
+  O000oo = __addon__ . getSetting ( 'pw' )
+  I111i1I1 = __addon__ . getSetting ( 'login_type' )
+  O0ooOOO0 [ 'tving_id' ] = base64 . standard_b64decode ( O0ooOOO0 [ 'tving_id' ] ) . decode ( 'utf-8' )
+  O0ooOOO0 [ 'tving_pw' ] = base64 . standard_b64decode ( O0ooOOO0 [ 'tving_pw' ] ) . decode ( 'utf-8' )
+  if IIiIiiIi != O0ooOOO0 [ 'tving_id' ] or O000oo != O0ooOOO0 [ 'tving_pw' ] or I111i1I1 != O0ooOOO0 [ 'tving_logintype' ] :
    self . wininfo_clear ( )
    return False
-   if 23 - 23: iII111i + I11i . OoOoOO00 * I1IiiI + I1ii11iIi11i
-   if 18 - 18: IiII * o0oOOo0O0Ooo . IiII / O0
-  i1Ii1Ii = datetime . datetime . now ( ) . date ( )
-  iiIII1II = O0II11i11II [ 'tving_limitdate' ]
-  try :
-   oOO = datetime . datetime . strptime ( iiIII1II , '%Y-%m-%d' ) . date ( )
-  except TypeError :
-   oOO = datetime . datetime ( * ( time . strptime ( iiIII1II , '%Y-%m-%d' ) [ 0 : 6 ] ) ) . date ( )
-   if 100 - 100: Oo0Ooo % Ii1I / I11i
-  if oOO < i1Ii1Ii :
+   if 62 - 62: OOooOOo * I1Ii111 / Oo0Ooo * o0oOOo0O0Ooo
+   if 29 - 29: Oo0Ooo % OoO0O00 % IiII . o0oOOo0O0Ooo / OoooooooOO * ooOoO0o
+   if 54 - 54: O0
+   if 68 - 68: OoO0O00 * o0oOOo0O0Ooo . ooOoO0o % oO0o % I1Ii111
+   if 75 - 75: OoOoOO00
+   if 34 - 34: O0
+   if 80 - 80: i1IIi - Oo0Ooo / OoO0O00 - i11iIiiIii
+   if 68 - 68: oO0o - I1ii11iIi11i % O0 % I1Ii111
+   if 11 - 11: O0 / OoO0O00 % OOooOOo + o0oOOo0O0Ooo + iIii1I11I1II1
+   if 40 - 40: ooOoO0o - OOooOOo . Ii1I * Oo0Ooo % I1Ii111
+  O0O = int ( datetime . datetime . now ( ) . strftime ( '%Y%m%d' ) )
+  OoOO00OO = O0ooOOO0 [ 'tving_limitdate' ]
+  i1I1I = int ( re . sub ( '-' , '' , OoOO00OO ) )
+  if 65 - 65: i1IIi . OoooooooOO * Ii1I / IiII
+  if 86 - 86: OoOoOO00 * II111iiii - O0 . OoOoOO00 % iIii1I11I1II1 / OOooOOo
+  if i1I1I < O0O :
    self . wininfo_clear ( )
    return False
-   if 30 - 30: Oo0Ooo - OOooOOo - iII111i
-   if 81 - 81: o0oOOo0O0Ooo . OoooooooOO + OOooOOo * ooOoO0o
+   if 11 - 11: I1IiiI * oO0o + I1ii11iIi11i / I1ii11iIi11i
+   if 37 - 37: i11iIiiIii + i1IIi
   iII = xbmcgui . Window ( 10000 )
-  iII . setProperty ( 'TVING_M_TOKEN' , O0II11i11II [ 'tving_token' ] )
-  iII . setProperty ( 'TVING_M_USERINFO' , O0II11i11II [ 'tving_userinfo' ] )
-  iII . setProperty ( 'TVING_M_UUID' , O0II11i11II [ 'tving_uuid' ] )
-  iII . setProperty ( 'TVING_M_LOGINTIME' , iiIII1II )
-  if 74 - 74: i1IIi + O0 + Oo0Ooo
+  iII . setProperty ( 'TVING_M_TOKEN' , O0ooOOO0 [ 'tving_token' ] )
+  iII . setProperty ( 'TVING_M_USERINFO' , O0ooOOO0 [ 'tving_userinfo' ] )
+  iII . setProperty ( 'TVING_M_UUID' , O0ooOOO0 [ 'tving_uuid' ] )
+  iII . setProperty ( 'TVING_M_LOGINTIME' , OoOO00OO )
+  if 23 - 23: iII111i + I11i . OoOoOO00 * I1IiiI + I1ii11iIi11i
   return True
-  if 5 - 5: Oo0Ooo * OoOoOO00
-  if 46 - 46: ooOoO0o
-  if 33 - 33: iII111i - II111iiii * OoooooooOO - Oo0Ooo - OOooOOo
-  if 84 - 84: I1Ii111 + Oo0Ooo - OoOoOO00 * OoOoOO00
+  if 18 - 18: IiII * o0oOOo0O0Ooo . IiII / O0
+  if 8 - 8: o0oOOo0O0Ooo
+  if 4 - 4: I1ii11iIi11i + I1ii11iIi11i * ooOoO0o - OoOoOO00
+  if 78 - 78: Ii1I / II111iiii % OoOoOO00
  def tving_main ( self ) :
-  Ooo = self . main_params . get ( 'mode' , None )
-  if 65 - 65: Oo0Ooo / I11i
+  oO00OoOO = self . main_params . get ( 'mode' , None )
+  if 18 - 18: ooOoO0o - OoOoOO00 % i1IIi + O0 + i11iIiiIii + i1IIi
   self . login_main ( )
-  if 12 - 12: I11i % OoOoOO00
-  if Ooo is None :
+  if 91 - 91: OoOoOO00 + ooOoO0o . I1IiiI
+  if oO00OoOO is None :
    self . dp_Main_List ( )
-   if 48 - 48: iII111i . i11iIiiIii
-  elif Ooo in [ 'LIVE_GROUP' , 'VOD_GROUP' ] :
+   if 71 - 71: iII111i % o0oOOo0O0Ooo / OOooOOo / Oo0Ooo
+  elif oO00OoOO in [ 'LIVE_GROUP' , 'VOD_GROUP' ] :
    self . dp_Title_Group ( self . main_params )
-   if 5 - 5: oO0o . I1ii11iIi11i . II111iiii . OoooooooOO
-  elif Ooo == 'CHANNEL' :
+   if 66 - 66: Oo0Ooo - o0oOOo0O0Ooo * IiII + OoOoOO00 + o0oOOo0O0Ooo - iIii1I11I1II1
+  elif oO00OoOO == 'CHANNEL' :
    self . dp_LiveChannel_List ( self . main_params )
-   if 96 - 96: i11iIiiIii - OOooOOo % O0 / OoO0O00
-  elif Ooo in [ 'LIVE' , 'VOD' , 'MOVIE' ] :
+   if 17 - 17: oO0o
+  elif oO00OoOO in [ 'LIVE' , 'VOD' , 'MOVIE' ] :
    self . play_VIDEO ( self . main_params )
-   if 100 - 100: iII111i / Ii1I - OoooooooOO % II111iiii - I1IiiI % OoOoOO00
+   if 22 - 22: I11i + iIii1I11I1II1
    time . sleep ( 0.1 )
-   if 60 - 60: iIii1I11I1II1 + i1IIi
-  elif Ooo == 'PROGRAM' :
+   if 24 - 24: OoOoOO00 % i1IIi + iII111i . i11iIiiIii . I1ii11iIi11i
+  elif oO00OoOO == 'PROGRAM' :
    self . dp_Program_List ( self . main_params )
-   if 86 - 86: iIii1I11I1II1 + OoOoOO00 . i11iIiiIii - Ii1I
-  elif Ooo == 'EPISODE' :
+   if 17 - 17: I1ii11iIi11i . II111iiii . ooOoO0o / I1ii11iIi11i
+  elif oO00OoOO == 'EPISODE' :
    self . dp_Episode_List ( self . main_params )
-   if 51 - 51: OoOoOO00
-  elif Ooo == 'MOVIE_GROUP' :
+   if 57 - 57: I11i
+  elif oO00OoOO == 'MOVIE_GROUP' :
    self . dp_Movie_List ( self . main_params )
-   if 14 - 14: IiII % oO0o % Oo0Ooo - i11iIiiIii
-  elif Ooo == 'SEARCH_GROUP' :
+   if 67 - 67: OoO0O00 . ooOoO0o
+  elif oO00OoOO == 'SEARCH_GROUP' :
    self . dp_Search_Group ( self . main_params )
-   if 53 - 53: Ii1I % Oo0Ooo
-  elif Ooo == 'SEARCH' :
+   if 87 - 87: oO0o % Ii1I
+  elif oO00OoOO == 'SEARCH' :
    self . dp_Search_List ( self . main_params )
-   if 59 - 59: OOooOOo % iIii1I11I1II1 . i1IIi + II111iiii * IiII
-  elif Ooo == 'WATCH' :
+   if 83 - 83: II111iiii - I11i
+  elif oO00OoOO == 'WATCH' :
    self . dp_Watch_List ( self . main_params )
-   if 41 - 41: Ii1I % I1ii11iIi11i
-  elif Ooo == 'MYVIEW_REMOVE' :
+   if 35 - 35: i1IIi - iIii1I11I1II1 + i1IIi
+  elif oO00OoOO == 'MYVIEW_REMOVE' :
    self . dp_WatchList_Delete ( self . main_params )
-   if 12 - 12: OOooOOo
-  elif Ooo == 'ORDER_BY' :
+   if 86 - 86: iIii1I11I1II1 + OoOoOO00 . i11iIiiIii - Ii1I
+  elif oO00OoOO == 'ORDER_BY' :
    self . dp_setEpOrderby ( self . main_params )
-   if 69 - 69: OoooooooOO + OOooOOo
-  elif Ooo == 'LOGOUT' :
+   if 51 - 51: OoOoOO00
+  elif oO00OoOO == 'LOGOUT' :
    self . logout ( )
+   if 14 - 14: IiII % oO0o % Oo0Ooo - i11iIiiIii
+   if 53 - 53: Ii1I % Oo0Ooo
+   if 59 - 59: OOooOOo % iIii1I11I1II1 . i1IIi + II111iiii * IiII
+   if 41 - 41: Ii1I % I1ii11iIi11i
+   if 12 - 12: OOooOOo
+   if 69 - 69: OoooooooOO + OOooOOo
+  else :
+   None
    if 26 - 26: Oo0Ooo + OOooOOo / OoO0O00 % OoOoOO00 % I1ii11iIi11i + II111iiii
    if 31 - 31: I11i % OOooOOo * I11i
    if 45 - 45: i1IIi . I1IiiI + OOooOOo - OoooooooOO % ooOoO0o
-   if 1 - 1: iIii1I11I1II1
-   if 93 - 93: i1IIi . i11iIiiIii . Oo0Ooo
-   if 99 - 99: I11i - I1Ii111 - oO0o % OoO0O00
-  else :
-   None
-   if 21 - 21: II111iiii % I1ii11iIi11i . i1IIi - OoooooooOO
-   if 4 - 4: OoooooooOO . ooOoO0o
-   if 78 - 78: I1ii11iIi11i + I11i - O0
 # dd678faae9ac167bc83abf78e5cb2f3f0688d3a3
