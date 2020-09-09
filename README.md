@@ -1,6 +1,13 @@
 # tvingM-v18
  티빙 애드온 for Kodi18
 
+
+1.6.1 이후 부터는 저장소를 통해서만 업데이트 됩니다.
+* [Korea OTT Package for Kodi 18 (public)-18.0.0.zip](https://github.com/kym1088/repository_public/raw/master/repository.nightrain_v18_public.zip)
+* [Korea OTT Package for Kodi 19 (public)-19.0.0.zip](https://github.com/kym1088/repository_public/raw/master/repository.nightrain_v19_public.zip)
+
+
+
 - DRM 실시간 채널(ocn, super action 등)이 설정한 화질보다 낮게 재생될때
   InputStream Adaptive 애드온 설정에서
   Ignore Display Resolution 활성화
