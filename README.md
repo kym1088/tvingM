@@ -4,7 +4,9 @@
 ###
 # 1.6.1 이후 부터는 저장소를 통해서만 업데이트 됩니다.
 * [Korea OTT Package for Kodi 18 (public)-18.0.0.zip](https://github.com/kym1088/repository_public/raw/master/repository.nightrain_v18_public.zip)
+   - 설치가능 애드온 : 티빙, 웨이브, 왓챠
 * [Korea OTT Package for Kodi 19 (public)-19.0.0.zip](https://github.com/kym1088/repository_public/raw/master/repository.nightrain_v19_public.zip)
+   - 설치가능 애드온 : 티빙, 웨이브, 왓챠, 스포티비나우
 ###
 
 
