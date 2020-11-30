@@ -7,7 +7,6 @@
    - 설치가능 애드온 : 티빙, 웨이브, 왓챠, 스포티비나우, 보리TV
 * [Korea OTT Package for Kodi 19 (public)-19.0.0.zip](https://github.com/kym1088/repository_public/raw/master/repository.nightrain_v19_public.zip)
    - 설치가능 애드온 : 티빙, 웨이브, 왓챠, 스포티비나우, 보리TV
-   - 현재 beta 단계로 일부 오류가 발생할수 있습니다.
 ###
 
 ###
