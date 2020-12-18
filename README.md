@@ -4,12 +4,12 @@
 
 
 # 현재는 저장소를 통해서만 업데이트 됩니다.
-# Kodi 18 버전 업데이트 중단
-
+# Kodi 18 버전 업데이트 중단 (19 버전 사용하세요)
 * [Korea OTT Package for Kodi 18 (public)-18.0.0.zip](https://github.com/kym1088/repository_public/raw/master/repository.nightrain_v18_public.zip)
-   - 설치가능 애드온 : 웨이브, 왓챠, 스포티비나우, 보리TV (티빙 개편 미지원)
+   - 설치가능 애드온 : 티빙(2020.12.15이후 사용불가), 웨이브, 왓챠, 스포티비나우, 보리TV
 * [Korea OTT Package for Kodi 19 (public)-19.0.0.zip](https://github.com/kym1088/repository_public/raw/master/repository.nightrain_v19_public.zip)
    - 설치가능 애드온 : 티빙, 웨이브, 왓챠, 스포티비나우, 보리TV
+
 
 
 
