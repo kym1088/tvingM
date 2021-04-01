@@ -2,12 +2,10 @@
   - 협의없이 파일(저장소/애드온)의 직접공유는 불가합니다.
   
 
-
-# 현재는 저장소를 통해서만 업데이트 됩니다.
-# Kodi 18 버전 업데이트 중단 (19 버전 사용하세요)
+# Kodi 19 전용 (18 버전은 업데이트 중단함)
 * [Korea OTT Package for Kodi 19 (public)-19.0.0.zip](https://github.com/kym1088/repository_public/raw/master/repository.nightrain_v19_public.zip)
    - 설치가능 애드온 : 티빙, 웨이브, 왓챠, 스포티비나우, 보리TV, search mini, bookmark mini
-* 관련설명
+* 관련설명 및 문의
    - https://cafe.naver.com/mk802/41713
    - https://cafe.naver.com/shieldtv/2711
 
