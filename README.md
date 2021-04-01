@@ -5,11 +5,12 @@
 # Kodi 19 전용 (18 버전은 업데이트 중단함)
 * [Korea OTT Package for Kodi 19 (public)-19.0.0.zip](https://github.com/kym1088/repository_public/raw/master/repository.nightrain_v19_public.zip)
    - 설치가능 애드온 : 티빙, 웨이브, 왓챠, 스포티비나우, 보리TV, search mini, bookmark mini
-* 관련설명 및 문의
+#
+* 자세한 설명 및 문의는 아래 링크에서~
    - https://cafe.naver.com/mk802/41713
    - https://cafe.naver.com/shieldtv/2711
 
-
+#
 # 저장소 간단 사용방법
 - 사용하는 kodi 버전에 맞게 위 링크의 저장소 파일 다운로드
 - 저장소도 하나의 애드온이라 처음 설치작업은 한번은 해줘야합니다.
